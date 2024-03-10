@@ -15,7 +15,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 #-------------------------------
 # About Section
-subtitle: Data Science <span style="color:#f58506"> Portfolio </span>
+subtitle: Data Science <span style="color:#f58206"> Portfolio </span>
 location: "Budapest, Hungary"
 resume_url: /docs/Laszlo Feher's CV 2024.docx
 avatar_image: /img/2022_08.jpg
@@ -23,7 +23,7 @@ avatar_image: /img/2022_08.jpg
 #-------------------------------
 # Contact links
 linkedln: "https://linkedin.com/in/laszlofeher/" # Add your linkedln handle
-github: "https://github.com/#"  # Add your github handle
+github: "https://github.com/mangalaci"  # Add your github handle
 
 paginate: 6
 paginate_path: "/page/:num"
