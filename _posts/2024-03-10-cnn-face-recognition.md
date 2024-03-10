@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Face Recognition Using A Convolutional Neural Network
-image: "/posts/cnn-fruit-classification-title-img.png"
+image: "/posts/cnn-face-recognition-title-img.png"
 tags: [Deep Learning, CNN, Data Science, Computer Vision, Python]
 ---
 
