@@ -28,7 +28,7 @@ ___
 In 2023, my client, a major Hungarian bank, ran a campaign to prevent their clients - who took a personal loan - from going into red. The goal of the campaign was 2-folded: on one hand it meant to collect the due installments on time - and thus saving some client to default, on the other hand enhance customer satisfaction.
 Customers were put randomly into two groups - the first group received a reminder a couple of day before their due date, the second group did not receive any reminder.
 
-The bank wants to understand if there is a significant difference in payback rate between the reminder and the non-reminder groups.  This will allow them to make more informed decisions in the future, with the overall aim of optimising campaign ROI!
+The bank wanted to understand if there is a significant difference in payback rate between the reminder and the non-reminder groups.  This will allow them to make more informed decisions in the future, with the overall aim of optimising campaign ROI!
 
 <br>
 <br>
