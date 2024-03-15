@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Assessing Campaign Performance of Reminding Bank Client for Due Installment Payment
+title: Assessing Campaign Performance in Reminding Bank Clients of Due Installment Payments
 image: "/posts/ab-testing-title-img.png"
 tags: [AB Testing, Hypothesis Testing, Chi-Square, Python]
 ---
 
-In this project we apply Chi-Square Test For Independence (a Hypothesis Test) to assess the performance of two types of mailers that were sent out to promote a new service! 
+In this project I evaluated a campaign perdormance among bank client who received reminders using control groups. The applied techniques comprised Chi-Square Test For Independence and 3-way ANOVA.
 
 # Table of contents
 
