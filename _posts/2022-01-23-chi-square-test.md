@@ -28,7 +28,7 @@ ___
 In 2023, my client, a major Hungarian bank, ran a campaign to prevent their clients - who took a personal loan - from going into red. The goal of the campaign was 2-folded: on one hand it meant to collect the due installments on time - and thus saving some client to default, on the other hand enhance customer satisfaction.
 Customers were put randomly into two groups - the first group received a reminder a couple of day before their due date, the second group did not receive any reminder.
 
-The bank wanted to understand if there is a significant difference in payback rate between the reminder and the non-reminder groups.  This will allow them to make more informed decisions in the future, with the overall aim of optimising campaign ROI!
+The bank wanted to understand if there was a significant difference in payback rate between the reminder and the non-reminder groups.  This would allow them to make more informed decisions in the future, with the overall aim of optimising campaign ROI!
 
 <br>
 <br>
@@ -42,11 +42,10 @@ For this test, as it is focused on comparing the *rates* of two groups - we appl
 * The Chi-Square Test can be represented using 2x2 tables of data - meaning it can be easier to explain to stakeholders
 * The Chi-Square Test can extend out to more than 2 groups - meaning the client can have one consistent approach to measuring signficance
 
-From the *campaign_data* table in the client database, we isolated customers that received "Mailer 1" (low cost) and "Mailer 2" (high cost) for this campaign, and excluded customers who were in the control group.
 
 We set out our hypotheses and Acceptance Criteria for the test, as follows:
 
-**Null Hypothesis:** There is no relationship between mailer type and signup rate. They are independent.
+**Null Hypothesis:** There is no relationship in due payment rate between those who received a reminder  and those who  did not. They are independent.
 **Alternate Hypothesis:** There is a relationship between mailer type and signup rate. They are not independent.
 **Acceptance Criteria:** 0.05
 
