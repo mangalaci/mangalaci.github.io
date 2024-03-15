@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Assessing Campaign Performance Using Chi-Square Test For Independence
+title: Assessing Campaign Performance of Reminding Bank Client for Due Installment Payment
 image: "/posts/ab-testing-title-img.png"
 tags: [AB Testing, Hypothesis Testing, Chi-Square, Python]
 ---
