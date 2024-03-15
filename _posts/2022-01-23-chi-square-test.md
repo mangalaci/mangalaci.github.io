@@ -25,8 +25,8 @@ ___
 
 ### Context <a name="overview-context"></a>
 
-In 2023, my client, a major Hungarian bank, ran a campaign to prevent their clients who took a personal loan from going into red. The goal of the campaign was 2-folded: on one hand it meant to collect the due installments on time - and thus saving some client to default, on the other hand enhance customer satisfaction.
-Customers were put randomly into three groups - the first group received a low quality, low cost mailer, the second group received a high quality, high cost mailer, and the third group were a control group, receiving no mailer at all.
+In 2023, my client, a major Hungarian bank, ran a campaign to prevent their clients - who took a personal loan - from going into red. The goal of the campaign was 2-folded: on one hand it meant to collect the due installments on time - and thus saving some client to default, on the other hand enhance customer satisfaction.
+Customers were put randomly into two groups - the first group received a reminder a couple of day before their due date, the second group did not receive any reminder.
 
 The client knows that customers who were contacted, signed up for the Delivery Club at a far higher rate than the control group, but now want to understand if there is a significant difference in signup rate between the cheap mailer and the expensive mailer.  This will allow them to make more informed decisions in the future, with the overall aim of optimising campaign ROI!
 
