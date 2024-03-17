@@ -147,30 +147,9 @@ ___
 <br>
 # Data Overview & Preparation  <a name="data-overview"></a>
 
-In the client database, we have a *campaign_data* table which shows us which customers received each type of "Delivery Club" mailer, which customers were in the control group, and which customers joined the club as a result.
+In this project, the contingency tables for ... ... were provided by data management team, thus importing data and creating contóingency tables were not needed since dara was given in a matrix format.
 
-For this task, we are looking to find evidence that the Delivery Club signup rate for customers that received "Mailer 1" (low cost) was different to those who received "Mailer 2" (high cost) and thus from the *campaign_data* table we will just extract customers in those two groups, and exclude customers who were in the control group.
 
-In the code below, we:
-
-* Load in the Python libraries we require for importing the data and performing the chi-square test (using scipy)
-* Import the required data from the *campaign_data* table
-* Exclude customers in the control group, giving us a dataset with Mailer 1 & Mailer 2 customers only
-
-<br>
-```python
-
-# install the required python libraries
-import pandas as pd
-from scipy.stats import chi2_contingency, chi2
-
-# import campaign data
-campaign_data = ...
-
-# remove customers who were in the control group
-campaign_data = campaign_data.loc[campaign_data["mailer_type"] != "Control"]
-
-```
 <br>
 A sample of this data (the first 10 rows) can be seen below:
 <br>
@@ -238,26 +217,60 @@ The below code:
 
 ```python
 
-# aggregate our data to get observed values
-observed_values = pd.crosstab(campaign_data["mailer_type"], campaign_data["signup_flag"]).values
+mport numpy as np
+from scipy.stats import chi2_contingency
 
-# run the chi-square test
-chi2_statistic, p_value, dof, expected_values = chi2_contingency(observed_values, correction = False)
+def perform_chi_square_test_and_print_results(contingency_table, table_name):
+    """
+    Perform chi-square test of independence for a given contingency table and print the results.
+   
+    Parameters:
+    - contingency_table: 2D array, contingency table representing the counts or frequencies.
+    - table_name: str, name of the contingency table for printing results.
+   
+    Returns:
+    - chi2_stat: float, chi-square test statistic.
+    - p_value: float, p-value of the test.
+    - dof: int, degrees of freedom.
+    - expected: 2D array, expected frequencies under the null hypothesis.
+    """
+    # Perform chi-square test of independence without Yates' continuity correction
+    chi2_stat, p_value, dof, expected = chi2_contingency(contingency_table, correction=False)
+   
+    # Print results
+    print(f"Results for {table_name}:")
+    print("Chi-square statistic:", chi2_stat)
+    print("P-value:", p_value)
+    print()
+   
+    return chi2_stat, p_value, dof, expected
 
-# print chi-square statistic
-print(chi2_statistic)
->> 1.94
+# Contingency tables for products
+baby_craving = np.array([[508, 112],
+                         [62, 16]])
 
-# print p-value
-print(p_value)
->> 0.16
+personal_loan = np.array([[8909, 2163],
+                           [2763, 706]])
 
-# find the critical value for our test
-critical_value = chi2.ppf(1 - acceptance_criteria, dof)
+mortgage_loan = np.array([[4459, 1136],
+                           [102, 38]])
 
-# print critical value
-print(critical_value)
->> 3.84
+
+commodity_credit = np.array([[254, 47],
+                           [221, 57]])
+
+
+# Perform chi-square test of independence and print results for baby craving
+perform_chi_square_test_and_print_results(baby_craving, "Baby Craving")
+
+# Perform chi-square test of independence and print results for personal loan
+perform_chi_square_test_and_print_results(personal_loan, "Personal Loan")
+
+# Perform chi-square test of independence and print results for mortgage loan
+perform_chi_square_test_and_print_results(mortgage_loan, "Mortgage Loan")
+
+# Perform chi-square test of independence and print results for commodity credit
+perform_chi_square_test_and_print_results(commodity_credit, "Commodity Credit")
 
 ```
 <br>
