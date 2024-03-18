@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Assessing Campaign Performance in Reminding Bank Clients of Due Installment Payments
+title: Demand Forecast of Retail Products Using ARIMA Method
 image: "/posts/ab-testing-title-img.png"
 tags: [AB Testing, Hypothesis Testing, Chi-Square, Python]
 ---
