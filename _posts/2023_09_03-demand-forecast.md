@@ -2,7 +2,7 @@
 layout: post
 title: Demand Forecast of Retail Products Using ARIMA Method
 image: "/posts/ab-testing-title-img.png"
-tags: [AB Testing, Hypothesis Testing, Chi-Square, Python]
+tags: [Demand Forecast, ARIMA, Python]
 ---
 
 In this project I evaluated a campaign perdormance among bank client who received reminders using control groups. The applied techniques comprised Chi-Square Test For Independence and 3-way ANOVA.
