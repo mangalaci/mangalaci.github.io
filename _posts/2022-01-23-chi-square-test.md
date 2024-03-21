@@ -5,7 +5,7 @@ image: "/posts/ab-testing-title-img.png"
 tags: [AB Testing, Hypothesis Testing, Chi-Square, Python]
 ---
 
-In this project I evaluated a campaign perdormance among bank client who received reminders using control groups. The applied techniques comprised Chi-Square Test For Independence and 3-way ANOVA.
+In this project I evaluated a campaign performance among bank clients who received reminders using control groups. The applied techniques comprised Chi-Square Test For Independence and 3-way ANOVA.
 
 # Table of contents
 
