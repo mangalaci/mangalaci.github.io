@@ -147,7 +147,7 @@ ___
 <br>
 # Data Overview & Preparation  <a name="data-overview"></a>
 
-In this project, the contingency tables for ... ... were provided by data management team, thus importing data and creating contóingency tables were not needed since dara was given in a matrix format.
+In this project, the contingency tables for ... ... were provided by data management team, thus importing data and creating contingency tables were not needed since dara was given in a matrix format.
 
 
 <br>
