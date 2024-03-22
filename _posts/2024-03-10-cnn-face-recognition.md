@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Face Recognition Using A Convolutional Neural Network
-image: "/posts/tapi_20210108.jpg"
+image: "/posts/face_recognition.jpg"
 tags: [Deep Learning, CNN, Data Science, Computer Vision, Python]
 ---
 
