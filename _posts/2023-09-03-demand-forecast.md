@@ -1,6 +1,6 @@
 ---
 layout: post
 title: Demand Forecast of Retail Products Using ARIMA Method
-image: "/posts/arima.png"
+image: "/posts/demand-forecast-arima.png"
 tags: [Demand Forecast, ARIMA, Time Series, Python]
 ---
