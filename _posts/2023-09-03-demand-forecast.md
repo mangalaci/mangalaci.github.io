@@ -65,7 +65,7 @@ A sample of this data (the first 5 rows) can be seen below:
 <br>
 <br>
 
-| **product** | **items_sold (units)** | **month** |
+| **product** | **month** | **items_sold (units)** |
 |---|---|---|---|
 | 1 Day Acuvue Moist (30) | 2018-01 | 498 |
 | 1 Day Acuvue Moist (30) | 2018-02 | 387 |
@@ -75,6 +75,14 @@ A sample of this data (the first 5 rows) can be seen below:
 
 <br>
 
+```python
+    # Rename columns and preprocess data
+    sales_data = sales_data.rename(columns={'months': 'ds', 'sales': 'y'})
+    sales_data['y'] = sales_data['y'].astype(float)
+    sales_data['ds'] = pd.to_datetime(sales_data['ds']) + MonthEnd(1)
+    sales_data = sales_data.assign(unique_id=0).set_index('unique_id')
+```
+    
 ___
 
 # Forecasting Models Implementation <a name="forecast-model-implement"></a>
