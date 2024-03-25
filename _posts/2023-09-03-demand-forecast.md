@@ -5,7 +5,7 @@ image: "/posts/demand-forecast-arima.png"
 tags: [Demand Forecast, ARIMA, Time Series, Python]
 ---
 
-In this project I evaluated a campaign performance among bank clients who received reminders using control groups. The applied techniques comprised Chi-Square Test For Independence and 3-way ANOVA.
+In this comprehensive analysis, we embarked on a journey to enhance the inventory management and sales strategy of an European international optical product retailer and webshop chain. By leveraging sophisticated statistical and machine learning methods, we aimed to accurately forecast product demand mostly in order to optimize investment in stock inventory. At the first phase of the project, I focused on product level (instead of product group, brand or manufacturer level). The forecast spanned from January 2018 to February 2024, providing invaluable insights for strategic planning and operational efficiency.
 
 # Table of contents
 
