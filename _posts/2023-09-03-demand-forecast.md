@@ -12,7 +12,7 @@ In this comprehensive analysis, I embarked on a journey to enhance the inventory
 - [00. Project Overview](#overview-main)
     - [Context](#overview-context)
     - [Actions](#overview-actions)
-    - [Results & Discussion](#overview-results)
+    - [Methodology Overview](#overview-methodology)
 - [01. Data Acquisition & Preprocessing](#data-overview)
 - [02. Forecasting Models Implementation](#forecast-model-implement)
 - [03. Discussion](#discussion)
@@ -38,7 +38,7 @@ To provide actionable insights for inventory management and sales strategies, re
 <br>
 <br>
 
-### Methodology Overview <a name="methodology-overview"></a>
+### Methodology Overview <a name="overview-methodology"></a>
 
 Utilizing Python's sqlalchemy library, I performed data extraction from eOptika's MySQL database, followed by data preprocessing to ensure quality and consistency. I then explored various forecasting models, namely AutoARIMA and ETS, and LSTM to capture the underlying sales trends and seasonality. The models were evaluated based on Root Mean Squared Error (RMSE), guiding us to the best-fit model for eOptika.
 
