@@ -14,9 +14,8 @@ In this comprehensive analysis, I embarked on a journey to enhance the inventory
     - [Actions](#overview-actions)
     - [Results & Discussion](#overview-results)
 - [01. Data Acquisition & Preprocessing](#data-overview)
-- [02. Forecasting Models Implementation](#chi-square-application)
-- [03. Analysing The Results](#chi-square-results)
-- [04. Discussion](#discussion)
+- [02. Forecasting Models Implementation](#chi-square-results)
+- [03. Discussion](#discussion)
 
 ___
 
