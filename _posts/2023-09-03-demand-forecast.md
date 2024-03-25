@@ -52,7 +52,7 @@ The project commenced with establishing a secure connection to eOptika's analyti
 ```python
 # Create database connection
 from sqlalchemy import create_engine
-engine = create_engine('mysql+pymysql://laci:pwsd@10.1.11.1:5555/eoptika_analytics')
+engine = create_engine('mysql+pymysql://user:pwsd@10.1.11.1:5555/eoptika_analytics')
 con = engine.connect()
 
 ```
