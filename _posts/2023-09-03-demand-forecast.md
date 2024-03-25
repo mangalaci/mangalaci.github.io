@@ -44,8 +44,8 @@ Utilizing Python's sqlalchemy library, I performed data extraction from eOptika'
 
 ___
 
-<br>**
-# Data Acquisition & Preprocessing  <a name="data-overview"></a>**
+<br>
+# Data Acquisition & Preprocessing  <a name="data-overview"></a>
 
 The project commenced with establishing a secure connection to eOptika's analytics database, from which we extracted historical sales data on a product level product line. Since this is a univariate analysis, we only need a time variable, in our case it is  "month" and the measure that we want to forecast, "items_sold (units)".
 
