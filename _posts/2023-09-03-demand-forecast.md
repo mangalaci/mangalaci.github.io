@@ -47,12 +47,12 @@ ___
 <br>
 # Data Acquisition & Preprocessing  <a name="data-overview"></a>
 
-The project commenced with establishing a secure connection to eOptika's analytics database, 
+The project commenced with establishing a secure connection to eOptika's analytics database:
 
 ```python
 # Create database connection
 from sqlalchemy import create_engine
-engine = create_engine('mysql+pymysql://laci:minimano@10.8.16.6:4619/eoptika_analytics')
+engine = create_engine('mysql+pymysql://laci:pwsd@10.1.11.1:5555/eoptika_analytics')
 con = engine.connect()
 
 ```
