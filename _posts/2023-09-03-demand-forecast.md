@@ -67,21 +67,6 @@ A sample of this data (the first 5 rows) can be seen below:
 
 ___
 
-<br>
-#### State Hypotheses & Acceptance Criteria For Test
-
-The very first thing we need to do in any form of Hypothesis Test is state our Null Hypothesis, our Alternate Hypothesis, and the Acceptance Criteria (more details on these in the section above)
-
-In the code below we code these in explcitly & clearly so we can utilise them later to explain the results.  We specify the common Acceptance Criteria value of 0.05.
-
-```python
-
-# specify hypotheses & acceptance criteria for test
-null_hypothesis = "There is no relationship between mailer type and signup rate.  They are independent"
-alternate_hypothesis = "There is a relationship between mailer type and signup rate.  They are not independent"
-acceptance_criteria = 0.05
-
-```
 
 <br>
 #### Calculate Observed Frequencies & Expected Frequencies
