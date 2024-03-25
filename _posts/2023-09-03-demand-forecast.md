@@ -56,6 +56,7 @@ engine = create_engine('mysql+pymysql://user:pwsd@10.1.11.1:5555/eoptika_analyti
 con = engine.connect()
 
 ```
+<br>
 
 After reaching out to the database,  I extracted historical sales data on a product level. Since this has been a univariate analysis, all I needed were a temporal variable,  "month", and the measure that I wanted to forecast, "items_sold (units)".
 
@@ -78,7 +79,8 @@ ___
 
 # Forecasting Models Implementation <a name="forecast-model-implement"></a>
 
-We implemented two forecasting models: AutoARIMA and ETS. AutoARIMA automatically identified the best ARIMA model parameters, while ETS leveraged exponential smoothing techniques. Both models were tuned to capture the nuanced dynamics of the sales data.
+My plan was to compare the performace of 3 models:  (1) SARIMA model with using python's AutoARIMA forecasting model, (2) Exponential Smoothing using ETS, and LSTM, which is a deep learning method. Since LSTM requires a different data preparation, I left it out from the first attempt to get forecast thus implemented SARIMA and Exponential Smoothing. AutoARIMA automatically identified the best ARIMA model parameters, while ETS leveraged exponential smoothing techniques.
+
 
 ```python
 
