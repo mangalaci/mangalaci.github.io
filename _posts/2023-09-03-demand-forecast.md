@@ -48,8 +48,7 @@ ___
 <br>
 # Data Overview & Preparation  <a name="data-overview"></a>
 
-Since this is a univariate analysis, the contingency tables for ... ... were provided by data management team, thus importing data and creating contingency tables were not needed since dara was given in a matrix format.
-
+Since this is a univariate analysis, we only need a time variable, in our case it is  "month" and the measure that we want to forecast, "items_sold (units)".
 
 <br>
 A sample of this data (the first 5 rows) can be seen below:
