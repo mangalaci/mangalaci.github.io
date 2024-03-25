@@ -56,11 +56,11 @@ A sample of this data (the first 5 rows) can be seen below:
 
 | **product** | **items_sold (units)** | **month** |
 |---|---|---|---|
-| 1 Day Acuvue Moist (30 db) | 2018-01 | 498 |
-| 1 Day Acuvue Moist (30 db) | 2018-02 | 387 |
-| 1 Day Acuvue Moist (30 db) | 2018-03 | 454 |
-| 1 Day Acuvue Moist (30 db) | 2018-04 | 473 |
-| 1 Day Acuvue Moist (30 db) | 2018-05 | 539 |
+| 1 Day Acuvue Moist (30) | 2018-01 | 498 |
+| 1 Day Acuvue Moist (30) | 2018-02 | 387 |
+| 1 Day Acuvue Moist (30) | 2018-03 | 454 |
+| 1 Day Acuvue Moist (30) | 2018-04 | 473 |
+| 1 Day Acuvue Moist (30) | 2018-05 | 539 |
 
 <br>
 
