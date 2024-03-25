@@ -57,7 +57,7 @@ con = engine.connect()
 
 ```
 
-from which we extracted historical sales data on a product level product line. Since this is a univariate analysis, we only need a time variable, in our case it is  "month" and the measure that we want to forecast, "items_sold (units)".
+After reaching out to the database,  I extracted historical sales data on a product level. Since this has been a univariate analysis, all I needed were a temporal variable,  "month", and the measure that I wanted to forecast, "items_sold (units)".
 
 <br>
 A sample of this data (the first 5 rows) can be seen below:
