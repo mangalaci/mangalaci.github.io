@@ -14,7 +14,7 @@ In this comprehensive analysis, I embarked on a journey to enhance the inventory
     - [Actions](#overview-actions)
     - [Results & Discussion](#overview-results)
 - [01. Data Acquisition & Preprocessing](#data-overview)
-- [02. Forecasting Models Implementation](#chi-square-results)
+- [02. Forecasting Models Implementation](#forecast-model-implement)
 - [03. Discussion](#discussion)
 
 ___
@@ -66,7 +66,7 @@ A sample of this data (the first 5 rows) can be seen below:
 
 ___
 
-# Forecasting Models Implementation <a name="chi-square-results"></a>
+# Forecasting Models Implementation <a name="forecast-model-implement"></a>
 
 At this point we have everything we need to understand the results of our Chi-Square test - and just from the results above we can see that, since our resulting p-value of **0.16** is *greater* than our Acceptance Criteria of 0.05 then we will _retain_ the Null Hypothesis and conclude that there is no significant difference between the signup rates of Mailer 1 and Mailer 2.
 
