@@ -14,7 +14,7 @@ In this comprehensive analysis, I embarked on a journey to enhance the inventory
     - [Actions](#overview-actions)
     - [Results & Discussion](#overview-results)
 - [01. Data Acquisition & Preprocessing](#data-overview)
-- [02. Applying Chi-Square Test For Independence](#chi-square-application)
+- [02. Forecasting Models Implementation](#chi-square-application)
 - [03. Analysing The Results](#chi-square-results)
 - [04. Discussion](#discussion)
 
@@ -45,8 +45,8 @@ Utilizing Python's sqlalchemy library, I performed data extraction from eOptika'
 
 ___
 
-<br>
-# Data Acquisition & Preprocessing  <a name="data-overview"></a>
+<br>**
+# Data Acquisition & Preprocessing  <a name="data-overview"></a>**
 
 The project commenced with establishing a secure connection to eOptika's analytics database, from which we extracted historical sales data on a product level product line. Since this is a univariate analysis, we only need a time variable, in our case it is  "month" and the measure that we want to forecast, "items_sold (units)".
 
