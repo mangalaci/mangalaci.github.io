@@ -30,7 +30,7 @@ In the rapidly evolving retail environment, eOptika faced challenges in maintain
 <br>
 ### Actions <a name="overview-actions"></a>
 
-To develop a reliable demand forecasting model that predicts monthly sales for the "CT2_pack" product line.
+To develop a reliable demand forecasting model that predicts monthly sales for each product sold by the retailer.
 To provide actionable insights for inventory management and sales strategies, reducing holding costs and minimizing stockouts.
 
 
