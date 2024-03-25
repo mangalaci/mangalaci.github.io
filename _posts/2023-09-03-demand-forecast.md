@@ -42,7 +42,7 @@ To provide actionable insights for inventory management and sales strategies, re
 
 ### Methodology Overview <a name="methodology-overview"></a>
 
-Utilizing Python's robust libraries, we performed data extraction from "eOptika's" MySQL database, followed by data preprocessing to ensure quality and consistency. We then explored various forecasting models, namely AutoARIMA and ETS, to capture the underlying sales trends and seasonality. The models were evaluated based on Mean Absolute Error (MAE) and Mean Squared Error (MSE), guiding us to the best-fit model for "eOptika".
+Utilizing Python's sqlalchemy library, I performed data extraction from eOptika's MySQL database, followed by data preprocessing to ensure quality and consistency. I then explored various forecasting models, namely AutoARIMA and ETS, and LSTM to capture the underlying sales trends and seasonality. The models were evaluated based on Root Mean Squared Error (RMSE), guiding us to the best-fit model for eOptika.
 
 
 <br>
