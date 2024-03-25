@@ -13,11 +13,10 @@ In this comprehensive analysis, I embarked on a journey to enhance the inventory
     - [Context](#overview-context)
     - [Actions](#overview-actions)
     - [Results & Discussion](#overview-results)
-- [01. Concept Overview](#concept-overview)
-- [02. Data Overview & Preparation](#data-overview)
-- [03. Applying Chi-Square Test For Independence](#chi-square-application)
-- [04. Analysing The Results](#chi-square-results)
-- [05. Discussion](#discussion)
+- [01. Data Overview & Preparation](#data-overview)
+- [02. Applying Chi-Square Test For Independence](#chi-square-application)
+- [03. Analysing The Results](#chi-square-results)
+- [04. Discussion](#discussion)
 
 ___
 
