@@ -68,30 +68,58 @@ ___
 
 # Forecasting Models Implementation <a name="forecast-model-implement"></a>
 
-At this point we have everything we need to understand the results of our Chi-Square test - and just from the results above we can see that, since our resulting p-value of **0.16** is *greater* than our Acceptance Criteria of 0.05 then we will _retain_ the Null Hypothesis and conclude that there is no significant difference between the signup rates of Mailer 1 and Mailer 2.
-
-We can make the same conclusion based upon our resulting Chi-Square statistic of **1.94** being _lower_ than our Critical Value of **3.84**
-
-To make this script more dynamic, we can create code to automatically interpret the results and explain the outcome to us...
+We implemented two forecasting models: AutoARIMA and ETS. AutoARIMA automatically identified the best ARIMA model parameters, while ETS leveraged exponential smoothing techniques. Both models were tuned to capture the nuanced dynamics of the sales data.
 
 ```python
 
-# print the results (based upon p-value)
-if p_value <= acceptance_criteria:
-    print(f"As our p-value of {p_value} is lower than our acceptance_criteria of {acceptance_criteria} - we reject the null hypothesis, and conclude that: {alternate_hypothesis}")
-else:
-    print(f"As our p-value of {p_value} is higher than our acceptance_criteria of {acceptance_criteria} - we retain the null hypothesis, and conclude that: {null_hypothesis}")
+# Assuming all_data is your DataFrame with 'CT2_pack', 'months', and 'sales' columns
+unique_ct2_packs = all_data['CT2_pack'].unique()
 
->> As our p-value of 0.16351 is higher than our acceptance_criteria of 0.05 - we retain the null hypothesis, and conclude that: There is no relationship between mailer type and signup rate.  They are independent
+for ct2_pack in unique_ct2_packs:
+    # Filter data for the current CT2_pack
+    sales_data = all_data[all_data['CT2_pack'] == ct2_pack].copy()
 
+    # Rename columns and preprocess data
+    sales_data = sales_data.rename(columns={'months': 'ds', 'sales': 'y'})
+    sales_data['y'] = sales_data['y'].astype(float)
+    sales_data['ds'] = pd.to_datetime(sales_data['ds']) + MonthEnd(1)
+    sales_data = sales_data.assign(unique_id=0).set_index('unique_id')
 
-# print the results (based upon p-value)
-if chi2_statistic >= critical_value:
-    print(f"As our chi-square statistic of {chi2_statistic} is higher than our critical value of {critical_value} - we reject the null hypothesis, and conclude that: {alternate_hypothesis}")
-else:
-    print(f"As our chi-square statistic of {chi2_statistic} is lower than our critical value of {critical_value} - we retain the null hypothesis, and conclude that: {null_hypothesis}")
-    
->> As our chi-square statistic of 1.9414 is lower than our critical value of 3.841458820694124 - we retain the null hypothesis, and conclude that: There is no relationship between mailer type and signup rate.  They are independent
+    # Split data into training and testing (select only the 2nd and 3rd columns)
+    Y_train_df = sales_data.iloc[:-6, 1:3]
+    Y_test_df = sales_data.iloc[-6:, 1:3]
+
+    season_length = 12
+    horizon = len(Y_test_df)
+
+    models = [
+        AutoARIMA(season_length=season_length),
+        ETS(season_length=season_length)
+    ]
+
+    model = StatsForecast(
+        df=Y_train_df,
+        models=models,
+        freq='M'
+    )
+
+    Y_hat_df = model.forecast(horizon)
+
+    # Accuracy Metrics and Plotting
+    for model_name in ['AutoARIMA', 'ETS']:  # ETS is the Exponential Smoothing
+        Y_true = Y_test_df['y'].values  # Actual values
+        Y_pred = Y_hat_df[model_name].values  # Predicted values from your forecast
+
+        # Calculate accuracy metrics
+        mae = mean_absolute_error(Y_true, Y_pred)
+        mse = mean_squared_error(Y_true, Y_pred)
+        rmse = np.sqrt(mse)
+
+        # Print the accuracy metrics
+        print(f'Accuracy Metrics for {ct2_pack} using {model_name}:')
+        print(f'Root Mean Squared Error (RMSE): {rmse:.2f}')
+        print(f'RMSE per Mean Actual Sales Values from Test Period: {rmse/Y_true.mean():.2f}')
+
 
 ```
 <br>
