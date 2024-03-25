@@ -5,7 +5,7 @@ image: "/posts/demand-forecast-arima.png"
 tags: [Demand Forecast, ARIMA, Time Series, Python]
 ---
 
-In this comprehensive analysis, we embarked on a journey to enhance the inventory management and sales strategy of an European international optical product retailer and webshop chain. By leveraging sophisticated statistical and machine learning methods, we aimed to accurately forecast product demand mostly in order to optimize investment in stock inventory. At the first phase of the project, I focused on product level (instead of product group, brand or manufacturer level). The forecast spanned from January 2018 to February 2024, providing invaluable insights for strategic planning and operational efficiency.
+In this comprehensive analysis, I embarked on a journey to enhance the inventory management and sales strategy of eOptika, a European international optical product retailer and webshop chain. By leveraging sophisticated statistical and machine learning methods, I aimed to accurately forecast product demand mostly in order to optimize investment in stock inventory. At the first phase of the project, I focused on product level (instead of product group, brand or manufacturer level). The forecast spanned from January 2018 to February 2024, providing invaluable insights for strategic planning and operational efficiency.
 
 # Table of contents
 
@@ -25,7 +25,7 @@ ___
 
 ### Context <a name="overview-context"></a>
 
-In the rapidly evolving retail environment, "eOptika" faces challenges in maintaining optimal stock levels across its stores nationwide. Excess inventory leads to increased holding costs, while stockouts risk losing sales and customer satisfaction. Addressing this challenge, our project focuses on forecasting the demand for the "CT2_pack" product line, which has shown variable sales patterns over recent years.
+In the rapidly evolving retail environment, eOptika faced challenges in maintaining optimal stock levels across its stores nationwide. Excess inventory leads to increased holding costs, while stockouts risk losing sales and customer satisfaction. Addressing this challenge, our project focuses on forecasting the demand for the "CT2_pack" product line, which has shown variable sales patterns over recent years.
 
 The bank wanted to understand if there was a significant difference in payback rate between the reminder and the non-reminder groups.  This would allow them to make more informed decisions in the future, with the overall aim of optimising campaign ROI!
 
