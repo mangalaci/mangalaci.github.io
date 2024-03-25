@@ -43,10 +43,6 @@ To provide actionable insights for inventory management and sales strategies, re
 
 Utilizing Python's sqlalchemy library, I performed data extraction from eOptika's MySQL database, followed by data preprocessing to ensure quality and consistency. I then explored various forecasting models, namely AutoARIMA and ETS, and LSTM to capture the underlying sales trends and seasonality. The models were evaluated based on Root Mean Squared Error (RMSE), guiding us to the best-fit model for eOptika.
 
-
-<br>
-<br>
-
 ___
 
 <br>
@@ -56,23 +52,17 @@ Since this is a univariate analysis, the contingency tables for ... ... were pro
 
 
 <br>
-A sample of this data (the first 10 rows) can be seen below:
+A sample of this data (the first 5 rows) can be seen below:
 <br>
 <br>
 
 | **product** | **items_sold (units)** | **month** |
 |---|---|---|---|
-| 74 | delivery_club | Mailer1 | 1 |
-| 524 | delivery_club | Mailer1 | 1 |
-| 607 | delivery_club | Mailer2 | 1 |
-| 343 | delivery_club | Mailer1 | 0 |
-| 322 | delivery_club | Mailer2 | 1 |
-| 115 | delivery_club | Mailer2 | 0 |
-| 1 | delivery_club | Mailer2 | 1 |
-| 120 | delivery_club | Mailer1 | 1 |
-| 52 | delivery_club | Mailer1 | 1 |
-| 405 | delivery_club | Mailer1 | 0 |
-| 435 | delivery_club | Mailer2 | 0 |
+| 1 Day Acuvue Moist (30 db) | 2018-01 | 498 |
+| 1 Day Acuvue Moist (30 db) | 2018-02 | 387 |
+| 1 Day Acuvue Moist (30 db) | 2018-03 | 454 |
+| 1 Day Acuvue Moist (30 db) | 2018-04 | 473 |
+| 1 Day Acuvue Moist (30 db) | 2018-05 | 539 |
 
 <br>
 
