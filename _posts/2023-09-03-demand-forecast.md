@@ -75,6 +75,8 @@ A sample of this data (the first 5 rows) can be seen below:
 
 <br>
 
+Ezt itt el kell magyarázni, hogy mi a szart csinál:
+
 ```python
     # Rename columns and preprocess data
     sales_data = sales_data.rename(columns={'months': 'ds', 'sales': 'y'})
