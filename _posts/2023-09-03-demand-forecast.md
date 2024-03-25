@@ -32,22 +32,10 @@ In the rapidly evolving retail environment, eOptika faced challenges in maintain
 <br>
 ### Actions <a name="overview-actions"></a>
 
-For this test, as it is focused on comparing the *rates* of two groups - we applied the Chi-Square Test For Independence.  Full details of this test can be found in the dedicated section below.
-
-**Note:** Another option when comparing "rates" is a test known as the *Z-Test For Proportions*.  While, we could absolutely use this test here, we have chosen the Chi-Square Test For Independence because:
-
-* The resulting test statistic for both tests will be the same
-* The Chi-Square Test can be represented using 2x2 tables of data - meaning it can be easier to explain to stakeholders
-* The Chi-Square Test can extend out to more than 2 groups - meaning the client can have one consistent approach to measuring signficance
+To develop a reliable demand forecasting model that predicts monthly sales for the "CT2_pack" product line.
+To provide actionable insights for inventory management and sales strategies, reducing holding costs and minimizing stockouts.
 
 
-We set out our hypotheses and Acceptance Criteria for the test, as follows:
-
-**Null Hypothesis:** There is no relationship in due payment rate between those who received a reminder  and those who  did not. They are independent.
-**Alternate Hypothesis:** There is a relationship between the two groups. They are not independent.
-**Acceptance Criteria:** 0.05
-
-As a requirement of the Chi-Square Test For Independence, we aggregated this data down to a 2x2 matrix for *reminder_flag* by *payment_lateness_type* and fed this into the algorithm (using the *scipy* library) to calculate the Chi-Square Statistic, p-value, Degrees of Freedom, and expected values
 
 <br>
 <br>
