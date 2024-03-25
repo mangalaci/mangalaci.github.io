@@ -52,7 +52,7 @@ ___
 <br>
 # Data Overview & Preparation  <a name="data-overview"></a>
 
-In this project, the contingency tables for ... ... were provided by data management team, thus importing data and creating contingency tables were not needed since dara was given in a matrix format.
+Since this is a univariate analysis, the contingency tables for ... ... were provided by data management team, thus importing data and creating contingency tables were not needed since dara was given in a matrix format.
 
 
 <br>
@@ -60,7 +60,7 @@ A sample of this data (the first 10 rows) can be seen below:
 <br>
 <br>
 
-| **customer_id** | **campaign_name** | **mailer_type** | **signup_flag** |
+| **product** | **items_sold (units)** | **month** |
 |---|---|---|---|
 | 74 | delivery_club | Mailer1 | 1 |
 | 524 | delivery_club | Mailer1 | 1 |
@@ -75,12 +75,6 @@ A sample of this data (the first 10 rows) can be seen below:
 | 435 | delivery_club | Mailer2 | 0 |
 
 <br>
-In the DataFrame we have:
-
-* customer_id
-* campaign name
-* mailer_type (either Mailer1 or Mailer2)
-* signup_flag (either 1 or 0)
 
 ___
 
