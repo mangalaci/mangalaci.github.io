@@ -40,29 +40,10 @@ To provide actionable insights for inventory management and sales strategies, re
 <br>
 <br>
 
-### Results & Discussion <a name="overview-results"></a>
+### Methodology Overview <a name="methodology-overview"></a>
 
-Based upon our observed values, we can give this all some context with the sign-up rate of each group.  We get:
+Utilizing Python's robust libraries, we performed data extraction from "eOptika's" MySQL database, followed by data preprocessing to ensure quality and consistency. We then explored various forecasting models, namely AutoARIMA and ETS, to capture the underlying sales trends and seasonality. The models were evaluated based on Mean Absolute Error (MAE) and Mean Squared Error (MSE), guiding us to the best-fit model for "eOptika".
 
-* Mailer 1 (Low Cost): **32.8%** signup rate
-* Mailer 2 (High Cost): **37.8%** signup rate
-
-However, the Chi-Square Test gives us the following statistics:
-
-* Chi-Square Statistic: **1.94**
-* p-value: **0.16**
-
-The Critical Value for our specified Acceptance Criteria of 0.05 is **3.84**
-
-Based upon these statistics, we retain the null hypothesis, and conclude that there is no relationship between mailer type and signup rate.
-
-In other words - while we saw that the higher cost Mailer 2 had a higher signup rate (37.8%) than the lower cost Mailer 1 (32.8%) it appears that this difference is not significant, at least at our Acceptance Criteria of 0.05.
-
-Without running this Hypothesis Test, the client may have concluded that they should always look to go with higher cost mailers - and from what we've seen in this test, that may not be a great decision.  It would result in them spending more, but not *necessarily* gaining any extra revenue as a result
-
-Our results here also do not say that there *definitely isn't a difference between the two mailers* - we are only advising that we should not make any rigid conclusions *at this point*.  
-
-Running more A/B Tests like this, gathering more data, and then re-running this test may provide us, and the client more insight!
 
 <br>
 <br>
