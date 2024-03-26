@@ -152,10 +152,12 @@ ___
 <br>
 # Model Evaluation & Selection <a name="model-evaluation"></a>
 
+
 The models were rigorously evaluated using RMSE metrics. This comparative analysis allowed us to select the model that best captured the sales trends and offered the highest accuracy for our forecasts.
 
 
-
+<br>
+![alt text](/img/posts/cnn-image-examples.png "CNN Fruit Classification Samples")
 
 
 
