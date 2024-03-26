@@ -163,3 +163,7 @@ The models were rigorously evaluated using RMSE metrics. This comparative analys
 ![alt text](/img/posts/Forecast-Air-Optix-For-Astigmatism-3.png "Forecast-Air-Optix-For-Astigmatism-3.png")
 
 
+<br>
+![alt text](/img/posts/Forecast-Air-Optix-For-Astigmatism-6.png "Forecast-Air-Optix-For-Astigmatism-6.png")
+
+
