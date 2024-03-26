@@ -91,6 +91,7 @@ ___
 
 My plan was to compare the performace of 3 models:  (1) SARIMA model with using python's AutoARIMA forecasting model, (2) Exponential Smoothing using ETS, and LSTM, which belong to the class of a deep learning methods. Since LSTM requires a different data preparation, I left it out from the first attempt to get forecasts. The SARIMA model was implemented by Python's AutoARIMA that automatically identifies the best ARIMA model parameters, while Exponential Smoothing was leveraged by Python's ETS (Econometrics and Time Series) library.
 
+This is how the code snippet looks like that handles data preparation, train-test-split and training the models:
 
 ```python
 
@@ -145,17 +146,11 @@ for ct2_pack in unique_ct2_packs:
 
 ```
 <br>
-As we can see from the outputs of these print statements, we do indeed retain the null hypothesis.  We could not find enough evidence that the signup rates for Mailer 1 and Mailer 2 were different - and thus conclude that there was no significant difference.
+
 
 ___
 
 <br>
 # Discussion <a name="discussion"></a>
 
-While we saw that the higher cost Mailer 2 had a higher signup rate (37.8%) than the lower cost Mailer 1 (32.8%) it appears that this difference is not significant, at least at our Acceptance Criteria of 0.05.
 
-Without running this Hypothesis Test, the client may have concluded that they should always look to go with higher cost mailers - and from what we've seen in this test, that may not be a great decision.  It would result in them spending more, but not *necessarily* gaining any extra revenue as a result
-
-Our results here also do not say that there *definitely isn't a difference between the two mailers* - we are only advising that we should not make any rigid conclusions *at this point*.  
-
-Running more A/B Tests like this, gathering more data, and then re-running this test may provide us, and the client more insight!
