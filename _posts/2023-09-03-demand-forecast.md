@@ -157,7 +157,7 @@ The models were rigorously evaluated using RMSE metrics. This comparative analys
 
 
 <br>
-![alt text](/img/posts/Forecast-1-Day-Acuvue-Moist-30.png "Forecast 1 Day Acuvue Moist (30 db).png")
+![alt text](/img/posts/Forecast-1-Day-Acuvue-Moist-30.png "Forecast-1-Day-Acuvue-Moist-30.png")
 
 
 
