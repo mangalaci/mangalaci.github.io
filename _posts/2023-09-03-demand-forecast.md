@@ -134,7 +134,6 @@ for ct2_pack in unique_ct2_packs:
         Y_pred = Y_hat_df[model_name].values  # Predicted values from your forecast
 
         # Calculate accuracy metrics
-        mae = mean_absolute_error(Y_true, Y_pred)
         mse = mean_squared_error(Y_true, Y_pred)
         rmse = np.sqrt(mse)
 
