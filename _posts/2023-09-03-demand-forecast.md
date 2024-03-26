@@ -15,7 +15,7 @@ In this comprehensive analysis, I embarked on a journey to enhance the inventory
     - [Methodology Overview](#overview-methodology)
 - [01. Data Acquisition & Preprocessing](#data-overview)
 - [02. Forecasting Models Implementation](#forecast-model-implement)
-- [03. Discussion](#discussion)
+- [03. Model Evaluation & Selection](#model-evaluation)
 
 ___
 
@@ -151,6 +151,6 @@ for ct2_pack in unique_ct2_packs:
 ___
 
 <br>
-# Discussion <a name="discussion"></a>
+# Model Evaluation & Selection <a name="model-evaluation"></a>
 
 
