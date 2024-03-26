@@ -153,4 +153,10 @@ ___
 <br>
 # Model Evaluation & Selection <a name="model-evaluation"></a>
 
+The models were rigorously evaluated using MAE and MSE metrics. This comparative analysis allowed us to select the model that best captured the sales trends and offered the highest accuracy for our forecasts.
+
+
+
+
+
 
