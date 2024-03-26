@@ -159,5 +159,7 @@ The models were rigorously evaluated using RMSE metrics. This comparative analys
 <br>
 ![alt text](/img/posts/Forecast-1-Day-Acuvue-Moist-30.png "Forecast-1-Day-Acuvue-Moist-30.png")
 
+<br>
+![alt text](/img/posts/Forecast-Air-Optix-For-Astigmatism-3.png "Forecast-Air-Optix-For-Astigmatism-3.png")
 
 
