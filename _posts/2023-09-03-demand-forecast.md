@@ -89,7 +89,7 @@ ___
 
 # Forecasting Models Implementation <a name="forecast-model-implement"></a>
 
-My plan was to compare the performace of 3 models:  (1) SARIMA model with using python's AutoARIMA forecasting model, (2) Exponential Smoothing using ETS, and LSTM, which belong to the class of a deep learning methods. Since LSTM requires a different data preparation, I left it out from the first attempt to get forecasts. The SARIMA model was implemented by Python's AutoARIMA that automatically identifies the best ARIMA model parameters, while Exponential Smoothing was leveraged by Python's ETS (Econometrics and Time Series) library.
+My plan was to compare the performace of 3 models:  (1) SARIMA model with using python's AutoARIMA forecasting model, (2) Exponential Smoothing using ETS, and LSTM, which belong to the class of a deep learning methods. Since LSTM requires a different data preparation, I left it out from the first attempt to get forecasts. The SARIMA model was implemented by Python's AutoARIMA that automatically identifies the best ARIMA model parameters, while Exponential Smoothing was leveraged by Python's ETS (Error term, Trend component and Seasonal component) library.
 
 This is how the code snippet looks like that handles data preparation, train-test-split and training the models:
 
