@@ -159,7 +159,7 @@ ___
 First, I wanted to test two traditional models, SARIMA and Exponential Smoothing to select the one that best captured the sales trends and offered the highest accuracy for the forecasts.
 
 
-From the table below, we can see that SARIMA and Exponential Smoothing perform in a very similar manner. 
+From the table below, we can see that SARIMA and Exponential Smoothing perform in a very similar manner. I would personally pick Exponential Smoothing since it won the duel at more products.
 
 RMSE values for the product by models look like this:
 
@@ -180,6 +180,8 @@ RMSE values for the product by models look like this:
 | Systane Ultra (10 ml) | 109.16 | 109.07 |
 
 <br>
+
+Afer RMSE (Root Mean Squared Error), we visualized the forecasting performance of the models on line diadrams:
 
 <br>
 ![alt text](/img/posts/Forecast-1-Day-Acuvue-Moist-30.png "Forecast-1-Day-Acuvue-Moist-30.png")
