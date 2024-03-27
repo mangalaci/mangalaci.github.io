@@ -158,8 +158,7 @@ ___
 
 First, I wanted to test two traditional models, SARIMA and Exponential Smoothing to select the one that best captured the sales trends and offered the highest accuracy for the forecasts.
 
-RMSE values for the product by models:
-<br>
+
 | **Product** | **SARIMA** | **Exponential Smoothing** |
 |---|---|---|
 | 1 Day Acuvue Moist (30) | 293.72 | 183.69 |
