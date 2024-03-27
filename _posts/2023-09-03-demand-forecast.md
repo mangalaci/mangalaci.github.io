@@ -228,3 +228,75 @@ After RMSE (Root Mean Squared Error), we visualized the forecasting performance 
 
 
 ### Trying Deep Learning in Time Series Forecasting <a name="lstm"></a>
+
+
+This is how the code snippet looks like that handles data preparation, train-test-split and training the models:
+
+```python
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Dense
+
+# Function to prepare data for LSTM
+def create_dataset(X, y, time_steps=1):
+    Xs, ys = [], []
+    for i in range(len(X) - time_steps):
+        v = X.iloc[i:(i + time_steps)].values
+        Xs.append(v)
+        ys.append(y.iloc[i + time_steps])
+    return np.array(Xs), np.array(ys)
+
+unique_ct2_packs = all_data['CT2_pack'].unique()
+
+for ct2_pack in unique_ct2_packs:
+    # Filter and preprocess data
+    sales_data = all_data[all_data['CT2_pack'] == ct2_pack]
+    sales_data = sales_data.rename(columns={'months': 'ds', 'sales': 'y'})
+    sales_data['ds'] = pd.to_datetime(sales_data['ds']) + MonthEnd(1)
+    
+    # Normalize the data
+    scaler = MinMaxScaler(feature_range=(0, 1))
+    sales_data_scaled = scaler.fit_transform(sales_data[['y']])
+    
+    # Preparing dataset for LSTM
+    time_steps = 12
+    X, y = create_dataset(pd.DataFrame(sales_data_scaled), pd.DataFrame(sales_data_scaled), time_steps)
+    
+    # Keeping the last 6 months for testing
+    train_size = len(X) - 6
+    X_train, X_test = X[:train_size], X[-6:]
+    y_train, y_test = y[:train_size], y[-6:]
+    
+    # Build LSTM model
+    model = Sequential([
+        LSTM(50, activation='relu', input_shape=(time_steps, 1)),
+        Dense(1)
+    ])
+    model.compile(optimizer='adam', loss='mean_squared_error')
+    
+    # Fit model
+    model.fit(X_train, y_train, epochs=200, batch_size=32, verbose=0)
+    
+    # Predict
+    y_pred = model.predict(X_test)
+    y_test_inv = scaler.inverse_transform(y_test)
+    y_pred_inv = scaler.inverse_transform(y_pred)
+    
+    # Calculate metrics
+    mse = mean_squared_error(y_test_inv, y_pred_inv)
+    rmse = np.sqrt(mse)
+    
+    # Print metrics
+    print(f'RMSE for {ct2_pack} using LSTM: {rmse:.2f}')
+    
+    # Plotting the results
+    plt.figure(figsize=(10, 6))
+    plt.plot(range(len(y)), scaler.inverse_transform(y), label="True", alpha=0.75)
+    plt.plot(range(len(y_train), len(y)), y_test_inv.flatten(), marker='.', label="Actual")
+    plt.plot(range(len(y_train), len(y)), y_pred_inv.flatten(), 'r', label="Predicted")
+    plt.ylabel('Sales')
+    plt.xlabel('Time Step')
+    plt.legend()
+    plt.show()
+
+```
+<br>
