@@ -168,7 +168,11 @@ First, I wanted to test two traditional models, SARIMA and Exponential Smoothing
 | Air Optix For Astigmatism (3) | 1.05 | 29.76 |
 | Air Optix For Astigmatism (6) | 27.46 | 19.66 |
 | Air Optix plus HydraGlyde (3) | 42.58 | 42.6 |
-| Air Optix plus HydraGlyde (6) | 40.6 | 39.55 |
+| Air Optix plus HydraGlyde (6) | 40.6 | 67.59 |
+| Air Optix plus HydraGlyde for Astigmatism (3) | 41.23 | 39.55 |
+| Biofinity (3) | 641.56 | 573.33 |
+| Biofinity (6) | 853.41 | 750.15 |
+
 
 <br>
 
