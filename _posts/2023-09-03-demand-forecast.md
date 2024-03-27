@@ -301,3 +301,24 @@ for ct2_pack in unique_ct2_packs:
 
 ```
 <br>
+
+RMSE values for the product by models including LSTM look like this:
+
+| **Product** | **SARIMA (RMSE)** | **Exponential Smoothing (RMSE)** | | **LSTM (RMSE)** |
+|---|---|---|
+| 1 Day Acuvue Moist (30) | 293.72 | 183.69 | 133.45 |
+| Air Optix For Astigmatism (3) | 1.05 | 29.76 | 1.62 |
+| Air Optix For Astigmatism (6) | 27.46 | 19.66 | 22.07 |
+| Air Optix plus HydraGlyde (3) | 42.58 | 42.6 | 51.02 |
+| Air Optix plus HydraGlyde (6) | 40.6 | 67.59 | 138.31 |
+| Air Optix plus HydraGlyde for Astigmatism (3) | 41.23 | 39.55 | 32.12 |
+| Biofinity (3) | 641.56 | 573.33 | 1538.74 |
+| Biofinity (6) | 853.41 | 750.15 | 965.48 |
+| Dailies AquaComfort Plus (30) | 25.37 | 26.36 | 37.65 |
+| Dailies AquaComfort Plus (90) | 114.97 | 59.44 | 121.58 |
+| Focus Dailies All Day Comfort (30) | 18.84 | 9.94 | 8.09 |
+| OPTI-FREE Express (355 ml) | 186.21 | 90 | 79.27 |
+| Systane Ultra (10 ml) | 109.16 | 109.07 | 82.11 |
+
+
+We can conclude that LSTM does not excel over the other 2 traditional models.
