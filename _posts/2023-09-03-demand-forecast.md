@@ -16,6 +16,7 @@ In this comprehensive analysis, I embarked on a journey to enhance the inventory
 - [01. Data Acquisition & Preprocessing](#data-overview)
 - [02. Forecasting Models Implementation](#forecast-model-implement)
 - [03. Model Evaluation & Selection](#model-evaluation)
+    - [Comparing SARIMA and Exponential Smoothing](#sarima-ets)
 
 ___
 
@@ -152,6 +153,8 @@ ___
 <br>
 # Model Evaluation & Selection <a name="model-evaluation"></a>
 
+
+### Comparing SARIMA and Exponential Smoothing <a name="sarima-ets"></a>
 
 The models were rigorously evaluated using RMSE metrics. This comparative analysis allowed us to select the model that best captured the sales trends and offered the highest accuracy for our forecasts.
 
