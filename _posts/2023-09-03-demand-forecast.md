@@ -156,7 +156,7 @@ ___
 
 ### Comparing SARIMA and Exponential Smoothing <a name="sarima-ets"></a>
 
-first, I wanted to test two traditional models to select the model that best captured the sales trends and offered the highest accuracy for the forecasts.
+First, I wanted to test two traditional models, SARIMA and Exponential Smoothing to select the one that best captured the sales trends and offered the highest accuracy for the forecasts.
 
 
 <br>
