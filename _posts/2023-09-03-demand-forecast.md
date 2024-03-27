@@ -182,7 +182,7 @@ RMSE values for the product by models look like this:
 <br>
 
 
-After RMSE (Root Mean Squared Error), we visualized the forecasting performance of the models on line diadrams:
+After RMSE (Root Mean Squared Error), we visualized the forecasting performance of the models on line diagrams:
 
 <br>
 ![alt text](/img/posts/Forecast-1-Day-Acuvue-Moist-30.png "Forecast-1-Day-Acuvue-Moist-30.png")
@@ -195,6 +195,7 @@ After RMSE (Root Mean Squared Error), we visualized the forecasting performance 
 
 <br>
 ![alt text](/img/posts/Forecast-Air-Optix-plus-HydraGlyde-3.png "Forecast-Air-Optix-plus-HydraGlyde-3.png")
+
 
 
 
