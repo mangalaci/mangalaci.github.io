@@ -162,6 +162,7 @@ First, I wanted to test two traditional models, SARIMA and Exponential Smoothing
 <br>
 
 RMSE vaalues for the product by models:
+<br>
 | **Product** | **SARIMA** | **Exponential Smoothing** |
 |---|---|---|---|
 | 1 Day Acuvue Moist (30) | 293.72 | 183.69 |
