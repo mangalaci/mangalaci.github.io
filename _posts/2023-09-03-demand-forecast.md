@@ -215,6 +215,8 @@ After RMSE (Root Mean Squared Error), we visualized the forecasting performance 
 ![alt text](/img/posts/Forecast-Dailies-AquaComfort-Plus-90.png "Forecast-Dailies-AquaComfort-Plus-90.png")
 
 
+<br>
+![alt text](/img/posts/Forecast-Focus-Dailies-All-Day-Comfort-30.png "Focus-Dailies-All-Day-Comfort-30.png")
 
 
 
