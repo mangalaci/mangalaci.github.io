@@ -160,6 +160,18 @@ First, I wanted to test two traditional models, SARIMA and Exponential Smoothing
 
 
 <br>
+
+| **product** | **month** | **items_sold (units)** |
+|---|---|---|---|
+| 1 Day Acuvue Moist (30) | 2018-01 | 498 |
+| 1 Day Acuvue Moist (30) | 2018-02 | 387 |
+| 1 Day Acuvue Moist (30) | 2018-03 | 454 |
+| 1 Day Acuvue Moist (30) | 2018-04 | 473 |
+| 1 Day Acuvue Moist (30) | 2018-05 | 539 |
+
+<br>
+
+<br>
 ![alt text](/img/posts/Forecast-1-Day-Acuvue-Moist-30.png "Forecast-1-Day-Acuvue-Moist-30.png")
 
 <br>
@@ -173,3 +185,7 @@ First, I wanted to test two traditional models, SARIMA and Exponential Smoothing
 
 
 
+Results & Business Implications
+The selected forecasting model provided accurate monthly sales predictions, enabling "eOptika" to make informed decisions regarding inventory levels and sales strategies. The forecasts highlighted periods of expected high demand, allowing for proactive inventory management. This strategic approach is projected to reduce holding costs, minimize stockouts, and ultimately enhance customer satisfaction and profitability.
+
+This project exemplifies the power of data-driven decision-making in the retail sector, offering a scalable approach for demand forecasting that can be adapted to other product lines and industries.
