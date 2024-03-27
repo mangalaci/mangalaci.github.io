@@ -158,13 +158,10 @@ ___
 
 First, I wanted to test two traditional models, SARIMA and Exponential Smoothing to select the one that best captured the sales trends and offered the highest accuracy for the forecasts.
 
-
-<br>
-
 RMSE vaalues for the product by models:
 <br>
 | **Product** | **SARIMA** | **Exponential Smoothing** |
-|---|---|---|---|
+|---|---|---|
 | 1 Day Acuvue Moist (30) | 293.72 | 183.69 |
 | Air Optix For Astigmatism (3) | 1.05 | 29.76 |
 | Air Optix For Astigmatism (6) | 27.46 | 19.66 |
