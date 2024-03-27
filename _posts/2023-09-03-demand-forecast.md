@@ -161,6 +161,7 @@ First, I wanted to test two traditional models, SARIMA and Exponential Smoothing
 
 <br>
 
+|---|---|---|---|
 | **product** | **SARIMA** | **Exponential Smoothing** |
 |---|---|---|---|
 | 1 Day Acuvue Moist (30) | 293.72 | 183.69 |
