@@ -196,10 +196,9 @@ After RMSE (Root Mean Squared Error), we visualized the forecasting performance 
 <br>
 ![alt text](/img/posts/Forecast-Air-Optix-plus-HydraGlyde-3.png "Forecast-Air-Optix-plus-HydraGlyde-3.png")
 
+<br>
+![alt text](/img/posts/Forecast-Air-Optix-plus-HydraGlyde-6.png "Forecast-Air-Optix-plus-HydraGlyde-6.png")
 
 
 
-Results & Business Implications
-The selected forecasting model provided accurate monthly sales predictions, enabling "eOptika" to make informed decisions regarding inventory levels and sales strategies. The forecasts highlighted periods of expected high demand, allowing for proactive inventory management. This strategic approach is projected to reduce holding costs, minimize stockouts, and ultimately enhance customer satisfaction and profitability.
 
-This project exemplifies the power of data-driven decision-making in the retail sector, offering a scalable approach for demand forecasting that can be adapted to other product lines and industries.
