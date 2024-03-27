@@ -214,10 +214,12 @@ After RMSE (Root Mean Squared Error), we visualized the forecasting performance 
 <br>
 ![alt text](/img/posts/Forecast-Dailies-AquaComfort-Plus-90.png "Forecast-Dailies-AquaComfort-Plus-90.png")
 
-
 <br>
 ![alt text](/img/posts/Forecast-Focus-Dailies-All-Day-Comfort-30.png "Focus-Dailies-All-Day-Comfort-30.png")
 
+<br>
+![alt text](/img/posts/Forecast-OPTI-FREE-Express-355-ml.png "Forecast-OPTI-FREE-Express-355-ml.png")
 
-
+<br>
+![alt text](/img/posts/Forecast-Systane-Ultra-10-ml.png "Forecast-Systane-Ultra-10-ml.png")
 
