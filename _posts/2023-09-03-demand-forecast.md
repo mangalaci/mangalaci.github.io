@@ -201,6 +201,6 @@ After RMSE (Root Mean Squared Error), we visualized the forecasting performance 
 
 
 <br>
-![alt text](/img/posts/Air-Optix-plus-HydraGlyde-for-Astigmatism-3.png "Air-Optix-plus-HydraGlyde-for-Astigmatism-3.png")
+![alt text](/img/posts/Forecast-Air-Optix-plus-HydraGlyde-for-Astigmatism-3.png "Forecast-Air-Optix-plus-HydraGlyde-for-Astigmatism-3.png")
 
 
