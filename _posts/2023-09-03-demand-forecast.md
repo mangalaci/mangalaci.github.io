@@ -173,7 +173,11 @@ RMSE values for the product by models look like this:
 | Air Optix plus HydraGlyde for Astigmatism (3) | 41.23 | 39.55 |
 | Biofinity (3) | 641.56 | 573.33 |
 | Biofinity (6) | 853.41 | 750.15 |
-
+| Dailies AquaComfort Plus (30) | 25.37 | 26.36 |
+| Dailies AquaComfort Plus (90) | 853.41 | 750.15 |
+| Biofinity (6) | 853.41 | 750.15 |
+| Biofinity (6) | 853.41 | 750.15 |
+| Biofinity (6) | 853.41 | 750.15 |
 
 <br>
 
