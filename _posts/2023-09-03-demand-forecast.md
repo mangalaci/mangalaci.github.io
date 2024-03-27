@@ -304,8 +304,8 @@ for ct2_pack in unique_ct2_packs:
 
 RMSE values for the product by models including LSTM look like this:
 
-| **Product** | **SARIMA (RMSE)** | **Exponential Smoothing (RMSE)** | | **LSTM (RMSE)** |
-|---|---|---|
+| **Product** | **SARIMA (RMSE)** | **Exponential Smoothing (RMSE)** | **LSTM (RMSE)** |
+|---|---|---|---|
 | 1 Day Acuvue Moist (30) | 293.72 | 183.69 | 133.45 |
 | Air Optix For Astigmatism (3) | 1.05 | 29.76 | 1.62 |
 | Air Optix For Astigmatism (6) | 27.46 | 19.66 | 22.07 |
