@@ -174,10 +174,10 @@ RMSE values for the product by models look like this:
 | Biofinity (3) | 641.56 | 573.33 |
 | Biofinity (6) | 853.41 | 750.15 |
 | Dailies AquaComfort Plus (30) | 25.37 | 26.36 |
-| Dailies AquaComfort Plus (90) | 853.41 | 750.15 |
-| Biofinity (6) | 853.41 | 750.15 |
-| Biofinity (6) | 853.41 | 750.15 |
-| Biofinity (6) | 853.41 | 750.15 |
+| Dailies AquaComfort Plus (90) | 114.97 | 59.44 |
+| Focus Dailies All Day Comfort (30) | 18.84 | 9.94 |
+| OPTI-FREE Express (355 ml) | 186.21 | 90 |
+| Systane Ultra (10 ml) | 109.16 | 109.07 |
 
 <br>
 
