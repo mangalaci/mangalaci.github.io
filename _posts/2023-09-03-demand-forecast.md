@@ -159,6 +159,8 @@ ___
 First, I wanted to test two traditional models, SARIMA and Exponential Smoothing to select the one that best captured the sales trends and offered the highest accuracy for the forecasts.
 
 
+From the table below, we can see that SARIMA and Exponential Smoothing perform in a very similar manner. 
+
 RMSE values for the product by models look like this:
 
 | **Product** | **SARIMA** | **Exponential Smoothing** |
