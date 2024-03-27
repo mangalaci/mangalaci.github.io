@@ -161,13 +161,13 @@ First, I wanted to test two traditional models, SARIMA and Exponential Smoothing
 
 <br>
 
-| **product** | **month** | **items_sold (units)** |
+| **product** | **SARIMA** | **Exponential Smoothing** |
 |---|---|---|---|
-| 1 Day Acuvue Moist (30) | 2018-01 | 498 |
-| 1 Day Acuvue Moist (30) | 2018-02 | 387 |
-| 1 Day Acuvue Moist (30) | 2018-03 | 454 |
-| 1 Day Acuvue Moist (30) | 2018-04 | 473 |
-| 1 Day Acuvue Moist (30) | 2018-05 | 539 |
+| 1 Day Acuvue Moist (30) | 293.72 | 183.69 |
+| Air Optix For Astigmatism (3) | 1.05 | 29.76 |
+| Air Optix For Astigmatism (6) | 27.46 | 19.66 |
+| Air Optix plus HydraGlyde (3) | 42.58 | 42.6 |
+| Air Optix plus HydraGlyde (6) | 40.6 | 39.55 |
 
 <br>
 
