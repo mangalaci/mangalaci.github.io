@@ -163,7 +163,7 @@ From the table below, we can see that SARIMA and Exponential Smoothing perform i
 
 RMSE values for the product by models look like this:
 
-| **Product** | **SARIMA** | **Exponential Smoothing** |
+| **Product** | **SARIMA (RMSE)** | **Exponential Smoothing (RMSE)** |
 |---|---|---|
 | 1 Day Acuvue Moist (30) | 293.72 | 183.69 |
 | Air Optix For Astigmatism (3) | 1.05 | 29.76 |
@@ -181,7 +181,8 @@ RMSE values for the product by models look like this:
 
 <br>
 
-Afer RMSE (Root Mean Squared Error), we visualized the forecasting performance of the models on line diadrams:
+
+After RMSE (Root Mean Squared Error), we visualized the forecasting performance of the models on line diadrams:
 
 <br>
 ![alt text](/img/posts/Forecast-1-Day-Acuvue-Moist-30.png "Forecast-1-Day-Acuvue-Moist-30.png")
