@@ -156,7 +156,7 @@ ___
 
 ### Comparing SARIMA and Exponential Smoothing <a name="sarima-ets"></a>
 
-The models were rigorously evaluated using RMSE metrics. This comparative analysis allowed us to select the model that best captured the sales trends and offered the highest accuracy for our forecasts.
+first, I wanted to test two traditional models to select the model that best captured the sales trends and offered the highest accuracy for the forecasts.
 
 
 <br>
