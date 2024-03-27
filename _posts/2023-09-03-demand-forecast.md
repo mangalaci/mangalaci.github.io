@@ -229,6 +229,7 @@ After RMSE (Root Mean Squared Error), we visualized the forecasting performance 
 
 ### Trying Deep Learning in Time Series Forecasting <a name="lstm"></a>
 
+After applying 2 traditonal techniques, I turned to deep learning to see if it can capture nuance drivers of the sales demand movements on top of trend and seasolality.
 
 This is how the code snippet looks like that handles data preparation, train-test-split and training the models:
 
