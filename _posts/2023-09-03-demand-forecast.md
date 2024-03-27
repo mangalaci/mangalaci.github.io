@@ -231,7 +231,7 @@ After RMSE (Root Mean Squared Error), we visualized the forecasting performance 
 
 After applying 2 traditonal techniques, I turned to deep learning to see if it can capture nuance drivers of the sales demand movements on top of trend and seasolality.
 
-This is how the code snippet looks like that handles data preparation, train-test-split and training the models:
+The following code snippet demonstrates a process for forecasting sales data using an LSTM neural network in TensorFlow. It begins by filtering and preprocessing sales data for unique product packs, normalizing the data, and then creating a dataset with a specified number of time steps to be used for training and testing the LSTM model. Finally, the model is built, compiled, and fitted with the training data, followed by predictions on the test set, with the performance evaluated using the root mean squared error (RMSE) metric for each product pack:
 
 ```python
 from tensorflow.keras.models import Sequential
