@@ -226,4 +226,4 @@ After RMSE (Root Mean Squared Error), we visualized the forecasting performance 
 
 <br>
 
-### Comparing SARIMA and Exponential Smoothing <a name="lstm"></a>
+### Trying Deep Learning in Time Series Forecasting <a name="lstm"></a>
