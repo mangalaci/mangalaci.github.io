@@ -75,7 +75,7 @@ ___
 
 To build out this proof of concept, I reached out to Labelled Faces in the Wild, a publicly available data on Kaggle. This is made up of images of major global politicians out of which I selected four: Collin Powell, George W. Bush, Gerhard Schroeder, and Tony Blaire.
 
-We randomly split the images for each fruit into training (60%), validation (30%) and test (10%) sets.
+The images for each politician had been randomly split into training (approx. 60%), validation (approx. 30%) and test (approx. 10%) sets.
 
 Examples of four images of each fruit class can be seen in the image below:
 
