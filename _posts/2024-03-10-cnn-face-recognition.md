@@ -2,10 +2,10 @@
 layout: post
 title: Face Recognition Using A Convolutional Neural Network
 image: "/posts/face-recognition.png"
-tags: [Deep Learning, CNN, Data Science, Computer Vision, Python]
+tags: [Deep Learning, CNN, Computer Vision, Python]
 ---
 
-In this project we build & optimise a Convolutional Neural Network to classify images of fruits, with the goal of helping a grocery retailer enhance & scale their sorting & delivery processes. 
+In this project I delved into the field of Computer Vision. I built & optimized a Convolutional Neural Network to classify images of politicians to try myself out in this field. 
 
 # Table of contents
 
