@@ -77,7 +77,7 @@ To build out this proof of concept, I reached out to Labelled Faces in the Wild,
 
 The images for each politician had been randomly split into training (approx. 60%), validation (approx. 30%) and test (approx. 10%) sets.
 
-Examples of four images of each politician class can be seen in the image below:
+Examples of four images of each politician can be seen in the image below:
 
 <br>
 ![alt text](/img/posts/politicians-grid-merged.jpg "CNN Politicians Classification Samples")
