@@ -12,7 +12,6 @@ In this project I delved into the field of Computer Vision. I built & optimized 
 - [00. Project Overview](#overview-main)
     - [Actions](#overview-actions)
     - [Results](#overview-results)
-    - [Growth/Next Steps](#overview-growth)
 - [01. Data Overview](#data-overview)
 - [02. Data Pipeline](#data-pipeline)
 - [03. CNN Overview](#cnn-overview)
@@ -66,14 +65,6 @@ In terms of Classification Accuracy on the Test Set, we saw:
 Tuning the networks architecture with Keras-Tuner gave us a great boost, but was also very time intensive - however if this time investment results in improved accuracy then it is time well spent.
 
 The use of Transfer Learning with the VGG16 architecture was also a great success, in only 10 epochs we were able to beat the performance of our smaller, custom networks which were training over 50 epochs.  From a business point of view we also need to consider the overheads of (a) storing the much larger VGG16 network file, and (b) any increased latency on inference.
-
-<br>
-<br>
-### Growth/Next Steps <a name="overview-growth"></a>
-
-The proof of concept was successful, we have shown that we can get very accurate predictions albeit on a small number of classes.  We need to showcase this to the client, discuss what it is that makes the network more robust, and then look to test our best networks on a larger array of classes.
-
-Transfer Learning has been a big success, and was the best performing network in terms of classification accuracy on the Test Set - however we still only trained for a small number of epochs so we can push this even further.  It would be worthwhile testing other available pre-trained networks such as ResNet, Inception, and the DenseNet networks.
 
 <br>
 <br>
