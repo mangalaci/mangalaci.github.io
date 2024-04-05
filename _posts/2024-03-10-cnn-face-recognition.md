@@ -80,7 +80,7 @@ The images for each politician had been randomly split into training (approx. 60
 Examples of four images of each politician class can be seen in the image below:
 
 <br>
-![alt text](/img/posts/cnn-image-examples.png "CNN Fruit Classification Samples")
+![alt text](/img/posts/politicians-grid-merged.png "CNN Politicians Classification Samples")
 
 <br>
 For ease of use in Keras, our folder structure first splits into training, validation, and test directories, and within each of those is split again into directories based upon the six fruit classes.
