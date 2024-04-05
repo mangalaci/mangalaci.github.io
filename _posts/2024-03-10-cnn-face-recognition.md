@@ -73,7 +73,7 @@ ___
 
 # Data Overview  <a name="data-overview"></a>
 
-To build out this proof of concept, the client have provided us some sample data. This is made up of images of six different types of fruit, sitting on the landing platform in the warehouse.
+To build out this proof of concept, I reached out to Labelled Faces in the Wild, a publicly available data on Kaggle. This is made up of images of major global politicians out of which I selected four: Collin Powell, George W. Bush, Gerhard Schroeder, and Tony Blaire.
 
 We randomly split the images for each fruit into training (60%), validation (30%) and test (10%) sets.
 
