@@ -10,7 +10,6 @@ In this project I delved into the field of Computer Vision. I built & optimized 
 # Table of contents
 
 - [00. Project Overview](#overview-main)
-    - [Context](#overview-context)
     - [Actions](#overview-actions)
     - [Results](#overview-results)
     - [Growth/Next Steps](#overview-growth)
@@ -28,20 +27,6 @@ In this project I delved into the field of Computer Vision. I built & optimized 
 ___
 
 # Project Overview  <a name="overview-main"></a>
-
-### Context <a name="overview-context"></a>
-
-Our client had an interesting proposal put forward to them, and requested our help to assess whether it was viable.
-
-At a recent tech conference, they spoke to a contact from a robotics company that creates robotic solutions that help other businesses scale and optimise their operations.
-
-Their representative mentioned that they had built a prototype for a robotic sorting arm that could be used to pick up and move products off a platform.  It would use a camera to "see" the product, and could be programmed to move that particular product into a designated bin, for further processing.
-
-The only thing they hadn't figured out was how to actually identify each product using the camera, so that the robotic arm could move it to the right place.
-
-We were asked to put forward a proof of concept on this - and were given some sample images of fruits from their processing platform.
-
-If this was successful and put into place on a larger scale, the client would be able to enhance their sorting & delivery processes.
 
 <br>
 <br>
