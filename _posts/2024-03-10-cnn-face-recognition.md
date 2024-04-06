@@ -307,18 +307,17 @@ The below image contains two plots, the first showing the epoch by epoch **Loss*
 ![alt text](/img/posts/cnn-baseline-accuracy-plot.png "CNN Baseline Accuracy Plot")
 
 <br>
-There are two key learnings from above plots. The first is that, with this baseline architecture & the parameters we set for training, we are reaching our best performance in around 10-20 epochs - after that, not much improvement is seen.  This isn't to say that 50 epochs is wrong, especially if we change our network - but is interesting to note at this point.
+There are two key learnings from above plots. The first is that, with this baseline architecture & the parameters we set for training, we are reaching our best performance in around 10 epochs - after that, not much improvement is seen.
 
 The second thing to notice is *very important* and that is the significant gap between orange and blue lines on the plot, in other words between our validation performance and our training performance.
 
 This gap is over-fitting.
 
-Focusing on the lower plot above (Classification Accuracy) - it appears that our network is learning the features of the training data *so well* that after about 20 or so epochs it is *perfectly* predicting those images - but on the validation set, it never passes approximately **83% Classification Accuracy**.
+Focusing on the lower plot above (Classification Accuracy) - it appears that our network is learning the features of the training data *so well* that after about 10 or so epochs it is *perfectly* predicting those images - but on the validation set, it never passes approximately **78% Classification Accuracy**.
 
-We do not want over-fitting! It means that we're risking our predictive performance on new data.  The network is not learning to generalise, meaning that if something slightly 
-different comes along then it's going to really, really struggle to predict well, or at least predict reliably!
+We do not want over-fitting! It means that we're risking our predictive performance on new data.  The network is not learning to generalize, meaning that if something slightly different comes along then it's going to struggle to predict well, or at least predict reliably!
 
-We will look to address this with some clever concepts, and you will see those in the next sections.
+We will look to address this in the next sections.
 
 <br>
 #### Performance On The Test Set
