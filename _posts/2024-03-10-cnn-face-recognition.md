@@ -322,12 +322,9 @@ We will look to address this in the next sections.
 <br>
 #### Performance On The Test Set
 
-Above, we assessed our models performance on both the training set and the validation set - both of which were being passed in during training.
+Above, we assessed our models performance on both the training set and the validation set - both of which were being passed in during training. Here, we will get a view of how well our network performs when predict on data that was *no part* of the training process whatsoever - our test set.
 
-Here, we will get a view of how well our network performs when predict on data that was *no part* of the training process whatsoever - our test set.
-
-A test set can be extremely useful when looking to assess many different iterations of a network we build.  Where the validation set might be sent through the model in slightly different orders during training in order to assess the epoch by epoch performance, our test set is a *static set* of images.  Because of this, it makes for a really good baseline for testing the first iteration of our network versus any subsequent versions that we create, perhaps after we refine the architecture, or add any other clever bits of
-logic that we think might help the network perform better in the real world.
+A test set can be extremely useful when looking to assess many different iterations of a network we build.  Where the validation set might be sent through the model in slightly different orders during training in order to assess the epoch by epoch performance, our test set is a *static set* of images.
 
 In the below code we run this in isolation from training.  We:
 
@@ -349,10 +346,10 @@ import pandas as pd
 from os import listdir
 
 # parameters for prediction
-model_filename = 'models/fruits_cnn_v01.h5'
+model_filename = 'models/presidents_cnn_v01.h5'
 img_width = 128
 img_height = 128
-labels_list = ['apple', 'avocado', 'banana', 'kiwi', 'lemon', 'orange']
+labels_list = ['Colin_Powell','George_W_Bush', 'Gerhard_Schroeder', 'Tony_Blair']
 
 # load model
 model = load_model(model_filename)
@@ -379,7 +376,7 @@ def make_prediction(image):
 
 # loop through test data
 source_dir = 'data/test/'
-folder_names = ['apple', 'avocado', 'banana', 'kiwi', 'lemon', 'orange']
+folder_names = ['Colin_Powell','George_W_Bush', 'Gerhard_Schroeder', 'Tony_Blair']
 actual_labels = []
 predicted_labels = []
 predicted_probabilities = []
