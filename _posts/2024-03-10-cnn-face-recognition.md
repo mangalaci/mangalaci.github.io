@@ -255,7 +255,7 @@ In the below code we:
 
 # training parameters
 num_epochs = 50
-model_filename = 'models/fruits_cnn_v01.h5'
+model_filename = 'models/presidents_cnn_v01.h5'
 
 # callbacks
 save_best_model = ModelCheckpoint(filepath = model_filename,
