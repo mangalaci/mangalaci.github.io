@@ -139,9 +139,7 @@ We specify that we will resize the images down to 128 x 128 pixels, and that we 
 
 To start with, we simply use the generators to rescale the raw pixel values (ranging between 0 and 255) to float values that exist between 0 and 1.  The reason we do this is mainly to help Gradient Descent find an optimal, or near optional solution each time much more efficiently - in other words, it means that the features that are learned in the depths of the network are of a similar magnitude, and the learning rate that is applied to descend down the loss or cost function across many dimensions, is somewhat proportionally similar across all dimensions.
 
-We will add more logic to the training set generator to apply Image Augmentation.
-
-With this pipeline in place, our images will be extracted, in batches of 32, from our hard-drive, where they're being stored and sent into our model for training!
+With this pipeline in place, the images will be extracted, in batches of 32, from the hard-drive.
 
 ___
 <br>
