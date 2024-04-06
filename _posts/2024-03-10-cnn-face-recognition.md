@@ -56,7 +56,7 @@ Our baseline network suffered badly from overfitting - the addition of both Drop
 
 In terms of Classification Accuracy on the Test Set, we saw:
 
-* Baseline Network: **75%**
+* Baseline Network: **70%**
 * Baseline + Dropout: **85%**
 * Baseline + Image Augmentation: **93%**
 * Optimised Architecture + Dropout + Image Augmentation: **95%**
@@ -441,14 +441,14 @@ print(test_set_accuracy)
 
 ```
 <br>
-Our baseline network achieves a **75% Classification Accuracy** on the Test Set.  It will be interesting to see how much improvement we can this with additions & refinements to our network.
+Our baseline network achieves a **70% Classification Accuracy** on the Test Set. 
 
 <br>
 #### Test Set Confusion Matrix
 
 Overall Classification Accuracy is very useful, but it can hide what is really going on with the network's predictions!
 
-As we saw above, our Classification Accuracy for the whole test set was 75%, but it might be that our network is predicting extremely well on apples, but struggling with Lemons as for some reason it is regularly confusing them with Oranges.  A Confusion Matrix can help us uncover insights like this!
+As we saw above, our Classification Accuracy for the whole test set was 70%, but it might be that our network is predicting extremely well on Tony Blaire, but struggling with Schroeder as for some reason it is regularly confusing him with Colin Powell.  A Confusion Matrix can help us uncover insights like this!
 
 We can create a Confusion Matrix with the below code:
 
@@ -464,14 +464,12 @@ This results in the following output:
 
 ```
 
-actual_label     apple  avocado  banana  kiwi  lemon  orange
+actual_label     Colin_Powell  George_W_Bush  Gerhard_Schroeder  Tony_Blair
 predicted_label                                             
-apple              0.8      0.0     0.0   0.1    0.0     0.1
-avocado            0.0      1.0     0.0   0.0    0.0     0.0
-banana             0.0      0.0     0.2   0.1    0.0     0.0
-kiwi               0.0      0.0     0.1   0.7    0.0     0.0
-lemon              0.2      0.0     0.7   0.0    1.0     0.1
-orange             0.0      0.0     0.0   0.1    0.0     0.8
+Colin_Powell              0.8      0.0     0.0   0.1
+George_W_Bush            0.0      1.0     0.0   0.0
+Gerhard_Schroeder             0.0      0.0     0.2   0.1
+Tony_Blair               0.0      0.0     0.1   0.7
 
 ```
 <br>
