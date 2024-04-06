@@ -415,9 +415,7 @@ After running the code above, we end up with a Pandas DataFrame containing predi
 | Colin_Powell | Colin_Powell | 0.740108 | Colin_Powell_0028.jpg | 1 |
 | George_W_Bush | George_W_Bush | 0.953529 | George_W_Bush_0356.jpg | 1 |
 | George_W_Bush | Tony_Blair | 0.6504644 | George_W_Bush_0360.jpg | 0 |
-| banana | lemon | 0.87131584 | banana_0024.jpg | 0 |
-| kiwi | kiwi | 0.66800004 | kiwi_0094.jpg | 1 |
-| lemon | lemon | 0.8490372 | lemon_0084.jpg | 1 |
+| Gerhard_Schroeder | Colin_Powell | 0.980309 | Gerhard_Schroeder_0047.jpg | 0 |
 
 <br>
 In our data we have:
