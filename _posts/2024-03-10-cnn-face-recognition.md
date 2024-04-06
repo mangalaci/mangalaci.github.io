@@ -83,7 +83,7 @@ Examples of four images of each politician can be seen in the image below:
 ![alt text](/img/posts/politicians-grid-merged.jpg "CNN Politicians Classification Samples")
 
 <br>
-For ease of use in Keras, our folder structure first splits into training, validation, and test directories, and within each of those is split again into directories based upon the six fruit classes.
+For ease of use in Keras, our folder structure first splits into training, validation, and test directories, and within each of those is split again into directories based upon the four politicians.
 
 All images are of size 300 x 200 pixels.
 
