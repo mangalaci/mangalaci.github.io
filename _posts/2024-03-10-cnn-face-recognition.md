@@ -477,14 +477,13 @@ Along the top are our *actual* classes and down the side are our *predicted* cla
 
 So, while overall our test set accuracy was 75% - for each individual class we see:
 
-* Colin_Powell: 78%
-* George_W_Bush: 46%
-* Gerhard_Schroeder: 100%
-* Tony_Blair: 55%
+* Colin Powell: 78%
+* George W. Bush: 46%
+* Gerhard Schroeder: 100%
+* Tony Blair: 55%
 
-This is very powerful - we now can see what exactly is driving our *overall* Classification Accuracy.
 
-The standout insight here is for Bananas - with a 20% Classification Accuracy, and even more interestingly we can see where it is getting confused. The network predicted 70% of Banana images to be of the class Lemon!
+The insight here is that George W. Bush and Tony Blair are getting confused with other personalities.
 
 ___
 <br>
