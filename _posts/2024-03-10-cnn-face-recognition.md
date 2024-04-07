@@ -466,10 +466,10 @@ This results in the following output:
 
 actual_label        Colin_Powell    George_W_Bush    Gerhard_Schroeder   Tony_Blair
 predicted_label                                             
-Colin_Powell                 0.8              0.0                 0.0           0.1
-George_W_Bush                0.0              1.0                 0.0           0.0
-Gerhard_Schroeder            0.0              0.0                 0.2           0.1
-Tony_Blair                   0.0              0.0                 0.1           0.7
+Colin_Powell                 0.78            0.08                   0           0.11
+George_W_Bush                0.11            0.46                   0           0.11
+Gerhard_Schroeder            0.11            0.23                   0           0.22
+Tony_Blair                   0               0.23                   0           0.55
 
 ```
 <br>
