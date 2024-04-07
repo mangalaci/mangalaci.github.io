@@ -543,11 +543,9 @@ We run the exact same code to train this updated network as we did for the basel
 <br>
 #### Analysis Of Training Results
 
-As we again saved our training process to the *history* object, we can now analyse & plot the performance (Classification Accuracy, and Loss) of the updated network epoch by epoch.
+With the baseline network we saw very strong overfitting in action. Let us see if the addition of Dropout has helped!
 
-With the baseline network we saw very strong overfitting in action - it will be interesting to see if the addition of Dropout has helped!
-
-The below image shows the same two plots we analysed for the updated network, the first showing the epoch by epoch **Loss** for both the training set (blue) and the validation set (orange) & the second show the epoch by epoch **Classification Accuracy** again, for both the training set (blue) and the validation set (orange).
+The below image shows the epoch by epoch **Loss** for both the training set (blue) and the validation set (orange) & the second show the epoch by epoch **Classification Accuracy** again, for both the training set (blue) and the validation set (orange).
 
 <br>
 ![alt text](/img/posts/cnn-dropout-accuracy-plot.png "CNN Dropout Accuracy Plot")
