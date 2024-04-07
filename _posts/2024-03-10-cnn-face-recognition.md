@@ -507,7 +507,12 @@ Over time, with different combinations of neurons being ignored for each mini-ba
 
 Since we only have one Dense Layer, so we apply Dropout to that layer only.  A common proportion to apply (i.e. the proportion of neurons in the layer to be deactivated randomly each pass) is 0.5 or 50%.  We will apply this here.
 
+Note that we have added the import of Dropout to required tensorflow package
+
+
 ```python
+
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Activation, Flatten, Dense, Dropout
 
 model = Sequential()
 
