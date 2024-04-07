@@ -550,9 +550,10 @@ With the baseline network we saw very strong overfitting in action - it will be 
 The below image shows the same two plots we analysed for the updated network, the first showing the epoch by epoch **Loss** for both the training set (blue) and the validation set (orange) & the second show the epoch by epoch **Classification Accuracy** again, for both the training set (blue) and the validation set (orange).
 
 <br>
-![alt text](/img/posts/cnn-dropout-accuracy-plot.png "CNN Dropout Accuracy Plot")
+![alt text](/img/posts/cnn-baseline-accuracy-plot.png "CNN Baseline Accuracy Plot")
 
 <br>
+
 Firstly, we can see a peak Classification Accuracy on the validation set of around **89%** which is higher than the **83%** we saw for the baseline network.
 
 Secondly, and what we were really looking to see, is that gap between the Classification Accuracy on the training set, and the validation set has been mostly eliminated. The two lines are trending up at more or less the same rate across all epochs of training - and the accuracy on the training set also never reach 100% as it did before meaning that we are indeed seeing this *generalisation* that we want!
