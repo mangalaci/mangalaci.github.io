@@ -492,11 +492,9 @@ ___
 <br>
 #### Dropout Overview
 
-Dropout is a technique used in Deep Learning primarily to reduce the effects of over-fitting. Over-fitting is where the network learns the patterns of the training data so specifically, that it runs the risk of not generalising well, and being very unreliable when used to predict on new, unseen data.
+Dropout is a technique used in Deep Learning primarily to reduce the effects of over-fitting. Over-fitting is where the network learns the patterns of the training data so specifically, that it runs the risk of not generalizing well, and being very unreliable when used to predict on new, unseen data.
 
 Dropout works in a way where, for each batch of observations that is sent forwards through the network, a pre-specified proportion of the neurons in a hidden layer are essentially ignored or deactivated.  This can be applied to any number of the hidden layers.
-
-When we apply Dropout, the deactivated neurons are completely taken out of the picture - they take no part in the passing of information through the network.
 
 All the math is the same, the network will process everything as it always would (so taking the sum of the inputs multiplied by the weights, and adding a bias term, applying activation functions, and updating the network’s parameters using Back Propagation) - it’s just that in this scenario where we are disregarding some of the neurons, we’re essentially pretending that they’re not there.
 
