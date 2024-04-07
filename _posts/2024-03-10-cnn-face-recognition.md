@@ -566,7 +566,7 @@ We run the exact same code as we did for the baseline network, with the only cha
 <br>
 #### Test Set Classification Accuracy
 
-Our baseline network achieved a **75% Classification Accuracy** on the test set.  With the addition of Dropout we saw both a reduction in overfitting, and an increased *validation set* accuracy.  On the test set, we again see an increase vs. the baseline, with an **85% Classification Accuracy**. 
+Our baseline network achieved a **70% Classification Accuracy** on the test set.  With the addition of Dropout we saw both a reduction in overfitting, and an increased *validation set* accuracy.  On the test set, we again see an increase vs. the baseline, with an **66% Classification Accuracy**. 
 
 <br>
 #### Test Set Confusion Matrix
@@ -579,14 +579,12 @@ Running the same code from the baseline section on results for our updated netwo
 
 ```
 
-actual_label     apple  avocado  banana  kiwi  lemon  orange
+actual_label        Colin_Powell    George_W_Bush    Gerhard_Schroeder   Tony_Blair
 predicted_label                                             
-apple              0.8      0.0     0.0   0.0    0.0     0.0
-avocado            0.0      1.0     0.1   0.2    0.0     0.0
-banana             0.0      0.0     0.7   0.0    0.0     0.0
-kiwi               0.2      0.0     0.0   0.7    0.0     0.1
-lemon              0.0      0.0     0.2   0.0    1.0     0.0
-orange             0.0      0.0     0.0   0.1    0.0     0.9
+Colin_Powell                 0.67            0.09                   0           0.00
+George_W_Bush                0.08            0.54                   0           0.00
+Gerhard_Schroeder            0.08            0.18                   1           0.29
+Tony_Blair                   0.16            0.18                   0           0.71
 
 ```
 <br>
