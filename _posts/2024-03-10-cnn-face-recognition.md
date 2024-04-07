@@ -590,16 +590,14 @@ Tony_Blair                   0.16            0.18                   0           
 <br>
 Along the top are our *actual* classes and down the side are our *predicted* classes - so counting *down* the columns we can get the Classification Accuracy (%) for each class, and we can see where it is getting confused.
 
-So, while overall our test set accuracy was 85% - for each individual class we see:
+So, while overall our test set accuracy was 66% - for each individual class we see:
 
-* Apple: 80%
-* Avocado: 100%
-* Banana: 70%
-* Kiwi: 70%
-* Lemon: 100%
-* Orange: 90%
+* Colin Powell: 67%
+* George W. Bush: 54%
+* Gerhard Schroeder: 100%
+* Tony Blair: 71%
 
-All classes here are being predicted *at least* as good as with the baseline network - and Bananas which had only a 20% Classification Accuracy last time, are now being classified correctly 70% of the time.  Still the lowest of all classes, but a significant improvement over the baseline network!
+All classes here are being predicted *at least* as good as with the baseline network. Still George W. Bush: is the lowest of all classes, but a significant improvement over the baseline network!
 
 ___
 <br>
