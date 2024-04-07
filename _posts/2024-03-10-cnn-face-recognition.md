@@ -500,10 +500,7 @@ In a full network (i.e. where Dropout is not being applied) each of the combinat
 
 If we *drop out* neurons during training, *other* neurons need to jump in fill in for this particular role of detecting those features.  They essentially have to come in at late notice and cover the ignored neurons job, dealing with that particular representation that is so useful for prediction.
 
-Over time, with different combinations of neurons being ignored for each mini-batch of data - the network becomes more adept at generalising and thus is less likely to overfit to the training data.  Since no particular neuron can rely on the presence of other neurons, and the features with which they represent - the network learns more robust features, and are less susceptible to noise.
-
-In a Convolutional Neural Network, such as in our task here - it is generally best practice to only apply Dropout to the Dense (Fully Connected) layer or layers, rather than to the Convolutional Layers.  
-
+Over time, with different combinations of neurons being ignored for each mini-batch of data - the network becomes more adept at generalizing and thus is less likely to overfit to the training data.  Since no particular neuron can rely on the presence of other neurons, and the features with which they represent - the network learns more robust features, and are less susceptible to noise.
 
 <br>
 #### Updated Network Architecture
