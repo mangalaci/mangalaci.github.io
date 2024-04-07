@@ -448,7 +448,7 @@ Our baseline network achieves a **70% Classification Accuracy** on the Test Set.
 
 Overall Classification Accuracy is very useful, but it can hide what is really going on with the network's predictions!
 
-As we saw above, our Classification Accuracy for the whole test set was 70%, but it might be that our network is predicting extremely well on Tony Blaire, but struggling with Schroeder as for some reason it is regularly confusing him with Colin Powell.  A Confusion Matrix can help us uncover insights like this!
+As we saw above, our Classification Accuracy for the whole test set was 75%, but it might be that our network is predicting extremely well on Tony Blaire, but struggling with Schroeder as for some reason it is regularly confusing him with Colin Powell.  A Confusion Matrix can help us uncover insights like this!
 
 We can create a Confusion Matrix with the below code:
 
@@ -468,7 +468,7 @@ actual_label        Colin_Powell    George_W_Bush    Gerhard_Schroeder   Tony_Bl
 predicted_label                                             
 Colin_Powell                 0.78            0.08                   0           0.11
 George_W_Bush                0.11            0.46                   0           0.11
-Gerhard_Schroeder            0.11            0.23                   0           0.22
+Gerhard_Schroeder            0.11            0.23                   1           0.22
 Tony_Blair                   0               0.23                   0           0.55
 
 ```
@@ -477,12 +477,10 @@ Along the top are our *actual* classes and down the side are our *predicted* cla
 
 So, while overall our test set accuracy was 75% - for each individual class we see:
 
-* Apple: 80%
-* Avocado: 100%
-* Banana: 20%
-* Kiwi: 70%
-* Lemon: 100%
-* Orange: 80%
+* Colin_Powell: 78%
+* George_W_Bush: 46%
+* Gerhard_Schroeder: 100%
+* Tony_Blair: 55%
 
 This is very powerful - we now can see what exactly is driving our *overall* Classification Accuracy.
 
