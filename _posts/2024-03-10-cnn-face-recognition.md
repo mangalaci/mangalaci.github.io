@@ -483,7 +483,7 @@ So, while overall our test set accuracy was 75% - for each individual class we s
 * Tony Blair: 55%
 
 
-The insight here is that George W. Bush and Tony Blair are getting confused with other personalities.
+The insight here is that George W. Bush and Tony Blair are getting confused with other personalities while  Colin Powell and Gerhard Schroeder are detected quite well.
 
 ___
 <br>
