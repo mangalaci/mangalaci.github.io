@@ -505,7 +505,7 @@ Over time, with different combinations of neurons being ignored for each mini-ba
 <br>
 #### Updated Network Architecture
 
-In our task here, we only have one Dense Layer, so we apply Dropout to that layer only.  A common proportion to apply (i.e. the proportion of neurons in the layer to be deactivated randomly each pass) is 0.5 or 50%.  We will apply this here.
+Since we only have one Dense Layer, so we apply Dropout to that layer only.  A common proportion to apply (i.e. the proportion of neurons in the layer to be deactivated randomly each pass) is 0.5 or 50%.  We will apply this here.
 
 ```python
 
