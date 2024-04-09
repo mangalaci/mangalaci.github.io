@@ -619,7 +619,7 @@ Common transformation techniques are:
 * Horizontal/Vertical Flipping
 * Brightness Alteration
 
-When applying Image Augmentation using Keras' ImageDataGenerator class, we do this "on-the-fly" meaning the network does not actually train on the *original* training set image, but instead on the generated/transformed *versions* of the image - and this version changes each epoch.  In other words - for each epoch that the network is trained, each image will be called upon, and then randomly transformed based upon the specified parameters - and because of this variation, the network learns to generalise a lot better for many different scenarios.
+When applying Image Augmentation using Keras' ImageDataGenerator class, we do this "on-the-fly" meaning the network does not actually train on the *original* training set image, but instead on the generated/transformed *versions* of the image - and this version changes each epoch.  In other words - for each epoch that the network is trained, each image will be called upon, and then randomly transformed based upon the specified parameters - and because of this variation, the network learns to generalize a lot better for many different scenarios.
 
 <br>
 #### Implementing Image Augmentation
