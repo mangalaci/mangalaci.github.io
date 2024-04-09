@@ -673,17 +673,15 @@ We run the exact same code to train this updated network as we did for the basel
 <br>
 #### Analysis Of Training Results
 
-The below image shows the same two plots we analysed for the updated network, the first showing the epoch by epoch **Loss** for both the training set (blue) and the validation set (orange) & the second show the epoch by epoch **Classification Accuracy** again, for both the training set (blue) and the validation set (orange).
+The first image shows the epoch by epoch **Loss** for both the training set (blue) and the validation set (orange). The second shows the epoch by epoch **Classification Accuracy**, for both the training set (blue) and the validation set (orange).
 
 <br>
 ![alt text](/img/posts/cnn-augmentation-accuracy-plot.png "CNN Augmentation Accuracy Plot")
 
 <br>
-Firstly, we can see a peak Classification Accuracy on the validation set of around **97%** which is higher than the **83%** we saw for the baseline network, and higher than the **89%** we saw for the network with Dropout added.
+Firstly, we can see a peak Classification Accuracy on the validation set of around **65%** which is lower than the **70%** we saw for the baseline network, and definitely lower than the **78%** we saw for the network with Dropout added.
 
-Secondly, and what we were again really looking to see, is that gap between the Classification Accuracy on the training set, and the validation set has been mostly eliminated. The two lines are trending up at more or less the same rate across all epochs of training - and the accuracy on the training set also never reach 100% as it did before meaning that Image Augmentation is also giving the network this *generalisation* that we want!
-
-The reason for this is that the network is getting a slightly different version of each image each epoch during training, meaning that while it's learning features, it can't cling to a *single version* of those features!
+Secondly, and what we were again really looking to see, is that gap between the Classification Accuracy on the training set, and the validation set has inceased again. The two lines are trending up at more or less the same rate across all epochs of training but the gap between the 2 stays! Some more tweaking of the augmantation parameters are needed to get higher training accuracy and getting back to dropout would eliminate the gap.
 
 <br>
 #### Performance On The Test Set
