@@ -660,8 +660,6 @@ We specify a **brightness_range** between 0.5 and 1.5 meaning our images can bec
 
 Finally, we have **fill_mode** set to "nearest" which will mean that when images are shifted and/or rotated, we'll just use the *nearest pixel* to fill in any new pixels that are required - and it means our images still resemble the scene, generally speaking!
 
-Again, it is important to note that these transformations are applied *only* to the training set, and not the validation set.
-
 <br>
 #### Updated Network Architecture
 
