@@ -554,14 +554,7 @@ The below image shows the epoch by epoch **Loss** for both the training set (blu
 
 Firstly, we can see a peak Classification Accuracy on the validation set of around **78%** which is higher than the **70%** we saw for the baseline network.
 
-Secondly, and what we were really looking to see, is that gap between the Classification Accuracy on the training set, and the validation set has been narrowed. The two lines are trending up at more or less the same rate across all epochs of training - and the accuracy on the training set also never reach 100% as it did before. We are indeed seeing a *generalization*! The addition of Dropout does appear to have remedied the overfitting that we saw in the baseline network. 
-
-<br>
-#### Performance On The Test Set
-
-During training, we assessed our updated networks performance on both the training set and the validation set.  Here, like we did for the baseline network, we will get a view of how well our network performs when predict on data that was *no part* of the training process whatsoever - our test set.
-
-We run the exact same code as we did for the baseline network, with the only change being to ensure we are loading in network file for the updated network
+Secondly, and what we were really looking to see, is that gap between the Classification Accuracy on the training set, and the validation set has been narrowed. The two lines are trending up at more or less the same rate across all epochs of training - and the accuracy on the training set also never reach 100% as it did before. We are indeed seeing a *generalization*! The addition of Dropout does appear to have remedied the overfitting that we saw in the baseline network.
 
 <br>
 #### Test Set Classification Accuracy
