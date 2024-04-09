@@ -668,7 +668,7 @@ Our network will be the same as the baseline network.  We will not apply Dropout
 <br>
 #### Training The Updated Network
 
-We run the exact same code to train this updated network as we did for the baseline network (50 epochs) - the only change is that we modify the filename for the saved network to ensure we have all network files for comparison.
+We run the exact same code to train this updated network as we did for the baseline network (50 epochs).
 
 <br>
 #### Analysis Of Training Results
