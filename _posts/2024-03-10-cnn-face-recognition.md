@@ -606,7 +606,7 @@ ___
 <br>
 #### Image Augmentation Overview
 
-Image Augmentation is a concept in Deep Learning that aims to not only increase predictive performance, but also to increase the robustness of the network through regularisation.
+Image Augmentation is a concept in Deep Learning that aims to not only increase predictive performance, but also to increase the robustness of the network through regularization.
 
 Instead of passing in each of the training set images as it stands, with Image Augmentation we pass in many transformed *versions* of each image.  This results in increased variation within our training data (without having to explicitly collect more images) meaning the network has a greater chance to understand and learn the objects we’re looking to classify, in a variety of scenarios.
 
