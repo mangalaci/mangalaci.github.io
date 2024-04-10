@@ -815,7 +815,7 @@ def build_model(hp):
 
 ```
 <br>
-Once we have the testing logic in place - we use want to put in place the specifications for the search!
+Once we have the testing logic in place - we want to put in place the specifications for the search!
 
 In the code below, we set parameters to:
 
