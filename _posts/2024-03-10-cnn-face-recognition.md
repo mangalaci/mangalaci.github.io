@@ -677,13 +677,6 @@ Firstly, we can see a peak Classification Accuracy on the validation set of arou
 Secondly, and what we were again really looking to see, is that gap between the Classification Accuracy on the training set, and the validation set has inceased again. The two lines are trending up at more or less the same rate across all epochs of training but the gap between the 2 stays! Some more tweaking of the augmantation parameters are needed to get higher training accuracy and getting back to dropout would eliminate the gap.
 
 <br>
-#### Performance On The Test Set
-
-During training, we assessed our updated networks performance on both the training set and the validation set.  Here, like we did for the baseline & Dropout networks, we will get a view of how well our network performs when predict on data that was *no part* of the training process whatsoever - our test set.
-
-We run the exact same code as we did for the earlier networks, with the only change being to ensure we are loading in network file for the updated network
-
-<br>
 #### Test Set Classification Accuracy
 
 Our baseline network achieved a **75% Classification Accuracy** on the test set, and our network with Dropout applied achieved **85%**.  With the addition of Image Augmentation we saw both a reduction in overfitting, and an increased *validation set* accuracy.  On the test set, we again see an increase vs. the baseline & Dropout, with a **93% Classification Accuracy**. 
