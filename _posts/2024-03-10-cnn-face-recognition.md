@@ -956,41 +956,30 @@ The below image shows the same two plots we analysed for the tuned network, the 
 ![alt text](/img/posts/cnn-tuned-accuracy-plot.png "CNN Tuned Accuracy Plot")
 
 <br>
-Firstly, we can see a peak Classification Accuracy on the validation set of around **98%** which is the highest we have seen from all networks so far, just higher than the 97% we saw for the addition of Image Augmentation to our baseline network.
-
-As Dropout & Image Augmentation are in place here, we again see the elimination of overfitting.
-
-<br>
-#### Performance On The Test Set
-
-During training, we assessed our updated networks performance on both the training set and the validation set.  Here, like we did for the baseline & Dropout networks, we will get a view of how well our network performs when predict on data that was *no part* of the training process whatsoever - our test set.
-
-We run the exact same code as we did for the earlier networks, with the only change being to ensure we are loading in network file for the updated network
+Unfortunately, we can see a peak Classification Accuracy on the validation set only of around **40%**. On top of that,
+thereis a huge overfitting.
 
 <br>
 #### Test Set Classification Accuracy
 
-Our optimised network, with both Dropout & Image Augmentation in place, scored **95%** on the Test Set, again marginally higher than what we had seen from the other networks so far.
+Our optimised network, with both Dropout & Image Augmentation in place, scored **78%** on the Test Set, again marginally higher than what we had seen from the other networks so far.
 
 <br>
 #### Test Set Confusion Matrix
 
 As mentioned each time, while overall Classification Accuracy is very useful, but it can hide what is really going on with the network's predictions!
 
-Our 95% Test Set accuracy at an *overall* level tells us that we don't have too much to worry about here, but let's take a look anyway and see if anything interesting pops up.
-
 Running the same code from the baseline section on results for our updated network, we get the following output:
 
 ```
 
-actual_label     apple  avocado  banana  kiwi  lemon  orange
+
+actual_label        Colin_Powell    George_W_Bush    Gerhard_Schroeder   Tony_Blair
 predicted_label                                             
-apple              0.9      0.0     0.0   0.0    0.0     0.0
-avocado            0.0      1.0     0.0   0.0    0.0     0.0
-banana             0.0      0.0     0.9   0.0    0.0     0.0
-kiwi               0.0      0.0     0.0   0.9    0.0     0.0
-lemon              0.0      0.0     0.0   0.0    1.0     0.0
-orange             0.0      0.0     0.0   0.1    0.0     1.0
+Colin_Powell                 0.38            0.17                   0           0.4
+George_W_Bush                0.38            0.17                   0           0.2
+Gerhard_Schroeder            0.08            0.25                   1           0.2
+Tony_Blair                   0.15            0.42                   0           0.2
 
 ```
 <br>
@@ -998,12 +987,10 @@ Along the top are our *actual* classes and down the side are our *predicted* cla
 
 So, while overall our test set accuracy was 95% - for each individual class we see:
 
-* Apple: 90%
-* Avocado: 100%
-* Banana: 90%
-* Kiwi: 90%
-* Lemon: 100%
-* Orange: 100%
+* Colin Powell: 38%
+* George W. Bush: 17%
+* Gerhard Schroeder: 100%
+* Tony Blair: 20%
 
 All classes here are being predicted *at least as accurate or better* when compared to the best network so far - so our optimised architecture does appear to have helped!
 
