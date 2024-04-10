@@ -688,14 +688,12 @@ Running the same code from the baseline section on results for our updated netwo
 
 ```
 
-actual_label     apple  avocado  banana  kiwi  lemon  orange
+actual_label        Colin_Powell    George_W_Bush    Gerhard_Schroeder   Tony_Blair
 predicted_label                                             
-apple              0.9      0.0     0.0   0.0    0.0     0.0
-avocado            0.0      1.0     0.0   0.0    0.0     0.0
-banana             0.1      0.0     0.8   0.0    0.0     0.0
-kiwi               0.0      0.0     0.0   0.9    0.0     0.0
-lemon              0.0      0.0     0.2   0.0    1.0     0.0
-orange             0.0      0.0     0.0   0.1    0.0     1.0
+Colin_Powell                 0.38            0.17                   0           0.4
+George_W_Bush                0.38            0.17                   0           0.2
+Gerhard_Schroeder            0.08            0.25                   1           0.2
+Tony_Blair                   0.15            0.42                   0           0.2
 
 ```
 <br>
