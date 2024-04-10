@@ -715,13 +715,7 @@ ___
 <br>
 #### Keras Tuner Overview
 
-So far, with our Fruit Classification task, we have:
-
-* Started with a baseline model
-* Added Dropout to help with overfitting
-* Utilised Image Augmentation
-
-The addition of Dropout, and Image Augmentation boosted both performance and robustness - but there is one thing we've not tinkered with yet, and something that *could* have a big impact on how well the network learns to find and utilise important features for classifying our fruits - and that is the network *architecture*!
+The addition of Dropout boosted both performance and robustness while Image Augmentation did not do much good. But there is one thing we've not tinkered with yet, and something that *could* have a big impact on how well the network learns to find and utilise important features for classifying our fruits - and that is the network *architecture*!
 
 So far, we've just used 2 convolutional layers, each with 32 filters, and we've used a single Dense layer, also, just by coincidence, with 32 neurons - and we admitted that this was just a place to start, our baseline.
 
