@@ -679,14 +679,10 @@ Secondly, and what we were again really looking to see, is that gap between the 
 <br>
 #### Test Set Classification Accuracy
 
-Our baseline network achieved a **75% Classification Accuracy** on the test set, and our network with Dropout applied achieved **85%**.  With the addition of Image Augmentation we saw both a reduction in overfitting, and an increased *validation set* accuracy.  On the test set, we again see an increase vs. the baseline & Dropout, with a **93% Classification Accuracy**. 
+Our baseline network achieved a **55% Classification Accuracy** on the test set, and our network with Dropout applied achieved **66%**. On the test set, we see an drop versus the Dropout, with a **33% Classification Accuracy**. 
 
 <br>
 #### Test Set Confusion Matrix
-
-As mentioned above, while overall Classification Accuracy is very useful, but it can hide what is really going on with the network's predictions!
-
-The standout insight for the baseline network was that Bananas has only a 20% Classification Accuracy, very frequently being confused with Lemons.  Dropout, through the additional *generalisation* forced upon the network, helped a lot - let's see how our network with Image Augmentation fares!
 
 Running the same code from the baseline section on results for our updated network, we get the following output:
 
