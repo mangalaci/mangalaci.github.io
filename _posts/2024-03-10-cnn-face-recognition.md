@@ -721,11 +721,9 @@ So far, we've just used 2 convolutional layers, each with 32 filters, and we've 
 
 One way for us to figure out if there are *better* architectures, would be to just try different things. Maybe we just double our number of filters to 64, or maybe we keep the first convolutional layer at 32, but we increase the second to 64.Perhaps we put a whole lot of neurons in our hidden layer, and then, what about things like our use of Adam as an optimizer, is this the best one for our particular problem, or should we use something else?
 
-As you can imagine, we could start testing all of these things, and noting down performances, but that would be quite messy.
+We could start testing all of these things, and noting down performances, but that would be quite messy. Here we will instead utilize *Keras Tuner*.
 
-Here we will instead utlise *Keras Tuner* which will make this a whole lot easier for us!
-
-At a high level, with Keras Tuner, we will ask it to test, a whole host of different architecture and parameter options, based upon some specifications that we put in place.  It will go off and run some tests, and return us all sorts of interesting summary statistics, and of course information about what worked best.
+At a high level, with Keras Tuner, we will ask it to test, a whole host of different architecture and parameter options, based upon some specifications that we put in place.  It will run some tests, and return us all sorts of interesting summary statistics, and of course information about what worked best.
 
 Once we have this, we can then create that particular architecture, train the network just as we've always done - and analyse the performance against our original networks.
 
