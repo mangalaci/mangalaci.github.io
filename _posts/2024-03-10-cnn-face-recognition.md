@@ -861,7 +861,7 @@ Depending on how many configurations are to be tested, how many epochs are requi
 <br>
 #### Updated Network Architecture
 
-Based upon the tested network architectures, the best in terms of validation accuracy was one that contains **3 Convolutional Layers**. The first has **96 filters** and the subsequent two each **64 filters**.  Each of these layers have an accompanying MaxPooling Layer (this wasn't tested). The network then has **1 Dense (Fully Connected) Layer** following flattening with **160 neurons** with **Dropout applied** - followed by our output layer. The chosen optimizer was **Adam**.
+Based upon the tested network architectures, the best in terms of validation accuracy was one that contains **1 Convolutional Layer**. This has **128 filters**.  The layer has an accompanying MaxPooling Layer (this wasn't tested). The network then has **2 Dense (Fully Connected) Layers** with 96 and 32 neurons each with **Dropout applied** - followed by our output layer. The chosen optimizer was **Adam**.
 
 ```python
 
