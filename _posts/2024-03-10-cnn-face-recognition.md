@@ -971,8 +971,8 @@ As mentioned each time, while overall Classification Accuracy is very useful, bu
 
 Running the same code from the baseline section on results for our updated network, we get the following output:
 
+<br>
 ```
-
 
 actual_label        Colin_Powell    George_W_Bush    Gerhard_Schroeder   Tony_Blair
 predicted_label                                             
@@ -982,7 +982,9 @@ Gerhard_Schroeder            0.08            0.25                   1           
 Tony_Blair                   0.15            0.42                   0           0.2
 
 ```
+
 <br>
+
 Along the top are our *actual* classes and down the side are our *predicted* classes - so counting *down* the columns we can get the Classification Accuracy (%) for each class, and we can see where it is getting confused.
 
 So, while overall our test set accuracy was 95% - for each individual class we see:
