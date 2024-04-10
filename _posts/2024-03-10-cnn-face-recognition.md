@@ -833,7 +833,7 @@ tuner = RandomSearch(hypermodel = build_model,
                      max_trials = 30,
                      executions_per_trial = 2,
                      directory = os.path.normpath('C:/'),
-                     project_name = 'fruit-cnn',
+                     project_name = 'presidents-cnn',
                      overwrite = True)
 
 ```
@@ -868,24 +868,24 @@ Based upon the tested network architectures, the best in terms of validation acc
 # network architecture
 model = Sequential()
 
-model.add(Conv2D(filters = 96, kernel_size = (3, 3), padding = 'same', input_shape = (img_width, img_height, num_channels)))
+model.add(Conv2D(filters=32, kernel_size=(3,3), padding='same', input_shape=(img_width, img_height, num_channels)))
 model.add(Activation('relu'))
 model.add(MaxPooling2D())
 
-model.add(Conv2D(filters = 64, kernel_size = (3, 3), padding = 'same'))
-model.add(Activation('relu'))
-model.add(MaxPooling2D())
-
-model.add(Conv2D(filters = 64, kernel_size = (3, 3), padding = 'same'))
+model.add(Conv2D(filters=128, kernel_size=(3,3), padding='same'))  # Conv_0_Filters: 128
 model.add(Activation('relu'))
 model.add(MaxPooling2D())
 
 model.add(Flatten())
 
-model.add(Dense(160))
+model.add(Dense(32))
 model.add(Activation('relu'))
 model.add(Dropout(0.5))
 
+model.add(Dense(96))
+model.add(Activation('relu'))
+model.add(Dropout(0.5))    
+    
 model.add(Dense(num_classes))
 model.add(Activation('softmax'))
 
@@ -902,38 +902,38 @@ The below shows us more clearly our optimised architecture:
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
-conv2d_10 (Conv2D)           (None, 128, 128, 96)      2688      
+conv2d_4 (Conv2D)            (None, 128, 128, 32)      896       
 _________________________________________________________________
-activation_20 (Activation)   (None, 128, 128, 96)      0         
+activation_7 (Activation)    (None, 128, 128, 32)      0         
 _________________________________________________________________
-max_pooling2d_10 (MaxPooling (None, 64, 64, 96)        0         
+max_pooling2d_4 (MaxPooling2 (None, 64, 64, 32)        0         
 _________________________________________________________________
-conv2d_11 (Conv2D)           (None, 64, 64, 64)        55360     
+conv2d_5 (Conv2D)            (None, 64, 64, 128)       36992     
 _________________________________________________________________
-activation_21 (Activation)   (None, 64, 64, 64)        0         
+activation_8 (Activation)    (None, 64, 64, 128)       0         
 _________________________________________________________________
-max_pooling2d_11 (MaxPooling (None, 32, 32, 64)        0         
+max_pooling2d_5 (MaxPooling2 (None, 32, 32, 128)       0         
 _________________________________________________________________
-conv2d_12 (Conv2D)           (None, 32, 32, 64)        36928     
+flatten_1 (Flatten)          (None, 131072)            0         
 _________________________________________________________________
-activation_22 (Activation)   (None, 32, 32, 64)        0         
+dense_3 (Dense)              (None, 32)                4194336   
 _________________________________________________________________
-max_pooling2d_12 (MaxPooling (None, 16, 16, 64)        0         
+activation_9 (Activation)    (None, 32)                0         
 _________________________________________________________________
-flatten_5 (Flatten)          (None, 16384)             0         
+dropout_1 (Dropout)          (None, 32)                0         
 _________________________________________________________________
-dense_10 (Dense)             (None, 160)               2621600   
+dense_4 (Dense)              (None, 96)                3168      
 _________________________________________________________________
-activation_23 (Activation)   (None, 160)               0         
+activation_10 (Activation)   (None, 96)                0         
 _________________________________________________________________
-dropout_3 (Dropout)          (None, 160)               0         
+dropout_2 (Dropout)          (None, 96)                0         
 _________________________________________________________________
-dense_11 (Dense)             (None, 6)                 966       
+dense_5 (Dense)              (None, 4)                 388       
 _________________________________________________________________
-activation_24 (Activation)   (None, 6)                 0         
+activation_11 (Activation)   (None, 4)                 0         
 =================================================================
-Total params: 2,717,542
-Trainable params: 2,717,542
+Total params: 4,235,780
+Trainable params: 4,235,780
 Non-trainable params: 0
 _________________________________________________________________
 
