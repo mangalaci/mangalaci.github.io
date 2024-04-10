@@ -940,12 +940,12 @@ _________________________________________________________________
 ```
 
 <br>
-Our optimised architecture has a total of 2.7 million parameters, a step up from 1.1 million in the baseline architecture.
+Our optimised architecture has a total of 4.2 million parameters, a step up from 1.1 million in the baseline architecture.
 
 <br>
 #### Training The Updated Network
 
-We run the exact same code to train this updated network as we did for the baseline network (50 epochs) - the only change is that we modify the filename for the saved network to ensure we have all network files for comparison.
+We run the exact same code to train this updated network as we did for the baseline network (50 epochs).
 
 <br>
 #### Analysis Of Training Results
