@@ -701,12 +701,10 @@ Along the top are our *actual* classes and down the side are our *predicted* cla
 
 So, while overall our test set accuracy was 93% - for each individual class we see:
 
-* Apple: 90%
-* Avocado: 100%
-* Banana: 80%
-* Kiwi: 90%
-* Lemon: 100%
-* Orange: 100%
+* Colin Powell: 38%
+* George W. Bush: 17%
+* Gerhard Schroeder: 100%
+* Tony Blair: 20%
 
 All classes here are being predicted *more accurately* when compared to the baseline network, and *at least as accurate or better* when compared to the network with Dropout added.
 
