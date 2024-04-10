@@ -706,9 +706,7 @@ So, while overall our test set accuracy was 93% - for each individual class we s
 * Gerhard Schroeder: 100%
 * Tony Blair: 20%
 
-All classes here are being predicted *more accurately* when compared to the baseline network, and *at least as accurate or better* when compared to the network with Dropout added.
-
-Utilising Image Augmentation *and* applying Dropout will be a powerful combination!
+All classes here are being predicted *less accurately* when compared to the baseline network. Again, some fine-tuning of augmentation parameters need to be done.
 
 ___
 <br>
