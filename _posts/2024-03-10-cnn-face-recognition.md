@@ -725,9 +725,7 @@ We could start testing all of these things, and noting down performances, but th
 
 At a high level, with Keras Tuner, we will ask it to test, a whole host of different architecture and parameter options, based upon some specifications that we put in place.  It will run some tests, and return us all sorts of interesting summary statistics, and of course information about what worked best.
 
-Once we have this, we can then create that particular architecture, train the network just as we've always done - and analyse the performance against our original networks.
-
-Our data pipeline will remain the same as it was when applying Image Augmentation.  The code below shows this, as well as the extra packages we need to load for Keras-Tuner.
+Our data pipeline will remain the same as it was when applying Image Augmentation. The code below shows this, as well as the extra packages we need to load for Keras-Tuner.
 
 ```python
 
@@ -769,11 +767,7 @@ validation_set = validation_generator.flow_from_directory(directory = validation
 <br>
 #### Application Of Keras Tuner
 
-Here we specify what we want Keras Tuner to test, and how we want it to test it!
-
-We put our network architecture into a *function* with a single parameter called *hp* (hyperparameter)
-
-We then make use of several in-build bits of logic to specify what we want to test.  In the code below we test for:
+Here we specify what we want Keras Tuner to test, and how we want it to test it. We put our network architecture into a *function* with a single parameter called *hp* (hyperparameter). We then make use of several in-build bits of logic to specify what we want to test.  In the code below we test for:
 
 * Convolutional Layer Count - Between 1 & 4
 * Convolutional Layer Filter Count - Between 32 & 256 (Step Size 32)
