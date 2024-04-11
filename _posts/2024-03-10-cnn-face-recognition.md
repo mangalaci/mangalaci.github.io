@@ -1025,11 +1025,12 @@ Our data pipeline will remain *mostly* the same as it was when applying our own 
 ```python
 
 # import the required python libraries
+from tensorflow.keras.applications import VGG16
 from tensorflow.keras.models import Model
-from tensorflow.keras.layers import Activation, Flatten, Dense, Dropout
+from tensorflow.keras.layers import Flatten, Dense, Dropout
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.callbacks import ModelCheckpoint
-from tensorflow.keras.applications.vgg16 import VGG16, preprocess_input
+from tensorflow.keras.optimizers import Adam
 
 # data flow parameters
 training_data_dir = 'data/training'
@@ -1038,31 +1039,33 @@ batch_size = 32
 img_width = 224
 img_height = 224
 num_channels = 3
-num_classes = 6
+num_classes = 4
 
 # image generators
-training_generator = ImageDataGenerator(preprocessing_function = preprocess_input,
-                                        rotation_range = 20,
-                                        width_shift_range = 0.2,
-                                        height_shift_range = 0.2,
-                                        zoom_range = 0.1,
-                                        horizontal_flip = True,
-                                        brightness_range = (0.5,1.5),
-                                        fill_mode = 'nearest')
-                                        
-validation_generator = ImageDataGenerator(rescale = 1./255)
+
+training_generator = ImageDataGenerator(rescale=1./255,
+                                        rotation_range=20,
+                                        width_shift_range=0.2,
+                                        height_shift_range=0.2,
+                                        zoom_range=0.1,
+                                        horizontal_flip=True,
+                                        brightness_range=(0.5,1.5),
+                                        fill_mode='nearest')
+validation_generator = ImageDataGenerator(rescale=1./255)
+
 
 # image flows
+
 training_set = training_generator.flow_from_directory(directory = training_data_dir,
-                                                      target_size = (img_width, img_height),
-                                                      batch_size = batch_size,
-                                                      class_mode = 'categorical')
+                                                      target_size= (img_width, img_height),
+                                                      batch_size=batch_size,
+                                                      class_mode= 'categorical') 
+
 
 validation_set = validation_generator.flow_from_directory(directory = validation_data_dir,
-                                                                      target_size = (img_width, img_height),
-                                                                      batch_size = batch_size,
-                                                                      class_mode = 'categorical')
-
+                                                      target_size= (img_width, img_height),
+                                                      batch_size=batch_size,
+                                                      class_mode= 'categorical') 
 ```
 
 <br>
