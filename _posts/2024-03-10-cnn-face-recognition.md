@@ -1080,27 +1080,31 @@ The original VGG16 network architecture contains two massive Dense Layers near t
 ```python
 
 # network architecture
-vgg = VGG16(input_shape = (img_width, img_height, num_channels), include_top = False)
+# Load VGG16 as the base model
+base_model = VGG16(weights='imagenet', include_top=False, input_shape=(img_width, img_height, num_channels))
 
-# freeze all layers (they won't be updated during training)
-for layer in vgg.layers:
+# Freeze the layers of VGG16
+for layer in base_model.layers:
     layer.trainable = False
 
-flatten = Flatten()(vgg.output)
+# Custom layers
+x = Flatten()(base_model.output)
+x = Dense(224, activation='relu')(x)
+x = Dropout(0.5)(x)
+x = Dense(64, activation='relu')(x)
+x = Dropout(0.5)(x)
+predictions = Dense(num_classes, activation='softmax')(x)
 
-dense1 = Dense(128, activation = 'relu')(flatten)
-dense2 = Dense(128, activation = 'relu')(dense1)
+# Final model
+model = Model(inputs=base_model.input, outputs=predictions)
 
-output = Dense(num_classes, activation = 'softmax')(dense2)
+# Compile the model
+learning_rate = 0.0001
+model.compile(optimizer=Adam(learning_rate=learning_rate),
+              loss='categorical_crossentropy',
+              metrics=['accuracy'])
 
-model = Model(inputs = vgg.inputs, outputs = output)
-
-# compile network
-model.compile(loss = 'categorical_crossentropy',
-              optimizer = 'adam',
-              metrics = ['accuracy'])
-
-# view network architecture
+# Model summary
 model.summary()
 
 ```
@@ -1170,7 +1174,7 @@ _________________________________________________________________
 ```
 
 <br>
-Our VGG16 architecture has a total of 20.3 million parameters, much bigger than what we have built so far.  Of this, 14.7 million parameters are frozen, and 5.6 million parameters will be updated during each iteration of back-propagation, and these are going to be figuring out exactly how to use those frozen parameters that were learned from the ImageNet dataset, to predict our classes of fruit.
+Our VGG16 architecture has a total of 20.3 million parameters, much bigger than what we have built so far.  Of this, 14.7 million parameters are frozen, and 5.6 million parameters will be updated during each iteration of back-propagation, and these are going to be figuring out exactly how to use those frozen parameters that were learned from the ImageNet dataset, to predict our classes of faces.
 
 <br>
 #### Training The Network
