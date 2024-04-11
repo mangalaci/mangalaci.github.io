@@ -1179,7 +1179,7 @@ Our VGG16 architecture has a total of 20.3 million parameters, much bigger than 
 <br>
 #### Training The Network
 
-We run the exact same code to train this updated network as we did for the baseline network, although to start with for only 10 epochs as it is a much more computationally expensive training process.
+We run the exact same code to train this updated network as we did for the baseline network. Transfer Learning is a much more computationally expensive training process but wae want to stick to the 50 epochs.
 
 <br>
 #### Analysis Of Training Results
