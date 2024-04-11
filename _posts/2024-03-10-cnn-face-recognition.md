@@ -1071,11 +1071,11 @@ validation_set = validation_generator.flow_from_directory(directory = validation
 <br>
 #### Network Architecture
 
-Keras makes the use of VGG16 very easy. We will download the *bottom* of the VGG16 network (everything up to the Dense Layers) and add in what we need to apply the *top* of the model to our fruit classes.
+Keras makes the use of VGG16 very easy. We will download the *bottom* of the VGG16 network (everything up to the Dense Layers) and add in what we need to apply the *top* of the model to our politian classes.
 
 We then need to specify that we *do not* want the imported layers to be re-trained, we want their parameters values to be frozen.
 
-The original VGG16 network architecture contains two massive Dense Layers near the end, each with 4096 neurons.  Since our task of classiying 6 types of fruit is more simplistic than the original 1000 ImageNet classes, we reduce this down and instead implement two Dense Layers with 128 neurons each, followed by our output layer.
+The original VGG16 network architecture contains two massive Dense Layers near the end, each with 4096 neurons.  Since our task of classiying 4 people is more simplistic than the original 1000 ImageNet classes, we reduce this down and instead implement two Dense Layers with 224 and 64 neurons, followed by our output layer.
 
 ```python
 
@@ -1108,6 +1108,7 @@ model.summary()
 The below shows us our final architecture:
 
 ```
+
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
@@ -1149,23 +1150,27 @@ block5_conv3 (Conv2D)        (None, 14, 14, 512)       2359808
 _________________________________________________________________
 block5_pool (MaxPooling2D)   (None, 7, 7, 512)         0         
 _________________________________________________________________
-flatten_7 (Flatten)          (None, 25088)             0         
+flatten (Flatten)            (None, 25088)             0         
 _________________________________________________________________
-dense_14 (Dense)             (None, 128)               3211392   
+dense (Dense)                (None, 224)               5619936   
 _________________________________________________________________
-dense_15 (Dense)             (None, 128)               16512     
+dropout (Dropout)            (None, 224)               0         
 _________________________________________________________________
-dense_16 (Dense)             (None, 6)                 774       
+dense_1 (Dense)              (None, 64)                14400     
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 64)                0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 4)                 260       
 =================================================================
-Total params: 17,943,366
-Trainable params: 3,228,678
+Total params: 20,349,284
+Trainable params: 5,634,596
 Non-trainable params: 14,714,688
 _________________________________________________________________
 
 ```
 
 <br>
-Our VGG16 architecture has a total of 17.9 million parameters, much bigger than what we have built so far.  Of this, 14.7 million parameters are frozen, and 3.2 million parameters will be updated during each iteration of back-propagation, and these are going to be figuring out exactly how to use those frozen parameters that were learned from the ImageNet dataset, to predict our classes of fruit!
+Our VGG16 architecture has a total of 20.3 million parameters, much bigger than what we have built so far.  Of this, 14.7 million parameters are frozen, and 5.6 million parameters will be updated during each iteration of back-propagation, and these are going to be figuring out exactly how to use those frozen parameters that were learned from the ImageNet dataset, to predict our classes of fruit.
 
 <br>
 #### Training The Network
