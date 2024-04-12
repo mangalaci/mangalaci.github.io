@@ -1241,20 +1241,18 @@ Our baseline network suffered badly from overfitting - the addition of both Drop
 
 In terms of Classification Accuracy on the Test Set, we saw:
 
-* Baseline Network: **75%**
-* Baseline + Dropout: **85%**
-* Baseline + Image Augmentation: **93%**
-* Optimised Architecture + Dropout + Image Augmentation: **95%**
-* Transfer Learning Using VGG16: **98%**
+* Baseline Network: **70%**
+* Baseline + Dropout: **66%**
+* Baseline + Image Augmentation: **65%**
+* Optimised Architecture + Dropout + Image Augmentation: **78%**
+* Transfer Learning Using VGG16: **66%**
 
 Tuning the networks architecture with Keras-Tuner gave us a great boost, but was also very time intensive - however if this time investment results in improved accuracy then it is time well spent.
 
-The use of Transfer Learning with the VGG16 architecture was also a great success, in only 10 epochs we were able to beat the performance of our smaller, custom networks which were training over 50 epochs.  From a business point of view we also need to consider the overheads of (a) storing the much larger VGG16 network file, and (b) any increased latency on inference.
+The use of Transfer Learning with the VGG16 architecture was also a great success.  From a business point of view we also need to consider the overheads of (a) storing the much larger VGG16 network file, and (b) any increased latency on inference.
 
 ___
 <br>
 # Growth & Next Steps <a name="growth-next-steps"></a>
 
-The proof of concept was successful, we have shown that we can get very accurate predictions albeit on a small number of classes.  We need to showcase this to the client, discuss what it is that makes the network more robust, and then look to test our best networks on a larger array of classes.
-
-Transfer Learning has been a big success, and was the best performing network in terms of classification accuracy on the Test Set - however we still only trained for a small number of epochs so we can push this even further.  It would be worthwhile testing other available pre-trained networks such as ResNet, Inception, and the DenseNet networks.
+The proof of concept was successful, we have shown that we can get very accurate predictions albeit on a small number of classes. Transfer Learning has been a big success, and was the best performing network in terms of classification accuracy on the Test Set.  It would be worthwhile testing other available pre-trained networks such as ResNet, Inception, and the DenseNet networks.
