@@ -1212,24 +1212,22 @@ Running the same code from the baseline section on results for our updated netwo
 
 actual_label        Colin_Powell    George_W_Bush    Gerhard_Schroeder   Tony_Blair
 predicted_label                                             
-Colin_Powell                 0.38            0.17                   0           0.4
-George_W_Bush                0.38            0.17                   0           0.2
-Gerhard_Schroeder            0.08            0.25                   1           0.2
-Tony_Blair                   0.15            0.42                   0           0.2
+Colin_Powell                 0.69            0.00                   0           0.00
+George_W_Bush                0.00            0.50                   0           0.00
+Gerhard_Schroeder            0.31            0.19                   1           0.75
+Tony_Blair                   0.00            0.31                   0           0.25
 
 ```
 
 <br>
 Along the top are our *actual* classes and down the side are our *predicted* classes - so counting *down* the columns we can get the Classification Accuracy (%) for each class, and we can see where it is getting confused.
 
-So, while overall our test set accuracy was 98% - for each individual class we see:
+For each individual class we see:
 
-* Apple: 100%
-* Avocado: 100%
-* Banana: 100%
-* Kiwi: 100%
-* Lemon: 90%
-* Orange: 100%
+* Colin Powell: 69%
+* George W. Bush: 50%
+* Gerhard Schroeder: 100%
+* Tony Blair: 75%
 
 All classes here are being predicted *at least as accurate or better* when compared to the best custom network!
 
