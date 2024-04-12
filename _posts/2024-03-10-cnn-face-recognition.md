@@ -1197,29 +1197,28 @@ Firstly, we can see a peak Classification Accuracy on the validation set of arou
 <br>
 #### Test Set Classification Accuracy
 
-Our VGG16 network scored **98%** on the Test Set, higher than that of our best custom network.
+Our VGG16 network scored **66%** on the Test Set, higher than that of our best custom network.
 
 <br>
 #### Test Set Confusion Matrix
 
 As mentioned each time, while overall Classification Accuracy is very useful, but it can hide what is really going on with the network's predictions!
 
-Our 98% Test Set accuracy at an *overall* level tells us that we don't have too much to worry about here, but for comparisons sake let's take a look!
+Our 66% Test Set accuracy at an *overall* level tells us that there is still room for improvement. Let us see there we lose the majority of accuracy.
 
 Running the same code from the baseline section on results for our updated network, we get the following output:
 
 ```
 
-actual_label     apple  avocado  banana  kiwi  lemon  orange
+actual_label        Colin_Powell    George_W_Bush    Gerhard_Schroeder   Tony_Blair
 predicted_label                                             
-apple              1.0      0.0     0.0   0.0    0.0     0.0
-avocado            0.0      1.0     0.0   0.0    0.0     0.0
-banana             0.0      0.0     1.0   0.0    0.0     0.0
-kiwi               0.0      0.0     0.0   1.0    0.0     0.0
-lemon              0.0      0.0     0.0   0.0    0.9     0.0
-orange             0.0      0.0     0.0   0.0    0.1     1.0
+Colin_Powell                 0.38            0.17                   0           0.4
+George_W_Bush                0.38            0.17                   0           0.2
+Gerhard_Schroeder            0.08            0.25                   1           0.2
+Tony_Blair                   0.15            0.42                   0           0.2
 
 ```
+
 <br>
 Along the top are our *actual* classes and down the side are our *predicted* classes - so counting *down* the columns we can get the Classification Accuracy (%) for each class, and we can see where it is getting confused.
 
