@@ -1195,13 +1195,6 @@ The below image shows the same two plots we analysed for the tuned network, the 
 Firstly, we can see a peak Classification Accuracy on the validation set of around **70%** which is equal to the highest we have seen from all networks so far.
 
 <br>
-#### Performance On The Test Set
-
-During training, we assessed our updated networks performance on both the training set and the validation set.  Here, like we did for all other networks, we will get a view of how well our network performs when predict on data that was *no part* of the training process whatsoever - our test set.
-
-We run the exact same code as we did for the earlier networks, with the only change being to ensure we are loading in network file for the updated network
-
-<br>
 #### Test Set Classification Accuracy
 
 Our VGG16 network scored **98%** on the Test Set, higher than that of our best custom network.
