@@ -1192,7 +1192,7 @@ The below image shows the same two plots we analysed for the tuned network, the 
 ![alt text](/img/posts/cnn-vgg16-accuracy-plot.png "VGG16 Accuracy Plot")
 
 <br>
-Firstly, we can see a peak Classification Accuracy on the validation set of around **98%** which is equal to the highest we have seen from all networks so far, but what is impressive is that it achieved this in only 10 epochs!
+Firstly, we can see a peak Classification Accuracy on the validation set of around **70%** which is equal to the highest we have seen from all networks so far.
 
 <br>
 #### Performance On The Test Set
