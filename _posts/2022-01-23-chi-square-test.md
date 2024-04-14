@@ -179,7 +179,7 @@ As mentioned in the section above, in a Chi-Square Test For Independence, the *o
 
 The below code:
 
-* Summarises our dataset to a 2x2 matrix for *signup_flag* by *mailer_type*
+* We enter our data in a 2x2 matrix for *reminder_flag* (target groups vs, control group) by *payment_lateness_type* (response category)
 * Based on this, calculates the:
     * Chi-Square Statistic
     * p-value
