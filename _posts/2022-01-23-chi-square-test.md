@@ -254,6 +254,18 @@ Baby Craving:
 * Target Group (Reminder sent): **32.8%** late payment rate
 * Control Group (Reminder NOT sent): **37.8%** late payment rate
 
+Personal Loan:
+* Target Group (Reminder sent): **32.8%** late payment rate
+* Control Group (Reminder NOT sent): **37.8%** late payment rate
+
+Mortgage Loan:
+* Target Group (Reminder sent): **32.8%** late payment rate
+* Control Group (Reminder NOT sent): **37.8%** late payment rate
+
+Commodity Credit:
+* Target Group (Reminder sent): **32.8%** late payment rate
+* Control Group (Reminder NOT sent): **37.8%** late payment rate
+
 From this, we can see that the higher cost mailer does lead to a higher signup rate.  The results from our Chi-Square Test will provide us more information about how confident we can be that this difference is robust, or if it might have occured by chance.
 
 We have a Chi-Square Statistic of **1.94** and a p-value of **0.16**.  The critical value for our specified Acceptance Criteria of 0.05 is **3.84**
