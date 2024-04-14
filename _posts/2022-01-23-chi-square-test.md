@@ -274,20 +274,20 @@ From this, we can see that being left our from the reminder campaign leads to a 
 Let us investigate the Chi-Square Statistic and the p-value for each loan product.  The critical value for our specified Acceptance Criteria of 0.05 is **3.84**
 
 Baby Craving:
-* Target Group (Reminder sent): **10.9%** late payment rate
-* Control Group (Reminder NOT sent): **12.5%** late payment rate
+* Chi-square statistic: 0.277
+* P-value: 0.598
 
 Personal Loan:
-* Target Group (Reminder sent): **23.7%** late payment rate
-* Control Group (Reminder NOT sent): **24.6%** late payment rate
+* Chi-square statistic: 1.11
+* P-value: 0.292
 
 Mortgage Loan:
-* Target Group (Reminder sent): **2.2%** late payment rate
-* Control Group (Reminder NOT sent): **3.2%** late payment rate
+* Chi-square statistic: 3.924
+* P-value: 0.048
 
 Commodity Credit:
-* Target Group (Reminder sent): **46.5%** late payment rate
-* Control Group (Reminder NOT sent): **54.8%** late payment rate
+* Chi-square statistic: 2.344
+* P-value: 0.126
 
 
 **Note** When applying the Chi-Square Test above, we use the parameter *correction = False* which means we are applying what is known as the *Yate's Correction* which is applied when your Degrees of Freedom is equal to one.  This correction helps to prevent overestimation of statistical signficance in this case.
