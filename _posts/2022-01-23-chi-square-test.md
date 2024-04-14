@@ -267,9 +267,28 @@ Commodity Credit:
 * Control Group (Reminder NOT sent): **54.8%** late payment rate
 
 
-From this, we can see that being left our from the reminder campaign leads to a late payment for each loan product.  The results from our Chi-Square Test will provide us more information about how confident we can be that this difference is robust, or if it might have occured by chance.
+From this, we can see that being left our from the reminder campaign leads to a higher late payment for each loan product.  The results from our Chi-Square Test will provide us more information about how confident we can be that this difference is robust, or if it might have occured by chance.
 
-We have a Chi-Square Statistic of **1.94** and a p-value of **0.16**.  The critical value for our specified Acceptance Criteria of 0.05 is **3.84**
+
+<br>
+Let us investigate the Chi-Square Statistic and the p-value for each loan product.  The critical value for our specified Acceptance Criteria of 0.05 is **3.84**
+
+Baby Craving:
+* Target Group (Reminder sent): **10.9%** late payment rate
+* Control Group (Reminder NOT sent): **12.5%** late payment rate
+
+Personal Loan:
+* Target Group (Reminder sent): **23.7%** late payment rate
+* Control Group (Reminder NOT sent): **24.6%** late payment rate
+
+Mortgage Loan:
+* Target Group (Reminder sent): **2.2%** late payment rate
+* Control Group (Reminder NOT sent): **3.2%** late payment rate
+
+Commodity Credit:
+* Target Group (Reminder sent): **46.5%** late payment rate
+* Control Group (Reminder NOT sent): **54.8%** late payment rate
+
 
 **Note** When applying the Chi-Square Test above, we use the parameter *correction = False* which means we are applying what is known as the *Yate's Correction* which is applied when your Degrees of Freedom is equal to one.  This correction helps to prevent overestimation of statistical signficance in this case.
 
