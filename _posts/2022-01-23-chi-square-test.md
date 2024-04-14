@@ -297,32 +297,12 @@ ___
 <br>
 # Analysing The Results <a name="chi-square-results"></a>
 
-At this point we have everything we need to understand the results of our Chi-Square test - and just from the results above we can see that, since our resulting p-value of **0.16** is *greater* than our Acceptance Criteria of 0.05 then we will _retain_ the Null Hypothesis and conclude that there is no significant difference between the signup rates of Mailer 1 and Mailer 2.
+At this point we have everything we need to understand the results of our Chi-Square tests. From the results above we can see that only the resulting p-value for the Mortgage Loan of **0.048** is *lower* than our Acceptance Criteria of 0.05 then we will _reject_ Null Hypothesis for this product and conclude that there is indeed significant difference between the late payment rates of those who received reminder and those who don't.
 
-We can make the same conclusion based upon our resulting Chi-Square statistic of **1.94** being _lower_ than our Critical Value of **3.84**
+For the other product, Baby Craving, Personal Loan, and Commodity Credit we will _retain_ the Null Hypothesis and conclude that there is no significant difference between the late payment rates of those who received reminder and those who don't.
 
-To make this script more dynamic, we can create code to automatically interpret the results and explain the outcome to us...
+We can make the same conclusion based upon our resulting Chi-Square statistic.
 
-```python
-
-# print the results (based upon p-value)
-if p_value <= acceptance_criteria:
-    print(f"As our p-value of {p_value} is lower than our acceptance_criteria of {acceptance_criteria} - we reject the null hypothesis, and conclude that: {alternate_hypothesis}")
-else:
-    print(f"As our p-value of {p_value} is higher than our acceptance_criteria of {acceptance_criteria} - we retain the null hypothesis, and conclude that: {null_hypothesis}")
-
->> As our p-value of 0.16351 is higher than our acceptance_criteria of 0.05 - we retain the null hypothesis, and conclude that: There is no relationship between mailer type and signup rate.  They are independent
-
-
-# print the results (based upon p-value)
-if chi2_statistic >= critical_value:
-    print(f"As our chi-square statistic of {chi2_statistic} is higher than our critical value of {critical_value} - we reject the null hypothesis, and conclude that: {alternate_hypothesis}")
-else:
-    print(f"As our chi-square statistic of {chi2_statistic} is lower than our critical value of {critical_value} - we retain the null hypothesis, and conclude that: {null_hypothesis}")
-    
->> As our chi-square statistic of 1.9414 is lower than our critical value of 3.841458820694124 - we retain the null hypothesis, and conclude that: There is no relationship between mailer type and signup rate.  They are independent
-
-```
 <br>
 As we can see from the outputs of these print statements, we do indeed retain the null hypothesis.  We could not find enough evidence that the signup rates for Mailer 1 and Mailer 2 were different - and thus conclude that there was no significant difference.
 
