@@ -45,7 +45,7 @@ For this test, as it is focused on comparing the *rates* of two groups - we appl
 
 We set out our hypotheses and Acceptance Criteria for the test, as follows:
 
-**Null Hypothesis:** There is no relationship in due payment rate between those who received a reminder  and those who  did not. They are independent.
+**Null Hypothesis:** There is no relationship in due payment rate between those who received a reminder and those who did not. They are independent.
 **Alternate Hypothesis:** There is a relationship between the two groups. They are not independent.
 **Acceptance Criteria:** 0.05
 
@@ -147,35 +147,9 @@ ___
 <br>
 # Data Overview & Preparation  <a name="data-overview"></a>
 
-In this project, the contingency tables for ... ... were provided by data management team, thus importing data and creating contingency tables were not needed since dara was given in a matrix format.
+In this project, the contingency tables for ... ... were provided by data management team, thus importing data and creating contingency tables were not needed since data was given in a matrix format.
 
 
-<br>
-A sample of this data (the first 10 rows) can be seen below:
-<br>
-<br>
-
-| **customer_id** | **campaign_name** | **mailer_type** | **signup_flag** |
-|---|---|---|---|
-| 74 | delivery_club | Mailer1 | 1 |
-| 524 | delivery_club | Mailer1 | 1 |
-| 607 | delivery_club | Mailer2 | 1 |
-| 343 | delivery_club | Mailer1 | 0 |
-| 322 | delivery_club | Mailer2 | 1 |
-| 115 | delivery_club | Mailer2 | 0 |
-| 1 | delivery_club | Mailer2 | 1 |
-| 120 | delivery_club | Mailer1 | 1 |
-| 52 | delivery_club | Mailer1 | 1 |
-| 405 | delivery_club | Mailer1 | 0 |
-| 435 | delivery_club | Mailer2 | 0 |
-
-<br>
-In the DataFrame we have:
-
-* customer_id
-* campaign name
-* mailer_type (either Mailer1 or Mailer2)
-* signup_flag (either 1 or 0)
 
 ___
 
