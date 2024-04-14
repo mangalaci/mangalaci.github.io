@@ -36,7 +36,7 @@ The bank wanted to understand if there was a significant difference in payback r
 
 For this test, as it is focused on comparing the *rates* of two groups - we applied the Chi-Square Test For Independence.  Full details of this test can be found in the dedicated section below.
 
-**Note:** Another option when comparing "rates" is a test known as the *Z-Test For Proportions*.  While, we could absolutely use this test here, we have chosen the Chi-Square Test For Independence because:
+**Note:**  While, we could absolutely use *Z-Test For Proportions* for comparing "rates" we have chosen the Chi-Square Test For Independence because:
 
 * The resulting test statistic for both tests will be the same
 * The Chi-Square Test can be represented using 2x2 tables of data - meaning it can be easier to explain to stakeholders
