@@ -191,7 +191,7 @@ The below code:
 
 ```python
 
-mport numpy as np
+import numpy as np
 from scipy.stats import chi2_contingency
 
 def perform_chi_square_test_and_print_results(contingency_table, table_name):
