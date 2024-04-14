@@ -289,7 +289,7 @@ Commodity Credit:
 * Chi-square statistic: 2.344
 * P-value: 0.126
 
-
+<br>
 **Note** When applying the Chi-Square Test above, we use the parameter *correction = False* which means we are applying what is known as the *Yate's Correction* which is applied when your Degrees of Freedom is equal to one.  This correction helps to prevent overestimation of statistical signficance in this case.
 
 ___
