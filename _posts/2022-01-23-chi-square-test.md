@@ -250,8 +250,9 @@ perform_chi_square_test_and_print_results(commodity_credit, "Commodity Credit")
 <br>
 Based upon our observed values, we can give this all some context with the sign-up rate of each group.  We get:
 
-* Mailer 1 (Low Cost): **32.8%** signup rate
-* Mailer 2 (High Cost): **37.8%** signup rate
+Baby Craving:
+* Target Group (Reminder sent): **32.8%** late payment rate
+* Control Group (Reminder NOT sent): **37.8%** late payment rate
 
 From this, we can see that the higher cost mailer does lead to a higher signup rate.  The results from our Chi-Square Test will provide us more information about how confident we can be that this difference is robust, or if it might have occured by chance.
 
