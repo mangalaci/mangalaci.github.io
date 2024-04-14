@@ -251,20 +251,20 @@ perform_chi_square_test_and_print_results(commodity_credit, "Commodity Credit")
 Based upon our observed values, we can give this all some context with the sign-up rate of each group.  We get:
 
 Baby Craving:
-* Target Group (Reminder sent): **32.8%** late payment rate
-* Control Group (Reminder NOT sent): **37.8%** late payment rate
+* Target Group (Reminder sent): **10.9%** late payment rate
+* Control Group (Reminder NOT sent): **12.5%** late payment rate
 
 Personal Loan:
-* Target Group (Reminder sent): **32.8%** late payment rate
-* Control Group (Reminder NOT sent): **37.8%** late payment rate
+* Target Group (Reminder sent): **23.7%** late payment rate
+* Control Group (Reminder NOT sent): **24.6%** late payment rate
 
 Mortgage Loan:
-* Target Group (Reminder sent): **32.8%** late payment rate
-* Control Group (Reminder NOT sent): **37.8%** late payment rate
+* Target Group (Reminder sent): **2.2%** late payment rate
+* Control Group (Reminder NOT sent): **3.2%** late payment rate
 
 Commodity Credit:
-* Target Group (Reminder sent): **32.8%** late payment rate
-* Control Group (Reminder NOT sent): **37.8%** late payment rate
+* Target Group (Reminder sent): **46.5%** late payment rate
+* Control Group (Reminder NOT sent): **54.8%** late payment rate
 
 From this, we can see that the higher cost mailer does lead to a higher signup rate.  The results from our Chi-Square Test will provide us more information about how confident we can be that this difference is robust, or if it might have occured by chance.
 
