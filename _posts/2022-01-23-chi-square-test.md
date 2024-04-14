@@ -303,9 +303,6 @@ For the other product, Baby Craving, Personal Loan, and Commodity Credit we will
 
 We can make the same conclusion based upon our resulting Chi-Square statistic.
 
-<br>
-As we can see from the outputs of these print statements, we do indeed retain the null hypothesis.  We could not find enough evidence that the signup rates for Mailer 1 and Mailer 2 were different - and thus conclude that there was no significant difference.
-
 ___
 
 <br>
