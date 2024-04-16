@@ -61,6 +61,19 @@ Based upon our observed values, we can give this all some context with the sign-
 * Mailer 1 (Low Cost): **32.8%** signup rate
 * Mailer 2 (High Cost): **37.8%** signup rate
 
+<br>
+
+| **product** | **month** | **items_sold (units)** |
+|---|---|---|---|
+| 1 Day Acuvue Moist (30) | 2018-01 | 498 |
+| 1 Day Acuvue Moist (30) | 2018-02 | 387 |
+| 1 Day Acuvue Moist (30) | 2018-03 | 454 |
+| 1 Day Acuvue Moist (30) | 2018-04 | 473 |
+| 1 Day Acuvue Moist (30) | 2018-05 | 539 |
+
+<br>
+
+
 However, the Chi-Square Test gives us the following statistics:
 
 * Chi-Square Statistic: **1.94**
