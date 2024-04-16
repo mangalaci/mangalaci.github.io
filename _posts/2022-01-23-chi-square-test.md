@@ -56,16 +56,16 @@ As a requirement of the Chi-Square Test For Independence, we aggregated this dat
 
 ### Results & Discussion <a name="overview-results"></a>
 
-Based upon our observed values, we can give this all some context with the sign-up rate of each group.  We get:
+Based upon our observed values, we can give this all some context with the late payment rate of each group.  We get:
 
 * Mailer 1 (Low Cost): **32.8%** signup rate
 * Mailer 2 (High Cost): **37.8%** signup rate
 
 <br>
 
-| **product** | **month** | **items_sold (units)** |
+| **product** | **reminder received** | **reminder NOT received (control group)** |
 |---|---|---|---|
-| 1 Day Acuvue Moist (30) | 2018-01 | 498 |
+| Baby Craving: | 10.9% | 12.5% |
 | 1 Day Acuvue Moist (30) | 2018-02 | 387 |
 | 1 Day Acuvue Moist (30) | 2018-03 | 454 |
 | 1 Day Acuvue Moist (30) | 2018-04 | 473 |
