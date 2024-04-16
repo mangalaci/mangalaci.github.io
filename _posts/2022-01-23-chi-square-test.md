@@ -77,22 +77,32 @@ However, the Chi-Square Test gives us the following statistics:
 
 | **product** | **Chi-Square Statistic** | **p-value** |
 |---|---|---|---|
-| Baby Craving: | 0.277 | 0.598 |
+| Baby Craving | 0.277 | 0.598 |
 | Personal Loan | 1.11 | 0.292 |
 | Mortgage Loan | 3.924 | 0.048 |
 | Commodity Credit | 2.344 | 0.126 |
 
 The Critical Value for our specified Acceptance Criteria of 0.05 is **3.84**
 
-Based upon these statistics, we retain the null hypothesis, and conclude that there is no relationship between mailer type and signup rate.
+Based upon these statistics, we retain the null hypothesis, and conclude that reminder email has a positive effect on late payment rate in case of:
+* Mortgage Loan
+
+and has no effect in case of:
+* Baby Craving
+* Personal Loan
+* Commodity Credit
+
 
 In other words - while we saw that the higher cost Mailer 2 had a higher signup rate (37.8%) than the lower cost Mailer 1 (32.8%) it appears that this difference is not significant, at least at our Acceptance Criteria of 0.05.
 
-Without running this Hypothesis Test, the client may have concluded that they should always look to go with higher cost mailers - and from what we've seen in this test, that may not be a great decision.  It would result in them spending more, but not *necessarily* gaining any extra revenue as a result
+Without running this Hypothesis Test, the client may have concluded that they should always look to go with late payment reminder - and from what we've seen in this test, that may not be a great decision.  It would result in them spending more, but not *necessarily* gaining any extra revenue as a result
 
-Our results here also do not say that there *definitely isn't a difference between the two mailers* - we are only advising that we should not make any rigid conclusions *at this point*.  
+Our results here also do not say that there *definitely isn't a difference between the two mailers* - we are only advising that we should not make any rigid conclusions *at this point*.
 
-Running more A/B Tests like this, gathering more data, and then re-running this test may provide us, and the client more insight!
+
+From the results above we can see that only the resulting p-value for the Mortgage Loan of 0.048 is lower than our Acceptance Criteria of 0.05 then we will reject Null Hypothesis for this product and conclude that there is indeed significant difference between the late payment rates of those who received reminder and those who don’t.
+
+For the other product, Baby Craving, Personal Loan, and Commodity Credit we will retain the Null Hypothesis and conclude that there is no significant difference between the late payment rates of those who received reminder and those who don’t.
 
 <br>
 <br>
