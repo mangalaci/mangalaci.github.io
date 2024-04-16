@@ -66,10 +66,9 @@ Based upon our observed values, we can give this all some context with the late 
 | **product** | **reminder received** | **reminder NOT received (control group)** |
 |---|---|---|---|
 | Baby Craving: | 10.9% | 12.5% |
-| 1 Day Acuvue Moist (30) | 2018-02 | 387 |
-| 1 Day Acuvue Moist (30) | 2018-03 | 454 |
-| 1 Day Acuvue Moist (30) | 2018-04 | 473 |
-| 1 Day Acuvue Moist (30) | 2018-05 | 539 |
+| Personal Loan | 23.7% | 24.6% |
+| Mortgage Loan | 2.2% | 3.2% |
+| Commodity Credit | 46.5% | 54.8% |
 
 <br>
 
