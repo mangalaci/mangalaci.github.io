@@ -58,9 +58,6 @@ As a requirement of the Chi-Square Test For Independence, we aggregated this dat
 
 Based upon our observed values, we can give this all some context with the late payment rate of each group.  We get:
 
-* Mailer 1 (Low Cost): **32.8%** signup rate
-* Mailer 2 (High Cost): **37.8%** signup rate
-
 <br>
 
 | **product** | **reminder received** | **reminder NOT received (control group)** |
@@ -77,6 +74,13 @@ However, the Chi-Square Test gives us the following statistics:
 
 * Chi-Square Statistic: **1.94**
 * p-value: **0.16**
+
+| **product** | **Chi-Square Statistic** | **p-value** |
+|---|---|---|---|
+| Baby Craving: | 0.277 | 0.598 |
+| Personal Loan | 1.11 | 0.292 |
+| Mortgage Loan | 3.924 | 0.048 |
+| Commodity Credit | 2.344 | 0.126 |
 
 The Critical Value for our specified Acceptance Criteria of 0.05 is **3.84**
 
