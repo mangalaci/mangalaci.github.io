@@ -60,8 +60,16 @@ We examined the overall campaign efficiancy among all reminder receiving clients
 
 Based upon our observed values, we can give this all some context with the late payment rate of each group.  We get:
 
+All clients:
+| **reminder received** | **reminder NOT received (control group)** |
+|---|---|---|---|
+| 19.6% | 20.7% |
+
+
 <br>
 
+<br>
+Product-wise:
 | **product** | **reminder received** | **reminder NOT received (control group)** |
 |---|---|---|---|
 | Baby Craving: | 10.9% | 12.5% |
