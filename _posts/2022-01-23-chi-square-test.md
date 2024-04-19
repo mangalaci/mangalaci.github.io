@@ -56,7 +56,7 @@ As a requirement of the Chi-Square Test For Independence, we aggregated this dat
 
 ### Results & Discussion <a name="overview-results"></a>
 
-We examined the overall campaign efficiancy among all reminder receiving clients. On top of that, we took a closer look at the campaign effectiveness within products to enable us to spot high and low performing products. To fine-tune our campaings, we looked at how demographic attribues - age group and urbanization level (settlement type) - affect the late payment rate. This, however, involves a 3-way ANOVA analysis rather than simple Chi-square Test.
+We examined the overall campaign efficiancy among all reminder receiving clients. On top of that, we took a closer look at the campaign effectiveness within products to enable us to spot high and low performing products. To fine-tune our campaings, we looked at how demographic attribues - age group and urbanization level (settlement type) - affect the late payment rate. This, however, involves a 3-way ANOVA analysis rather than simple Chi-Square Test.
 
 Based upon our observed values, we can give this all some context with the late payment rate of each group.  We get:
 
@@ -253,6 +253,9 @@ def perform_chi_square_test_and_print_results(contingency_table, table_name):
     return chi2_stat, p_value, dof, expected
 
 # Contingency tables for products
+all_clients = np.array([[11426, 2775],
+                         [2785, 724]])
+
 baby_craving = np.array([[508, 112],
                          [62, 16]])
 
@@ -261,7 +264,6 @@ personal_loan = np.array([[8909, 2163],
 
 mortgage_loan = np.array([[4459, 1136],
                            [102, 38]])
-
 
 commodity_credit = np.array([[254, 47],
                            [221, 57]])
