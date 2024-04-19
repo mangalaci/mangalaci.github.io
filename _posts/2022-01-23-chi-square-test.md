@@ -56,6 +56,8 @@ As a requirement of the Chi-Square Test For Independence, we aggregated this dat
 
 ### Results & Discussion <a name="overview-results"></a>
 
+We examined the overall campaign efficiancy among all reminder receiving clients. On top of that, we took a closer look at the campaign effectiveness within products to enable us to spot high and low performing products. To fine-tune our campaings, we looked at how demographic attribues - age group and urbanization level (settlement type) - affect the late payment rate. This, however, involves a 3-way ANOVA analysis rather than simple Chi-square Test.
+
 Based upon our observed values, we can give this all some context with the late payment rate of each group.  We get:
 
 <br>
