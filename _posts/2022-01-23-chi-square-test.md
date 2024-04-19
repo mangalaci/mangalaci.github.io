@@ -72,9 +72,6 @@ Based upon our observed values, we can give this all some context with the late 
 
 However, the Chi-Square Test gives us the following statistics:
 
-* Chi-Square Statistic: **1.94**
-* p-value: **0.16**
-
 | **product** | **Chi-Square Statistic** | **p-value** |
 |---|---|---|---|
 | Baby Craving | 0.277 | 0.598 |
