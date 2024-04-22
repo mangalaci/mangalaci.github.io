@@ -102,7 +102,11 @@ Product-wise:
 
 The Critical Value for our specified Acceptance Criteria of 0.05 is **3.84**
 
-Based upon these statistics, in case of:
+<br>
+Based upon these statistics, for all clients combined together we retain the null hypothesis, and conclude that reminder email has a NO effect on late payment rate.
+
+
+Product-wise, in case of:
 * Mortgage Loan, we reject the null hypothesis, and conclude that the reminder email has a positive effect on late payment rate,
 
 while in case of:
