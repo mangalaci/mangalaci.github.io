@@ -105,6 +105,8 @@ The Critical Value for our specified Acceptance Criteria of 0.05 is **3.84**
 <br>
 Based upon these statistics, for all clients combined together we retain the null hypothesis, and conclude that reminder email has a NO effect on late payment rate. In other words - while we saw that the sending out a reminder had a lower late payment rate (19.6%) than for those who did not receive any reminder (20.7%) it appears that this difference is not significant, at least at our Acceptance Criteria of 0.05.
 
+Without running this Hypothesis Test, the client may have concluded that they should always look to go with late payment reminder - and from what we've seen in this test, that may not be a great decision.
+
 
 Product-wise, in case of:
 * Mortgage Loan, we reject the null hypothesis, and conclude that the reminder email has a positive effect on late payment rate,
@@ -114,12 +116,6 @@ while in case of:
 * Personal Loan
 * Commodity Credit
 we retain the null hypothesis, and conclude that reminder email has a NO effect on late payment rate.
-
-
-
-Without running this Hypothesis Test, the client may have concluded that they should always look to go with late payment reminder - and from what we've seen in this test, that may not be a great decision.  It would result in them spending more, but not *necessarily* gaining any extra revenue as a result
-
-Our results here also do not say that there *definitely isn't a difference between the two mailers* - we are only advising that we should not make any rigid conclusions *at this point*.
 
 
 From the results above we can see that only the resulting p-value for the Mortgage Loan of 0.048 is lower than our Acceptance Criteria of 0.05 then we will reject Null Hypothesis for this product and conclude that there is indeed significant difference between the late payment rates of those who received reminder and those who don’t.
