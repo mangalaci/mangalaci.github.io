@@ -82,6 +82,12 @@ Product-wise:
 
 However, the Chi-Square Test gives us the following statistics:
 
+All clients:
+
+
+<br>
+Product-wise:
+
 | **product** | **Chi-Square Statistic** | **p-value** |
 |---|---|---|---|
 | Baby Craving | 0.277 | 0.598 |
