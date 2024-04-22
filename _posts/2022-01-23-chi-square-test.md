@@ -361,7 +361,7 @@ ___
 <br>
 # Discussion <a name="discussion"></a>
 
-While we saw that the higher cost Mailer 2 had a higher signup rate (37.8%) than the lower cost Mailer 1 (32.8%) it appears that this difference is not significant, at least at our Acceptance Criteria of 0.05.
+While we saw that the recipients of payment reminder had a lower late payment rate (19.6%) than the control group (20.7%) it appears that this difference is not significant, at least at our Acceptance Criteria of 0.05. We got the same results within the universe of certain loan products, except Mongage Loans where the reminder had a significant impact on due payment bahavior.  
 
 Without running this Hypothesis Test, the client may have concluded that they should always look to go with higher cost mailers - and from what we've seen in this test, that may not be a great decision.  It would result in them spending more, but not *necessarily* gaining any extra revenue as a result
 
