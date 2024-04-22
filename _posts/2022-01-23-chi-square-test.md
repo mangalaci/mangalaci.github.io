@@ -294,7 +294,11 @@ perform_chi_square_test_and_print_results(commodity_credit, "Commodity Credit")
 
 ```
 <br>
-Based upon our observed values, we can give this all some context with the sign-up rate of each group.  We get:
+Based upon our observed values, we can give this all some context with the late payment rate of each group.  We get:
+
+All Clients:
+* Target Group (Reminder sent): **19.6%** late payment rate
+* Control Group (Reminder NOT sent): **20.7%** late payment rate
 
 Baby Craving:
 * Target Group (Reminder sent): **10.9%** late payment rate
