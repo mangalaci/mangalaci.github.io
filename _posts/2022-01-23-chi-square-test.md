@@ -317,11 +317,16 @@ Commodity Credit:
 * Control Group (Reminder NOT sent): **54.8%** late payment rate
 
 
+<br>
 From this, we can see that being left our from the reminder campaign leads to a higher late payment for each loan product.  The results from our Chi-Square Test will provide us more information about how confident we can be that this difference is robust, or if it might have occured by chance.
 
 
 <br>
 Let us investigate the Chi-Square Statistic and the p-value for each loan product.  The critical value for our specified Acceptance Criteria of 0.05 is **3.84**
+
+All Clients:
+* Chi-square statistic: 2.12
+* P-value: 0.146
 
 Baby Craving:
 * Chi-square statistic: 0.277
@@ -347,11 +352,9 @@ ___
 <br>
 # Analysing The Results <a name="chi-square-results"></a>
 
-At this point we have everything we need to understand the results of our Chi-Square tests. From the results above we can see that only the resulting p-value for the Mortgage Loan of **0.048** is *lower* than our Acceptance Criteria of 0.05 then we will _reject_ Null Hypothesis for this product and conclude that there is indeed significant difference between the late payment rates of those who received reminder and those who don't.
+From the results above we can see that only the resulting p-value for the Mortgage Loan of **0.048** is *lower* than our Acceptance Criteria of 0.05 then we will _reject_ Null Hypothesis for this product and conclude that there is indeed significant difference between the late payment rates of those who received reminder and those who don't.
 
-For the other product, Baby Craving, Personal Loan, and Commodity Credit we will _retain_ the Null Hypothesis and conclude that there is no significant difference between the late payment rates of those who received reminder and those who don't.
-
-We can make the same conclusion based upon our resulting Chi-Square statistic.
+For the entire campaign base and all other products, Baby Craving, Personal Loan, and Commodity Credit we will _retain_ the Null Hypothesis and conclude that there is no significant difference between the late payment rates of those who received reminder and those who don't.
 
 ___
 
