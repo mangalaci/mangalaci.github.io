@@ -85,7 +85,7 @@ However, the Chi-Square Test gives us the following statistics:
 All clients:
 
 
-| **product** | **Chi-Square Statistic** | **p-value** |
+| **Chi-Square Statistic** | **p-value** |
 |---|---|---|
 | 2.12 | 0.146 |
 
