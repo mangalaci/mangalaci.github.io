@@ -102,14 +102,14 @@ Product-wise:
 
 The Critical Value for our specified Acceptance Criteria of 0.05 is **3.84**
 
-Based upon these statistics, we retain the null hypothesis, and conclude that reminder email has a positive effect on late payment rate in case of:
-* Mortgage Loan
+Based upon these statistics, in case of:
+* Mortgage Loan, we reject the null hypothesis, and conclude that the reminder email has a positive effect on late payment rate,
 
-and has no effect in case of:
+while in case of:
 * Baby Craving
 * Personal Loan
 * Commodity Credit
-
+we retain the null hypothesis, and conclude that reminder email has a NO effect on late payment rate.
 
 In other words - while we saw that the higher cost Mailer 2 had a higher signup rate (37.8%) than the lower cost Mailer 1 (32.8%) it appears that this difference is not significant, at least at our Acceptance Criteria of 0.05.
 
