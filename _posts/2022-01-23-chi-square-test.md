@@ -103,7 +103,7 @@ Product-wise:
 The Critical Value for our specified Acceptance Criteria of 0.05 is **3.84**
 
 <br>
-Based upon these statistics, for all clients combined together we retain the null hypothesis, and conclude that reminder email has a NO effect on late payment rate.
+Based upon these statistics, for all clients combined together we retain the null hypothesis, and conclude that reminder email has a NO effect on late payment rate. In other words - while we saw that the sending out a reminder had a lower late payment rate (19.6%) than for those who did not receive any reminder (20.7%) it appears that this difference is not significant, at least at our Acceptance Criteria of 0.05.
 
 
 Product-wise, in case of:
@@ -115,7 +115,7 @@ while in case of:
 * Commodity Credit
 we retain the null hypothesis, and conclude that reminder email has a NO effect on late payment rate.
 
-In other words - while we saw that the higher cost Mailer 2 had a higher signup rate (37.8%) than the lower cost Mailer 1 (32.8%) it appears that this difference is not significant, at least at our Acceptance Criteria of 0.05.
+
 
 Without running this Hypothesis Test, the client may have concluded that they should always look to go with late payment reminder - and from what we've seen in this test, that may not be a great decision.  It would result in them spending more, but not *necessarily* gaining any extra revenue as a result
 
