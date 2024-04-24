@@ -60,7 +60,7 @@ We examined the overall campaign efficiancy among all reminder receiving clients
 
 Based upon our observed values, we can give this all some context with the late payment rate of each group.  We get:
 
-All clients:
+#### All clients:
 
 | **reminder received** | **reminder NOT received (control group)** |
 |---|---|---|---|
@@ -68,7 +68,7 @@ All clients:
 
 
 <br>
-Product-wise:
+#### Product-wise:
 
 | **product** | **reminder received** | **reminder NOT received (control group)** |
 |---|---|---|---|
@@ -82,7 +82,7 @@ Product-wise:
 
 However, the Chi-Square Test gives us the following statistics:
 
-All clients:
+#### All clients:
 
 
 | **Chi-Square Statistic** | **p-value** |
@@ -91,7 +91,7 @@ All clients:
 
 
 <br>
-Product-wise:
+#### Product-wise:
 
 | **product** | **Chi-Square Statistic** | **p-value** |
 |---|---|---|---|
@@ -133,10 +133,11 @@ We based our analyses on an assumption that product ownership does not affect th
 Separate Analyses for Products: Using a simple model like chi-square tests for each product can suffice, as we are primarily interested in assessing the effect of treatment across products, assuming no interaction with product types.
 
 
-Complex Model for Settlement Types: for Settlement Types and age Group membership, a more complex model like a log-linear model or a logistic regression with interaction terms might be necessary to accurately capture the joint effects and interactions between treatment and settlement types.
+Complex Model for Demographis Characteristics: for Settlement Types and age Group membership, a more complex model like a log-linear model or a logistic regression with interaction terms might be necessary to accurately capture the joint effects and interactions between treatment and settlement types.
 
 <br>
-### A/B Testing
+#### Separate Analyses for Products
+##### A/B Testing
 
 An A/B Test can be described as a randomized experiment containing two groups, A & B, that receive different experiences. Within an A/B Test, we look to understand and measure the response of each group - and the information from this helps drive future business decisions.
 
