@@ -193,28 +193,18 @@ ___
 
 In this project, the contingency tables for treatment (reminder received or not) vs. outcome (late payment flag) plus product usage, settlement typy and age group were provided by data management team, thus importing data and creating contingency tables were already provided in matrix format.
 
-
-
 ___
 
 <br>
-# Product Choice - Treatment (reminder received or not) Independence <a name="chi-square-application"></a>
+# Model Selection Based on ... <a name="chi-square-application"></a>
 
 <br>
-#### State Hypotheses & Acceptance Criteria For Test
+#### Product Choice - Treatment (Reminder Sent or Not Sent) Independence
 
 The very first thing we need to do in any form of Hypothesis Test is state our Null Hypothesis, our Alternate Hypothesis, and the Acceptance Criteria (more details on these in the section above)
 
 In the code below we code these in explcitly & clearly so we can utilise them later to explain the results.  We specify the common Acceptance Criteria value of 0.05.
 
-```python
-
-# specify hypotheses & acceptance criteria for test
-null_hypothesis = "There is no relationship between mailer type and signup rate.  They are independent"
-alternate_hypothesis = "There is a relationship between mailer type and signup rate.  They are not independent"
-acceptance_criteria = 0.05
-
-```
 
 <br>
 #### Calculate Observed Frequencies & Expected Frequencies
@@ -346,6 +336,12 @@ Commodity Credit:
 
 <br>
 **Note** When applying the Chi-Square Test above, we use the parameter *correction = False* which means we are applying what is known as the *Yate's Correction* which is applied when your Degrees of Freedom is equal to one.  This correction helps to prevent overestimation of statistical signficance in this case.
+
+
+<br>
+#### Product Choice - Treatment (Reminder Sent or Not Sent) Independence
+
+
 
 ___
 
