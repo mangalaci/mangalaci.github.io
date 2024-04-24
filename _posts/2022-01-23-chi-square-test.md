@@ -201,9 +201,11 @@ ___
 <br>
 #### Product Choice - Treatment (Reminder Sent or Not Sent) Independence
 
-The very first thing we need to do in any form of Hypothesis Test is state our Null Hypothesis, our Alternate Hypothesis, and the Acceptance Criteria (more details on these in the section above)
+In a campaign setup, if we assume that the response to the campaign (e.g., payment lateness) in the case of product choice depends only on the treatment (whether the customer is in the target group or control group), this implies that:
 
-In the code below we code these in explcitly & clearly so we can utilise them later to explain the results.  We specify the common Acceptance Criteria value of 0.05.
+Product Homogeneity: The products are considered homogeneous in terms of how they influence customer behavior regarding payment lateness. This might be because the products are similar in nature, price, or the way they are marketed, making the treatment (target or control group) the primary factor that might alter behavior.
+
+Focused Analysis: This allows for a focused analysis on how different treatments affect customer responses within each product. It simplifies the model by assuming no interaction between the product type and the treatment, which is often a valid assumption if previous data or market research indicates that the type of product does not modify the effect of the marketing treatment.
 
 
 <br>
