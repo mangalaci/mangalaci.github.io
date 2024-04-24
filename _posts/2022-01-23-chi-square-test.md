@@ -52,7 +52,7 @@ We set out our hypotheses and Acceptance Criteria for the test, as follows:
 As a requirement of the Chi-Square Test For Independence, we aggregated this data down to a 2x2 matrix for *reminder_flag* by *payment_lateness_type* and fed this into the algorithm (using the *scipy* library) to calculate the Chi-Square Statistic, p-value, Degrees of Freedom, and expected values
 
 <br>
-<br>
+
 
 ### Results & Discussion <a name="overview-results"></a>
 
@@ -60,7 +60,7 @@ We examined the overall campaign efficiancy among all reminder receiving clients
 
 Based upon our observed values, we can give this all some context with the late payment rate of each group.  We get:
 
-#### All clients:
+##### All clients:
 
 | **reminder received** | **reminder NOT received (control group)** |
 |---|---|---|---|
@@ -68,7 +68,7 @@ Based upon our observed values, we can give this all some context with the late 
 
 
 <br>
-#### Product-wise:
+##### Product-wise:
 
 | **product** | **reminder received** | **reminder NOT received (control group)** |
 |---|---|---|---|
@@ -82,7 +82,7 @@ Based upon our observed values, we can give this all some context with the late 
 
 However, the Chi-Square Test gives us the following statistics:
 
-#### All clients:
+##### All clients:
 
 
 | **Chi-Square Statistic** | **p-value** |
@@ -91,7 +91,7 @@ However, the Chi-Square Test gives us the following statistics:
 
 
 <br>
-#### Product-wise:
+##### Product-wise:
 
 | **product** | **Chi-Square Statistic** | **p-value** |
 |---|---|---|---|
@@ -137,7 +137,7 @@ Complex Model for Demographis Characteristics: for Settlement Types and age Grou
 
 <br>
 #### Separate Analyses for Products
-##### A/B Testing
+###### A/B Testing
 
 An A/B Test can be described as a randomized experiment containing two groups, A & B, that receive different experiences. Within an A/B Test, we look to understand and measure the response of each group - and the information from this helps drive future business decisions.
 
