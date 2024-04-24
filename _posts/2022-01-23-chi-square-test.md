@@ -312,6 +312,7 @@ Commodity Credit:
 <br>
 From this, we can see that being left our from the reminder campaign leads to a higher late payment for each loan product.  The results from our Chi-Square Test will provide us more information about how confident we can be that this difference is robust, or if it might have occured by chance: 
 
+
 All Clients:
 * Chi-square statistic: 2.12
 * P-value: 0.146
