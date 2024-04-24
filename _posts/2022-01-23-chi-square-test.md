@@ -214,9 +214,9 @@ Focused Analysis: This allows for a focused analysis on how different treatments
 We believe that the product choice has no effect on late payment behavior.  Therefoe, a simpler method, called Chi-Square Test For Independence is enough for us to ide if there is a difference in late payent between those who received a reminder 
  as opposed to those who did not. 
  
- The fist step is to calculate the observed frequencies & expected frequencies. The *observed frequencies* are the true values that we’ve seen, in other words the actual rates per group in the data itself.  The *expected frequencies* are what we would *expect* to see based on *all* of the data combined.
+The fist step is to calculate the observed frequencies & expected frequencies. The *observed frequencies* are the true values that we’ve seen, in other words the actual rates per group in the data itself.  The *expected frequencies* are what we would *expect* to see based on *all* of the data combined.
 
-The below code:
+The below code shows how to get the Chi-Square Test For Independence in our case:
 
 * We enter our data in a 2x2 matrix for *reminder_flag* (target groups vs, control group) by *payment_lateness_type* (response category)
 * Based on this, calculates the:
@@ -225,8 +225,6 @@ The below code:
     * Degrees of Freedom
     * Expected Values
 * Prints out the Chi-Square Statistic & p-value from the test
-* Calculates the Critical Value based upon our Acceptance Criteria & the Degrees Of Freedom
-* Prints out the Critical Value
 
 ```python
 
