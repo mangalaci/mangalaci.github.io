@@ -191,7 +191,7 @@ ___
 <br>
 # Data Overview & Preparation  <a name="data-overview"></a>
 
-In this project, the contingency tables for ... ... were provided by data management team, thus importing data and creating contingency tables were not needed since data was given in a matrix format.
+In this project, the contingency tables for treatment (reminder received or not) vs. outcome (late payment flag) plus product usage, settlement typy and age group were provided by data management team, thus importing data and creating contingency tables were already provided in matrix format.
 
 
 
