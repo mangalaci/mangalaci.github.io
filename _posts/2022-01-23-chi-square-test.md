@@ -198,7 +198,7 @@ ___
 # Model Selection: Focused Analysis vs. Joint Effect with Treatment <a name="chi-square-application"></a>
 
 <br>
-#### Product Choice - Treatment (Reminder Sent or Not Sent) Independence
+#### Focused Analysis: Product Choice - Treatment (Reminder Sent or Not Sent) Independence
 
 In a campaign setup, if we assume that the response to the campaign (e.g., payment lateness) in the case of product choice depends only on the treatment (whether the customer is in the target group or control group), this implies that:
 
@@ -341,7 +341,7 @@ The critical value for our specified Acceptance Criteria of 0.05 is **3.84**
 
 
 <br>
-#### Product Choice - Treatment (Reminder Sent or Not Sent) Independence
+#### Joint Effect with Treatment
 
 
 
