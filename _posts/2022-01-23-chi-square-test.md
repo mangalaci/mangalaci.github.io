@@ -217,8 +217,8 @@ The fist step is to calculate the observed frequencies & expected frequencies. T
 
 The below code shows how to get the Chi-Square Test For Independence for all campaign particilant client and campaign participants within own product:
 
-* We enter our data in a 2x2 matrix for *reminder_flag* (target groups vs, control group) by *payment_lateness_type* (response category)
-* Based on this, calculates the:
+* We plug our data into the tests in a 2x2 matrix for *reminder_flag* (target groups vs, control group) by *payment_lateness_type* (response category)
+* Based on this, the code below calculates the:
     * Chi-Square Statistic
     * p-value
     * Degrees of Freedom
