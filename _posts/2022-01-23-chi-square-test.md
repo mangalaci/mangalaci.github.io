@@ -340,10 +340,13 @@ The critical value for our specified Acceptance Criteria of 0.05 is **3.84**
 **Note** When applying the Chi-Square Test above, we use the parameter *correction = False* which means we are applying what is known as the *Yate's Correction* which is applied when your Degrees of Freedom is equal to one.  This correction helps to prevent overestimation of statistical signficance in this case.
 
 
-<br>
-#### Joint Effect with Treatment
+<br> 
+#### Joint Effect with Treatment - Settlement Type and Age Group
 
+Assuming that both Settlement Type (and Age Group) and treatment jointly affect the campaign response suggests:
 
+Settlement Characteristics Influence: Settlement types may have inherent characteristics that significantly influence payment behaviors—such as economic conditions, demographic profiles, or logistical factors that affect how promotions or treatments are received.
+Interaction Effects: The interaction between treatment and settlement type might be significant, indicating that the effectiveness of the treatment could vary by settlement type. For example, a promotional campaign might be more effective in urban areas than rural ones due to differences in access to payment facilities, economic activity, or consumer behavior.
 
 ___
 
