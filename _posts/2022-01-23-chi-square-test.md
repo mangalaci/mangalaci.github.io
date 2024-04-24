@@ -13,7 +13,7 @@ In this project I evaluated a campaign performance among bank clients who receiv
     - [Context](#overview-context)
     - [Actions](#overview-actions)
     - [Results & Discussion](#overview-results)
-- [01. Concept Overview](#concept-overview)
+- [01. Statistical Modeling Consideration](#concept-overview)
 - [02. Data Overview & Preparation](#data-overview)
 - [03. Applying Chi-Square Test For Independence](#chi-square-application)
 - [04. Analysing The Results](#chi-square-results)
