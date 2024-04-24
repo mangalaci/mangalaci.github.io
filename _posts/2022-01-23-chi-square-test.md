@@ -123,7 +123,6 @@ From the results above we can see that only the resulting p-value for the Mortga
 For the other product, Baby Craving, Personal Loan, and Commodity Credit we will retain the Null Hypothesis and conclude that there is no significant difference between the late payment rates of those who received reminder and those who don’t.
 
 <br>
-<br>
 
 ___
 
@@ -216,7 +215,7 @@ We believe that the product choice has no effect on late payment behavior.  Ther
  
 The fist step is to calculate the observed frequencies & expected frequencies. The *observed frequencies* are the true values that we’ve seen, in other words the actual rates per group in the data itself.  The *expected frequencies* are what we would *expect* to see based on *all* of the data combined.
 
-The below code shows how to get the Chi-Square Test For Independence in our case:
+The below code shows how to get the Chi-Square Test For Independence for all campaign particilant client and campaign participants within own product:
 
 * We enter our data in a 2x2 matrix for *reminder_flag* (target groups vs, control group) by *payment_lateness_type* (response category)
 * Based on this, calculates the:
