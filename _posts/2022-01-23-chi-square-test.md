@@ -168,12 +168,6 @@ Conventionally, we set our Acceptance Criteria to 0.05 - but this does not have 
 
 So to summarise, in a Hypothesis Test, we test the Null Hypothesis using a p-value and then decide it’s fate based on the Acceptance Criteria.
 
-<br>
-**Types Of Hypothesis Test**
-
-There are many different types of Hypothesis Tests, each of which is appropriate for use in differing scenarios - depending on a) the type of data that you’re looking to test and b) the question that you’re asking of that data.
-
-In the case of our task here, where we are looking to understand the difference in sign-up *rate* between two groups - we will utilise the Chi-Square Test For Independence.
 
 <br>
 #### Chi-Square Test For Independence
