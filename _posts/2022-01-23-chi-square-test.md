@@ -126,12 +126,19 @@ For the other product, Baby Craving, Personal Loan, and Commodity Credit we will
 
 ___
 
-# Concept Overview  <a name="concept-overview"></a>
+# Statistical Modeling Considerations  <a name="concept-overview"></a>
+
+We based our analyses on an assumption that product ownership does not affect the outcome/respone/treatment behavior since we examine the response within each product universe. Our assumptions guide the choice of statistical models:
+
+Separate Analyses for Products: Using a simple model like chi-square tests for each product can suffice, as we are primarily interested in assessing the effect of treatment across products, assuming no interaction with product types.
+
+
+Complex Model for Settlement Types: for Settlement Types and age Group membership, a more complex model like a log-linear model or a logistic regression with interaction terms might be necessary to accurately capture the joint effects and interactions between treatment and settlement types.
 
 <br>
 #### A/B Testing
 
-An A/B Test can be described as a randomised experiment containing two groups, A & B, that receive different experiences. Within an A/B Test, we look to understand and measure the response of each group - and the information from this helps drive future business decisions.
+An A/B Test can be described as a randomized experiment containing two groups, A & B, that receive different experiences. Within an A/B Test, we look to understand and measure the response of each group - and the information from this helps drive future business decisions.
 
 Application of A/B testing can range from testing different online ad strategies, different email subject lines when contacting customers, or testing the effect of mailing customers a coupon, vs a control group.  Companies like Amazon are running these tests in an almost never-ending cycle, testing new website features on randomised groups of customers...all with the aim of finding what works best so they can stay ahead of their competition.  Reportedly, Netflix will even test different images for the same movie or show, to different segments of their customer base to see if certain images pull more viewers in.
 
