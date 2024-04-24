@@ -343,10 +343,7 @@ The critical value for our specified Acceptance Criteria of 0.05 is **3.84**
 <br> 
 #### Joint Effect with Treatment - Settlement Type and Age Group
 
-After assessing the effect of reminder sending on late payment behavior within the whole campaing base and within product types, we were also interested in seeing what impact had Settlement Type and Age Group of campaign participants on the response output, late payment. other words, if  Settlement Type / Age Group and treatment jointly affect the campaign response.
-
-Settlement Characteristics Influence: Settlement types may have inherent characteristics that significantly influence payment behaviors—such as economic conditions, demographic profiles, or logistical factors that affect how promotions or treatments are received.
-Interaction Effects: The interaction between treatment and settlement type might be significant, indicating that the effectiveness of the treatment could vary by settlement type. For example, a promotional campaign might be more effective in urban areas than rural ones due to differences in access to payment facilities, economic activity, or consumer behavior.
+After assessing the effect of reminder sending on late payment behavior within the whole campaing base and within product types, we were also interested in seeing what impact had Settlement Type and Age Group of campaign participants on the response output, late payment. In other words, Settlement Type and/or Age Group and treatment jointly affect the campaign response. The effectiveness of the treatment could vary by settlement type. For example, a promotional campaign might be more effective in urban areas than rural ones due to differences in access to payment facilities, economic activity, or consumer behavior. Or demographic characteristics may have inherent characteristics that significantly influence payment behaviors — such as economic conditions, demographic profiles, or logistical factors that affect how promotions or treatments are received.
 
 ___
 
