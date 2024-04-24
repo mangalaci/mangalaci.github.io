@@ -198,7 +198,7 @@ In this project, the contingency tables for treatment (reminder received or not)
 ___
 
 <br>
-# Applying Chi-Square Test For Independence <a name="chi-square-application"></a>
+# Product Choice - Treatment (reminder received or not) Independence <a name="chi-square-application"></a>
 
 <br>
 #### State Hypotheses & Acceptance Criteria For Test
