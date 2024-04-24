@@ -136,7 +136,7 @@ Separate Analyses for Products: Using a simple model like chi-square tests for e
 Complex Model for Settlement Types: for Settlement Types and age Group membership, a more complex model like a log-linear model or a logistic regression with interaction terms might be necessary to accurately capture the joint effects and interactions between treatment and settlement types.
 
 <br>
-#### A/B Testing
+### A/B Testing
 
 An A/B Test can be described as a randomized experiment containing two groups, A & B, that receive different experiences. Within an A/B Test, we look to understand and measure the response of each group - and the information from this helps drive future business decisions.
 
