@@ -209,9 +209,12 @@ Focused Analysis: This allows for a focused analysis on how different treatments
 
 
 <br>
-#### Focused Analysis within Product Universe
+#### Focused Analysis within A Given Product Universe
 
-Calculate Observed Frequencies & Expected Frequencies  ...    As mentioned in the section above, in a Chi-Square Test For Independence, the *observed frequencies* are the true values that we’ve seen, in other words the actual rates per group in the data itself.  The *expected frequencies* are what we would *expect* to see based on *all* of the data combined.
+We believe that the product choice has no effect on late payment behavior.  Therefoe, a simpler method, called Chi-Square Test For Independence is enough for us to ide if there is a difference in late payent between those who received a reminder 
+ as opposed to those who did not. 
+ 
+ The fist step is to calculate the observed frequencies & expected frequencies. The *observed frequencies* are the true values that we’ve seen, in other words the actual rates per group in the data itself.  The *expected frequencies* are what we would *expect* to see based on *all* of the data combined.
 
 The below code:
 
