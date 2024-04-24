@@ -196,7 +196,7 @@ In this project, the contingency tables for treatment (reminder received or not)
 ___
 
 <br>
-# Model Selection Based on ... <a name="chi-square-application"></a>
+# Model Selection: Focused Analysis vs. Joint Effect with Treatment <a name="chi-square-application"></a>
 
 <br>
 #### Product Choice - Treatment (Reminder Sent or Not Sent) Independence
@@ -209,9 +209,9 @@ Focused Analysis: This allows for a focused analysis on how different treatments
 
 
 <br>
-#### Calculate Observed Frequencies & Expected Frequencies
+#### Focused Analysis within Product Universe
 
-As mentioned in the section above, in a Chi-Square Test For Independence, the *observed frequencies* are the true values that we’ve seen, in other words the actual rates per group in the data itself.  The *expected frequencies* are what we would *expect* to see based on *all* of the data combined.
+Calculate Observed Frequencies & Expected Frequencies  ...    As mentioned in the section above, in a Chi-Square Test For Independence, the *observed frequencies* are the true values that we’ve seen, in other words the actual rates per group in the data itself.  The *expected frequencies* are what we would *expect* to see based on *all* of the data combined.
 
 The below code:
 
