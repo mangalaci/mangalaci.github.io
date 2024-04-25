@@ -139,13 +139,14 @@ Complex Model with Demographis Characteristics: for Settlement Types and Age Gro
 
 As we already said, data were prodided in contingency tables, i.e. in matrix format. This format is perfect for applying Chi-Square Test For Independence. Chi-Square Test For Independence is a type of Hypothesis Test that assumes observed frequencies for categorical variables will match the expected frequencies.
 
+Using a Chi-square Test for Interaction between Lateness and Treatment within Product: The chi-square test is appropriate when you want to examine the relationship between two categorical variables within the confines of a specific category (e.g., within each product). It is suitable when we assume that each product acts as a separate stratum and does not interact with other variables, thus allowing for a straightforward analysis of just the two variables of interest (lateness and treatment) within each product.
+
 The *assumption* is the Null Hypothesis, which is always the viewpoint that the two groups will be equal.  With the Chi-Square Test For Independence we look to calculate a statistic which, based on the specified Acceptance Criteria will mean we either reject or support this initial assumption. The *observed frequencies* are the true values that we’ve seen. The *expected frequencies* are essentially what we would *expect* to see based on all of the data.
 
 <br>
 #### Complex Model with Demographis Characteristics
 
-
-
+Using a Log-linear Model for Interaction between Lateness, Treatment, and Settlement Type/Age Group: This approach is needed when we are dealing with multiple categorical variables and are interested in understanding how these variables interact with each other across multiple dimensions. A log-linear model allows for the examination of complex interactions among three or more variables, giving insights into how combinations of factors influence an outcome, particularly when you suspect that these factors do not operate independently of each other.
 
 ___
 
