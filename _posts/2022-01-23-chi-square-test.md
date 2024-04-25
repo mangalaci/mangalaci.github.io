@@ -128,12 +128,11 @@ ___
 
 # Statistical Modeling Considerations  <a name="concept-overview"></a>
 
-We based our analyses on an assumption that product ownership does not affect the outcome/respone/treatment behavior since we examine the response within each product universe. Our assumptions guide the choice of statistical models:
+Our assumptions on whether some other factors on top of the treatment (receiving or not receiving an email reminder) have an impact on the response (late payment behavior) guide the choice of statistical models:
 
-Separate Analyses for Products: Using a simple model like chi-square tests for each product can suffice, as we are primarily interested in assessing the effect of treatment across products, assuming no interaction with product types.
+Separate Analyses for Products: using a simple model like chi-square tests for each product can suffice, as we are primarily interested in assessing the effect of treatment across products, assuming no interaction with product types.
 
-
-Complex Model for Demographis Characteristics: for Settlement Types and age Group membership, a more complex model like a log-linear model or a logistic regression with interaction terms might be necessary to accurately capture the joint effects and interactions between treatment and settlement types.
+Complex Model for Demographis Characteristics: for Settlement Types and Age Group membership, a more complex model like log-linear model or logistic regression with interaction terms is necessary to accurately capture the joint effects and interactions between treatment and these other factors.
 
 <br>
 #### Separate Analyses for Products
