@@ -141,10 +141,6 @@ As we already said, data were prodided in contingency tables, i.e. in matrix for
 
 The *assumption* is the Null Hypothesis, which is always the viewpoint that the two groups will be equal.  With the Chi-Square Test For Independence we look to calculate a statistic which, based on the specified Acceptance Criteria will mean we either reject or support this initial assumption. The *observed frequencies* are the true values that we’ve seen. The *expected frequencies* are essentially what we would *expect* to see based on all of the data.
 
-* The resulting test statistic for both tests will be the same
-* The Chi-Square Test can be represented using 2x2 tables of data - meaning it can be easier to explain to stakeholders
-* The Chi-Square Test can extend out to more than 2 groups - meaning the business can have one consistent approach to measuring signficance
-
 <br>
 #### Complex Model with Demographis Characteristics
 
