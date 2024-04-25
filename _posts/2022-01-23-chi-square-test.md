@@ -136,11 +136,7 @@ Complex Model for Demographis Characteristics: for Settlement Types and Age Grou
 
 <br>
 #### Separate Analyses for Products
-###### A/B Testing
 
-An A/B Test can be described as a randomized experiment containing two groups, A & B, that receive different experiences. Within an A/B Test, we look to understand and measure the response of each group - and the information from this helps drive future business decisions.
-
-Application of A/B testing can range from testing different online ad strategies, different email subject lines when contacting customers, or testing the effect of mailing customers a coupon, vs a control group.  Companies like Amazon are running these tests in an almost never-ending cycle, testing new website features on randomised groups of customers...all with the aim of finding what works best so they can stay ahead of their competition.  Reportedly, Netflix will even test different images for the same movie or show, to different segments of their customer base to see if certain images pull more viewers in.
 
 <br>
 #### Chi-Square Test For Independence
