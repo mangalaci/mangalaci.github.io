@@ -137,19 +137,9 @@ Complex Model with Demographis Characteristics: for Settlement Types and Age Gro
 <br>
 #### Separate Analyses for Products
 
+As we already said, data were prodided in contingency tables, i.e. in matrix format. This format is perfect for applying Chi-Square Test For Independence. Chi-Square Test For Independence is a type of Hypothesis Test that assumes observed frequencies for categorical variables will match the expected frequencies.
 
-<br>
-#### Chi-Square Test For Independence
-
-The Chi-Square Test For Independence is a type of Hypothesis Test that assumes observed frequencies for categorical variables will match the expected frequencies.
-
-The *assumption* is the Null Hypothesis, which as discussed above is always the viewpoint that the two groups will be equal.  With the Chi-Square Test For Independence we look to calculate a statistic which, based on the specified Acceptance Criteria will mean we either reject or support this initial assumption.
-
-The *observed frequencies* are the true values that we’ve seen.
-
-The *expected frequencies* are essentially what we would *expect* to see based on all of the data.
-
-**Note:** Another option when comparing "rates" is a test known as the *Z-Test For Proportions*.  While, we could absolutely use this test here, we have chosen the Chi-Square Test For Independence because:
+The *assumption* is the Null Hypothesis, which is always the viewpoint that the two groups will be equal.  With the Chi-Square Test For Independence we look to calculate a statistic which, based on the specified Acceptance Criteria will mean we either reject or support this initial assumption. The *observed frequencies* are the true values that we’ve seen. The *expected frequencies* are essentially what we would *expect* to see based on all of the data.
 
 * The resulting test statistic for both tests will be the same
 * The Chi-Square Test can be represented using 2x2 tables of data - meaning it can be easier to explain to stakeholders
