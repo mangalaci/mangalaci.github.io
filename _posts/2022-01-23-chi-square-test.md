@@ -132,7 +132,7 @@ Our assumptions on whether some other factors on top of the treatment (receiving
 
 Separate Analyses for Products: using a simple model like chi-square tests for each product can suffice, as we are primarily interested in assessing the effect of treatment across products, assuming no interaction with product types.
 
-Complex Model for Demographis Characteristics: for Settlement Types and Age Group membership, a more complex model like log-linear model or logistic regression with interaction terms is necessary to accurately capture the joint effects and interactions between treatment and these other factors.
+Complex Model with Demographis Characteristics: for Settlement Types and Age Group membership, a more complex model like log-linear model or logistic regression with interaction terms is necessary to accurately capture the joint effects and interactions between treatment and these other factors.
 
 <br>
 #### Separate Analyses for Products
@@ -154,6 +154,12 @@ The *expected frequencies* are essentially what we would *expect* to see based o
 * The resulting test statistic for both tests will be the same
 * The Chi-Square Test can be represented using 2x2 tables of data - meaning it can be easier to explain to stakeholders
 * The Chi-Square Test can extend out to more than 2 groups - meaning the business can have one consistent approach to measuring signficance
+
+<br>
+#### Complex Model with Demographis Characteristics
+
+
+
 
 ___
 
@@ -313,7 +319,7 @@ The critical value for our specified Acceptance Criteria of 0.05 is **3.84**
 <br> 
 #### Joint Effect with Treatment - Settlement Type and Age Group
 
-After assessing the effect of reminder sending on late payment behavior within the whole campaing base and within product types, we were also interested in seeing what impact had Settlement Type and Age Group of campaign participants on the response output, late payment. In other words, Settlement Type and/or Age Group and treatment jointly affect the campaign response. The effectiveness of the treatment could vary by settlement type. For example, a promotional campaign might be more effective in urban areas than rural ones due to differences in access to payment facilities, economic activity, or consumer behavior. Or demographic characteristics may have inherent characteristics that significantly influence payment behaviors — such as economic conditions, demographic profiles, or logistical factors that affect how promotions or treatments are received.
+After assessing the effect of reminder sending on late payment behavior within the whole campaing base and within product types, we were also interested in seeing what impact the Settlement Type and Age Group of campaign participants had on the response output, late paymentbehavior. In other words, we need to know if Settlement Type and/or Age Group and treatment jointly affect the campaign response. The effectiveness of the treatment could vary by settlement type. For example, a promotional campaign might be more effective in urban areas than rural ones due to differences in access to payment facilities, economic activity, or consumer behavior. Or demographic characteristics may have inherent characteristics that significantly influence payment behaviors — such as economic conditions, demographic profiles, or logistical factors that affect how promotions or treatments are received.
 
 ___
 
