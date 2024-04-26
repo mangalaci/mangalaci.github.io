@@ -15,7 +15,7 @@ In this project I evaluated a campaign performance among bank clients who receiv
     - [Results & Discussion](#overview-results)
 - [01. Statistical Modeling Consideration](#concept-overview)
 - [02. Data Overview & Preparation](#data-overview)
-- [03. Focused Analysis & Joint Effect with Treatment](#applying-models)
+- [03. Applying Models: Focused Analysis & Joint Effect with Treatment](#applying-models)
 - [04. Analysing The Results](#chi-square-results)
 - [05. Discussion](#discussion)
 
@@ -158,7 +158,7 @@ In this project, the contingency tables for treatment (reminder received or not)
 ___
 
 <br>
-# Model Selection: Focused Analysis vs. Joint Effect with Treatment <a name="applying-models"></a>
+# Applying Models: Focused Analysis vs. Joint Effect with Treatment <a name="applying-models"></a>
 
 <br>
 #### Focused Analysis: Product Choice - Treatment (Reminder Sent or Not Sent) Independence
