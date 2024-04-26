@@ -2,7 +2,7 @@
 layout: post
 title: Assessing Campaign Performance in Reminding Bank Clients of Due Installment Payments
 image: "/posts/ab-testing-title-img.png"
-tags: [AB Testing, Hypothesis Testing, Chi-Square, Python]
+tags: [Chi-Square Test, Log-Linear Model, Python, AB Testing]
 ---
 
 In this project I evaluated a campaign performance among bank clients who received reminders using control groups. The applied techniques comprised Chi-Square Test For Independence and Log-Linear Model.
