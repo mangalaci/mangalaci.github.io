@@ -31,14 +31,13 @@ Customers were put randomly into two groups - the first group received a reminde
 The bank wanted to understand if there was a significant difference in payback rate between the reminder and the non-reminder groups.  This would allow them to make more informed decisions in the future, with the overall aim of optimising campaign ROI!
 
 <br>
-<br>
 ### Actions <a name="overview-actions"></a>
 
-For this test, as it is focused on comparing the *rates* of two groups - we applied the Chi-Square Test For Independence.  Full details of this test can be found in the dedicated section below.
+We focused on comparing the *rates* of two groups. However, our data on overall treatment-response and within products are represented in 2-dimensional tables of data, while when interaction of demographic caracteristics are taken into account we face 3-dimensional tables.
 
-**Note:**  While, we could absolutely use *Z-Test For Proportions* for comparing "rates" we have chosen the Chi-Square Test For Independence because:
+- we applied the Chi-Square Test For Independence.
 
-* The resulting test statistic for both tests will be the same
+
 * The Chi-Square Test can be represented using 2x2 tables of data - meaning it can be easier to explain to stakeholders
 * The Chi-Square Test can extend out to more than 2 groups - meaning the client can have one consistent approach to measuring signficance
 
