@@ -43,7 +43,7 @@ Therefore, we applied
 - the Chi-Square Test For Independence in case of 2-dimensional data, and
 - the Log-Linear Model for  3-dimensional data where we are interested in the main effects of the factors that drive late payment behavior and the interaction between these explanatory factors.
 
-As a requirement of the Chi-Square Test For Independence, we aggregated this data down to a 2x2 matrix for *reminder_flag* by *payment_lateness_type* and fed this into the algorithm (using the *scipy* library) to calculate the Chi-Square Statistic, p-value, Degrees of Freedom, and expected values.
+We fed these into the algorithm (using the *scipy* library) to calculate the Chi-Square Statistic, p-value, Degrees of Freedom, and expected values.
 
 <br>
 
