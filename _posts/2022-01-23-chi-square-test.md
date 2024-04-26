@@ -33,22 +33,17 @@ The bank wanted to understand if there was a significant difference in payback r
 <br>
 ### Actions <a name="overview-actions"></a>
 
-We focused on comparing the *rates* of two groups. However, our data on overall treatment-response and within products are represented in 2-dimensional tables of data, while when interaction of demographic caracteristics are taken into account we face 3-dimensional tables.
+We focus on comparing the *rates* of two groups. However, our data on 
 
-- we applied the Chi-Square Test For Independence.
+- overall treatment-response and within products are represented in 2-dimensional tables of data,
+- while when interaction of demographic characteristics are taken into account we face 3-dimensional tables.
 
+Theresore, we applied 
 
-* The Chi-Square Test can be represented using 2x2 tables of data - meaning it can be easier to explain to stakeholders
-* The Chi-Square Test can extend out to more than 2 groups - meaning the client can have one consistent approach to measuring signficance
+- the Chi-Square Test For Independence in case of 2-dimensional data, and
+- Log-Linear Model for  3-dimensional data where we are interested in the main effects of the factors that drive late payment behavior and the interaction between these explanatory factors.
 
-
-We set out our hypotheses and Acceptance Criteria for the test, as follows:
-
-**Null Hypothesis:** There is no relationship in due payment rate between those who received a reminder and those who did not. They are independent.
-**Alternate Hypothesis:** There is a relationship between the two groups. They are not independent.
-**Acceptance Criteria:** 0.05
-
-As a requirement of the Chi-Square Test For Independence, we aggregated this data down to a 2x2 matrix for *reminder_flag* by *payment_lateness_type* and fed this into the algorithm (using the *scipy* library) to calculate the Chi-Square Statistic, p-value, Degrees of Freedom, and expected values
+As a requirement of the Chi-Square Test For Independence, we aggregated this data down to a 2x2 matrix for *reminder_flag* by *payment_lateness_type* and fed this into the algorithm (using the *scipy* library) to calculate the Chi-Square Statistic, p-value, Degrees of Freedom, and expected values.
 
 <br>
 
