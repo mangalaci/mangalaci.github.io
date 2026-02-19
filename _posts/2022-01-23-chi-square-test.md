@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Assessing Campaign Performance in Reminding Bank Clients of Due Installment Payments
-image: "/posts/ab-testing-title-img.png"
+image: "/posts/ab-testing-title-image.png"
 tags: [Chi-Square Test, Log-Linear Model, Python, AB Testing]
 ---
 
@@ -319,3 +319,4 @@ ___
 While we saw that the recipients of payment reminder had a lower late payment rate (19.6%) than the control group (20.7%) it appears that this difference is not significant, at least at our Acceptance Criteria of 0.05. We got the same results within the universe of certain loan products, except Mongage Loans where the reminder had a significant impact on due payment bahavior.  
 
 Without running this Hypothesis Test, the client may have concluded that they should always look to go with reminder emails - and from what we've seen in this test, that may not be a great decision.  It would result in them spending more for eDM, but not *necessarily* gaining any extra revenue as a result.
+
