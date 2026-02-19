@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Face Recognition Using A Convolutional Neural Network
-image: "/posts/face-recognition.png"
+image: "/posts/face-recognition-title-image.png"
 tags: [Deep Learning, CNN, Computer Vision, Python]
 ---
 
@@ -1256,3 +1256,4 @@ ___
 # Growth & Next Steps <a name="growth-next-steps"></a>
 
 The proof of concept was successful, we have shown that we can get very accurate predictions albeit on a small number of classes. Transfer Learning has been a big success, and was the best performing network in terms of classification accuracy on the Test Set.  It would be worthwhile testing other available pre-trained networks such as ResNet, Inception, and the DenseNet networks.
+
