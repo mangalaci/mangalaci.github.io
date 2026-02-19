@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Demand Forecast of Retail Products Using ARIMA Method
-image: "/posts/demand-forecast-arima.png"
+image: "/posts/demand-forecast-arima-image.png"
 tags: [Demand Forecast, SARIMA, Time Series, Exponential Smoothing, LSTM, Python]
 ---
 
