@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Causal Revenue Analytics Engine - Period-over-Period Analysis
-image: "/posts/causal-revenue-analytics-title.png"
+image: "/posts/causal-revenue-analytics-title-image.png"
 tags: [LLM, Python, Llama, Data Analytics, Business Intelligence]
 ---
 
