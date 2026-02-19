@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mini SQL Query Engine - Natural Language to Data Analytics
-image: "/posts/mini-sql-query-engine-title.png"
+image: "/posts/mini-sql-query-engine-title-image.png"
 tags: [LLM, Python, Llama, Natural Language Processing, Data Analytics]
 ---
 
