@@ -2,7 +2,7 @@
 layout: post
 title: Mini SQL Query Engine - Natural Language to Data Analytics
 image: "/posts/mini-sql-query-engine-title-image.png"
-tags: [LLM, Python, Llama, Semantic layer + Planner Architecture]
+tags: [LLM, Python, Metric Registry, Semantic layer + Planner Architecture]
 ---
 
 In this project I built a natural language query engine that allows marketing staff to generate dashboard reports without needing to learn SQL. The system uses a local Llama LLM to translate plain language questions into structured pandas queries.
