@@ -2,8 +2,9 @@
 layout: post
 title: "Mini SQL Query Engine — Natural Language Analytics with Local LLM"
 date: 2026-02-14
+image: "/posts/mini-sql-query-engine-title-image.png"
 categories: [Python, LLM, Metric Registry, Semantic layer + Planner Architecture]
----
+---  
 
 ## Overview
 
