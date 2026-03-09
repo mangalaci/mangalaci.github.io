@@ -2,7 +2,7 @@
 layout: post
 title: Causal Revenue Analytics Engine - Period-over-Period Analysis
 image: "/posts/causal-revenue-analytics-title-image.png"
-tags: [LLM, Python, Llama, Data Analytics, Business Intelligence]
+tags: [AI-augmented reasoning engine, LLM, Python, Llama]
 ---
 
 In this project I built an automated causal revenue analytics system that compares two time periods to identify why revenue changed, which products drove the change, and what actions to take. The system combines pandas-based decomposition with LLM-powered insights.
